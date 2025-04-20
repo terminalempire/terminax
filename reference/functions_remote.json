@@ -1,10 +1,8 @@
 [
   {
-    "Name": "ping",
-    "NameShort": "",
-    "Parameters": "",
-    "Remote": true,
-    "Description": "",
-    "PARAMS": null
+    "name": "ping",
+    "description": "",
+    "params": "",
+    "is_remote": true
   }
 ]
