@@ -1,170 +1,128 @@
 [
   {
-    "Name": "trim",
-    "NameShort": "",
-    "Parameters": "text",
-    "Remote": false,
-    "Description": "Remove whitespace from both sides of a string.",
-    "PARAMS": null
+    "name": "trim",
+    "description": "Remove whitespace from both sides of a string.",
+    "params": "text",
+    "is_remote": false
   },
   {
-    "Name": "ltrim",
-    "NameShort": "",
-    "Parameters": "text",
-    "Remote": false,
-    "Description": "Remove whitespace from the left side of a string.",
-    "PARAMS": null
+    "name": "ltrim",
+    "description": "Remove whitespace from the left side of a string.",
+    "params": "text",
+    "is_remote": false
   },
   {
-    "Name": "rtrim",
-    "NameShort": "",
-    "Parameters": "text",
-    "Remote": false,
-    "Description": "Remove whitespace from the right side of a string.",
-    "PARAMS": null
+    "name": "rtrim",
+    "description": "Remove whitespace from the right side of a string.",
+    "params": "text",
+    "is_remote": false
   },
   {
-    "Name": "reverse",
-    "NameShort": "rev",
-    "Parameters": "text",
-    "Remote": false,
-    "Description": "Reverse the characters of a string.",
-    "PARAMS": null
+    "name": "reverse",
+    "description": "Reverse the characters of a string.",
+    "params": "text",
+    "is_remote": false
   },
   {
-    "Name": "mid",
-    "NameShort": "",
-    "Parameters": "text,start_position,length",
-    "Remote": false,
-    "Description": "Return a portion of a string, starting at position, for the specific number of characters.",
-    "PARAMS": null
+    "name": "mid",
+    "description": "Return a portion of a string, starting at position, for the specific number of characters.",
+    "params": "text,start_position,length",
+    "is_remote": false
   },
   {
-    "Name": "ucase",
-    "NameShort": "uc",
-    "Parameters": "text",
-    "Remote": false,
-    "Description": "Change all characters in a string to upper-case.",
-    "PARAMS": null
+    "name": "ucase",
+    "description": "Change all characters in a string to upper-case.",
+    "params": "text",
+    "is_remote": false
   },
   {
-    "Name": "lcase",
-    "NameShort": "lc",
-    "Parameters": "text",
-    "Remote": false,
-    "Description": "Change all characters in a string to lower-case.",
-    "PARAMS": null
+    "name": "lcase",
+    "description": "Change all characters in a string to lower-case.",
+    "params": "text",
+    "is_remote": false
   },
   {
-    "Name": "rcase",
-    "NameShort": "rc",
-    "Parameters": "text",
-    "Remote": false,
-    "Description": "Change all characters in a string to a random case.",
-    "PARAMS": null
+    "name": "rcase",
+    "description": "Change all characters in a string to a random case.",
+    "params": "text",
+    "is_remote": false
   },
   {
-    "Name": "ucwords",
-    "NameShort": "ucw",
-    "Parameters": "text",
-    "Remote": false,
-    "Description": "Change the first character in each word of a string to upper-case.",
-    "PARAMS": null
+    "name": "ucwords",
+    "description": "Change the first character in each word of a string to upper-case.",
+    "params": "text",
+    "is_remote": false
   },
   {
-    "Name": "lcwords",
-    "NameShort": "lcw",
-    "Parameters": "text",
-    "Remote": false,
-    "Description": "Change the first character in each word of a string to lower-case.",
-    "PARAMS": null
+    "name": "lcwords",
+    "description": "Change the first character in each word of a string to lower-case.",
+    "params": "text",
+    "is_remote": false
   },
   {
-    "Name": "random",
-    "NameShort": "rand",
-    "Parameters": "minimum,maximum",
-    "Remote": false,
-    "Description": "Return a random integer within the specified range.",
-    "PARAMS": null
+    "name": "random",
+    "description": "Return a random integer within the specified range.",
+    "params": "minimum,maximum",
+    "is_remote": false
   },
   {
-    "Name": "random_decimal",
-    "NameShort": "randec",
-    "Parameters": "minimum,maximum,decimals",
-    "Remote": false,
-    "Description": "Return a random number within the specified range, with a specified number of decimal places.",
-    "PARAMS": null
+    "name": "random_decimal",
+    "description": "Return a random number within the specified range, with a specified number of decimal places.",
+    "params": "minimum,maximum,decimals",
+    "is_remote": false
   },
   {
-    "Name": "random_color",
-    "NameShort": "rc",
-    "Parameters": "",
-    "Remote": false,
-    "Description": "Return a random R-G-B color.",
-    "PARAMS": null
+    "name": "random_color",
+    "description": "Return a random R-G-B color.",
+    "params": "",
+    "is_remote": false
   },
   {
-    "Name": "random_color_range",
-    "NameShort": "rcr",
-    "Parameters": "minred-maxred,mingreen-maxgreen,minblue-maxblue",
-    "Remote": false,
-    "Description": "Return a random R-G-B color within the specified range of random RGB values.",
-    "PARAMS": null
+    "name": "random_color_range",
+    "description": "Return a random R-G-B color within the specified range of random RGB values.",
+    "params": "minred-maxred,mingreen-maxgreen,minblue-maxblue",
+    "is_remote": false
   },
   {
-    "Name": "window",
-    "NameShort": "win",
-    "Parameters": "title,x,y,width,height,visible,backcolor,font,border",
-    "Remote": false,
-    "Description": "Create or update a window.",
-    "PARAMS": null
+    "name": "window",
+    "description": "Create or update a window.",
+    "params": "title,x,y,width,height,visible,backcolor,font,border",
+    "is_remote": false
   },
   {
-    "Name": "text",
-    "NameShort": "",
-    "Parameters": "text,x,y,width,height,forecolor,backcolor,font,border",
-    "Remote": false,
-    "Description": "Create or update a text area.",
-    "PARAMS": null
+    "name": "text",
+    "description": "Create or update a text area.",
+    "params": "text,x,y,width,height,forecolor,backcolor,font,border",
+    "is_remote": false
   },
   {
-    "Name": "button",
-    "NameShort": "",
-    "Parameters": "text,x,y,width,height,forecolor,backcolor,font,border",
-    "Remote": false,
-    "Description": "Create or update a button.",
-    "PARAMS": null
+    "name": "button",
+    "description": "Create or update a button.",
+    "params": "text,x,y,width,height,forecolor,backcolor,font,border",
+    "is_remote": false
   },
   {
-    "Name": "font",
-    "NameShort": "",
-    "Parameters": "font-name,font-size,style",
-    "Remote": false,
-    "Description": "Create or update a font definition. Fonts can be applied to objects like text and buttons",
-    "PARAMS": null
+    "name": "font",
+    "description": "Create or update a font definition. Fonts can be applied to objects like text and buttons",
+    "params": "font-name,font-size,style",
+    "is_remote": false
   },
   {
-    "Name": "color",
-    "NameShort": "",
-    "Parameters": "foreground-color,background-color",
-    "Remote": false,
-    "Description": "Create or update a foreground color, with an optional background color. Colors can be applied to other objects.",
-    "PARAMS": null
+    "name": "color",
+    "description": "Create or update a foreground color, with an optional background color. Colors can be applied to other objects.",
+    "params": "foreground-color,background-color",
+    "is_remote": false
   },
   {
-    "Name": "border",
-    "NameShort": "",
-    "Parameters": "color,thickness,style-keywords",
-    "Remote": false,
-    "Description": "Create a border. Borders can be applied to some other objects.",
-    "PARAMS": null
+    "name": "border",
+    "description": "Create a border. Borders can be applied to some other objects.",
+    "params": "color,thickness,style-keywords",
+    "is_remote": false
   },
   {
-    "Name": "ping",
-    "NameShort": "",
-    "Parameters": "",
-    "Remote": true,
-    "Description": "",
-    "PARAMS": null
+    "name": "ping",
+    "description": "",
+    "params": "",
+    "is_remote": true
   }
 ]
