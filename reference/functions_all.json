@@ -1,0 +1,170 @@
+[
+  {
+    "Name": "trim",
+    "NameShort": "",
+    "Parameters": "text",
+    "Remote": false,
+    "Description": "Remove whitespace from both sides of a string.",
+    "PARAMS": null
+  },
+  {
+    "Name": "ltrim",
+    "NameShort": "",
+    "Parameters": "text",
+    "Remote": false,
+    "Description": "Remove whitespace from the left side of a string.",
+    "PARAMS": null
+  },
+  {
+    "Name": "rtrim",
+    "NameShort": "",
+    "Parameters": "text",
+    "Remote": false,
+    "Description": "Remove whitespace from the right side of a string.",
+    "PARAMS": null
+  },
+  {
+    "Name": "reverse",
+    "NameShort": "rev",
+    "Parameters": "text",
+    "Remote": false,
+    "Description": "Reverse the characters of a string.",
+    "PARAMS": null
+  },
+  {
+    "Name": "mid",
+    "NameShort": "",
+    "Parameters": "text,start_position,length",
+    "Remote": false,
+    "Description": "Return a portion of a string, starting at position, for the specific number of characters.",
+    "PARAMS": null
+  },
+  {
+    "Name": "ucase",
+    "NameShort": "uc",
+    "Parameters": "text",
+    "Remote": false,
+    "Description": "Change all characters in a string to upper-case.",
+    "PARAMS": null
+  },
+  {
+    "Name": "lcase",
+    "NameShort": "lc",
+    "Parameters": "text",
+    "Remote": false,
+    "Description": "Change all characters in a string to lower-case.",
+    "PARAMS": null
+  },
+  {
+    "Name": "rcase",
+    "NameShort": "rc",
+    "Parameters": "text",
+    "Remote": false,
+    "Description": "Change all characters in a string to a random case.",
+    "PARAMS": null
+  },
+  {
+    "Name": "ucwords",
+    "NameShort": "ucw",
+    "Parameters": "text",
+    "Remote": false,
+    "Description": "Change the first character in each word of a string to upper-case.",
+    "PARAMS": null
+  },
+  {
+    "Name": "lcwords",
+    "NameShort": "lcw",
+    "Parameters": "text",
+    "Remote": false,
+    "Description": "Change the first character in each word of a string to lower-case.",
+    "PARAMS": null
+  },
+  {
+    "Name": "random",
+    "NameShort": "rand",
+    "Parameters": "minimum,maximum",
+    "Remote": false,
+    "Description": "Return a random integer within the specified range.",
+    "PARAMS": null
+  },
+  {
+    "Name": "random_decimal",
+    "NameShort": "randec",
+    "Parameters": "minimum,maximum,decimals",
+    "Remote": false,
+    "Description": "Return a random number within the specified range, with a specified number of decimal places.",
+    "PARAMS": null
+  },
+  {
+    "Name": "random_color",
+    "NameShort": "rc",
+    "Parameters": "",
+    "Remote": false,
+    "Description": "Return a random R-G-B color.",
+    "PARAMS": null
+  },
+  {
+    "Name": "random_color_range",
+    "NameShort": "rcr",
+    "Parameters": "minred-maxred,mingreen-maxgreen,minblue-maxblue",
+    "Remote": false,
+    "Description": "Return a random R-G-B color within the specified range of random RGB values.",
+    "PARAMS": null
+  },
+  {
+    "Name": "window",
+    "NameShort": "win",
+    "Parameters": "title,x,y,width,height,visible,backcolor,font,border",
+    "Remote": false,
+    "Description": "Create or update a window.",
+    "PARAMS": null
+  },
+  {
+    "Name": "text",
+    "NameShort": "",
+    "Parameters": "text,x,y,width,height,forecolor,backcolor,font,border",
+    "Remote": false,
+    "Description": "Create or update a text area.",
+    "PARAMS": null
+  },
+  {
+    "Name": "button",
+    "NameShort": "",
+    "Parameters": "text,x,y,width,height,forecolor,backcolor,font,border",
+    "Remote": false,
+    "Description": "Create or update a button.",
+    "PARAMS": null
+  },
+  {
+    "Name": "font",
+    "NameShort": "",
+    "Parameters": "font-name,font-size,style",
+    "Remote": false,
+    "Description": "Create or update a font definition. Fonts can be applied to objects like text and buttons",
+    "PARAMS": null
+  },
+  {
+    "Name": "color",
+    "NameShort": "",
+    "Parameters": "foreground-color,background-color",
+    "Remote": false,
+    "Description": "Create or update a foreground color, with an optional background color. Colors can be applied to other objects.",
+    "PARAMS": null
+  },
+  {
+    "Name": "border",
+    "NameShort": "",
+    "Parameters": "color,thickness,style-keywords",
+    "Remote": false,
+    "Description": "Create a border. Borders can be applied to some other objects.",
+    "PARAMS": null
+  },
+  {
+    "Name": "ping",
+    "NameShort": "",
+    "Parameters": "",
+    "Remote": true,
+    "Description": "",
+    "PARAMS": null
+  }
+]
