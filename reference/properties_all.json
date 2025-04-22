@@ -2,6 +2,8 @@
   {
     "name": "x",
     "description": "The x coordinate of the object.",
+    "accepted_values": "integer values",
+    "example": "$myVariable.left = 400",
     "supported_types": [
       "window",
       "text",
@@ -11,6 +13,8 @@
   {
     "name": "left",
     "description": "The x coordinate of the object.",
+    "accepted_values": "integer values",
+    "example": "$myVariable.left = 400",
     "supported_types": [
       "window",
       "text",
@@ -20,6 +24,8 @@
   {
     "name": "y",
     "description": "The y coordinate of the object.",
+    "accepted_values": "integer values",
+    "example": "$myVariable.top = 300",
     "supported_types": [
       "window",
       "text",
@@ -29,6 +35,8 @@
   {
     "name": "top",
     "description": "The y coordinate of the object.",
+    "accepted_values": "integer values",
+    "example": "$myVariable.top = 300",
     "supported_types": [
       "window",
       "text",
@@ -38,6 +46,8 @@
   {
     "name": "w",
     "description": "The width of the object.",
+    "accepted_values": "integer values",
+    "example": "$myVariable.width = 600",
     "supported_types": [
       "window",
       "text",
@@ -47,6 +57,8 @@
   {
     "name": "width",
     "description": "The width of the object.",
+    "accepted_values": "integer values",
+    "example": "$myVariable.width = 600",
     "supported_types": [
       "window",
       "text",
@@ -56,6 +68,8 @@
   {
     "name": "h",
     "description": "The height of the object.",
+    "accepted_values": "integer values",
+    "example": "$myVariable.height = 500",
     "supported_types": [
       "window",
       "text",
@@ -65,6 +79,8 @@
   {
     "name": "height",
     "description": "The height of the object.",
+    "accepted_values": "integer values",
+    "example": "$myVariable.height = 500",
     "supported_types": [
       "window",
       "text",
@@ -74,6 +90,8 @@
   {
     "name": "visible",
     "description": "The visibility of the object.",
+    "accepted_values": "true/false or 1/0",
+    "example": "$myVariable.visible = True",
     "supported_types": [
       "window",
       "text",
@@ -83,6 +101,8 @@
   {
     "name": "text",
     "description": "The main text inside the object.",
+    "accepted_values": "",
+    "example": "$myVariable.text = \"Hello world!\"",
     "supported_types": [
       "text",
       "button"
@@ -91,6 +111,8 @@
   {
     "name": "forecolor",
     "description": "The forecolor of the object.",
+    "accepted_values": "color name, hex code, or rgb value",
+    "example": "$myVariable.forecolor = teal",
     "supported_types": [
       "color"
     ]
@@ -98,6 +120,8 @@
   {
     "name": "backcolor",
     "description": "The backcolor of the object.",
+    "accepted_values": "color name, hex code, or rgb value",
+    "example": "$myVariable.backcolor = black",
     "supported_types": [
       "color"
     ]
@@ -105,6 +129,8 @@
   {
     "name": "layer1",
     "description": "The layer 1 properties of the border.",
+    "accepted_values": "color,thickness",
+    "example": "$myVariable.layer1 = blue,4",
     "supported_types": [
       "border"
     ]
@@ -112,6 +138,8 @@
   {
     "name": "layer2",
     "description": "The layer 2 properties of the border.",
+    "accepted_values": "color,thickness",
+    "example": "$myVariable.layer2 = blue,4",
     "supported_types": [
       "border"
     ]
@@ -119,6 +147,8 @@
   {
     "name": "layer3",
     "description": "The layer 3 properties of the border.",
+    "accepted_values": "color,thickness",
+    "example": "$myVariable.layer3 = blue,4",
     "supported_types": [
       "border"
     ]
@@ -126,6 +156,8 @@
   {
     "name": "layer4",
     "description": "The layer 4 properties of the border.",
+    "accepted_values": "color,thickness",
+    "example": "$myVariable.layer4 = blue,4",
     "supported_types": [
       "border"
     ]
@@ -133,6 +165,8 @@
   {
     "name": "layer5",
     "description": "The layer 5 properties of the border.",
+    "accepted_values": "color,thickness",
+    "example": "$myVariable.layer5 = blue,4",
     "supported_types": [
       "border"
     ]
@@ -140,6 +174,8 @@
   {
     "name": "layer6",
     "description": "The layer 6 properties of the border.",
+    "accepted_values": "color,thickness",
+    "example": "$myVariable.layer6 = blue,4",
     "supported_types": [
       "border"
     ]
@@ -147,6 +183,8 @@
   {
     "name": "layer7",
     "description": "The layer 7 properties of the border.",
+    "accepted_values": "color,thickness",
+    "example": "$myVariable.layer7 = blue,4",
     "supported_types": [
       "border"
     ]
@@ -154,6 +192,8 @@
   {
     "name": "layer8",
     "description": "The layer 8 properties of the border.",
+    "accepted_values": "color,thickness",
+    "example": "$myVariable.layer8 = blue,4",
     "supported_types": [
       "border"
     ]
@@ -161,6 +201,8 @@
   {
     "name": "layer9",
     "description": "The layer 9 properties of the border.",
+    "accepted_values": "color,thickness",
+    "example": "$myVariable.layer9 = blue,4",
     "supported_types": [
       "border"
     ]
