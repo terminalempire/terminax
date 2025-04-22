@@ -3,10 +3,12 @@
 //
 // Contact: blerg@terminalempire.com
 //
-//
+// Terminax is the scripting language used by Terminal Empire
+// https://www.terminalempire.com
 
 /*
 NOTES:
+- Terminax code files end with .te, for example the startup script is located at \system\startup.te
 - Parameters with * are optional, ie: forecolor, backcolor* when creating a new color style.
 - Variable names and function names are not case sensitive, however consistency is encouraged.
 - Assigning text doesn't require double quotes "text" in all cases, however it is generally encouraged.
