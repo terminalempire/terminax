@@ -1,0 +1,62 @@
+[
+  {
+    "name": "consolas-bold",
+    "file_path": "T:\\TEMPIRE 26\\TEMPIRE 26\\bin\\Debug\\net8.0-windows\\data\\fonts_ttf\\consolas-bold.ttf",
+    "font_family": "Consolas-Bold"
+  },
+  {
+    "name": "consolas",
+    "file_path": "T:\\TEMPIRE 26\\TEMPIRE 26\\bin\\Debug\\net8.0-windows\\data\\fonts_ttf\\consolas.ttf",
+    "font_family": "Consolas"
+  },
+  {
+    "name": "cousine-bold",
+    "file_path": "T:\\TEMPIRE 26\\TEMPIRE 26\\bin\\Debug\\net8.0-windows\\data\\fonts_ttf\\cousine-bold.ttf",
+    "font_family": "Cousine-Bold"
+  },
+  {
+    "name": "cousine",
+    "file_path": "T:\\TEMPIRE 26\\TEMPIRE 26\\bin\\Debug\\net8.0-windows\\data\\fonts_ttf\\cousine.ttf",
+    "font_family": "Cousine"
+  },
+  {
+    "name": "moire-bold",
+    "file_path": "T:\\TEMPIRE 26\\TEMPIRE 26\\bin\\Debug\\net8.0-windows\\data\\fonts_ttf\\moire-bold.ttf",
+    "font_family": "Moire-Bold"
+  },
+  {
+    "name": "moire",
+    "file_path": "T:\\TEMPIRE 26\\TEMPIRE 26\\bin\\Debug\\net8.0-windows\\data\\fonts_ttf\\moire.ttf",
+    "font_family": "Moire"
+  },
+  {
+    "name": "nk57-bold",
+    "file_path": "T:\\TEMPIRE 26\\TEMPIRE 26\\bin\\Debug\\net8.0-windows\\data\\fonts_ttf\\nk57-bold.ttf",
+    "font_family": "NK57-bold"
+  },
+  {
+    "name": "nk57",
+    "file_path": "T:\\TEMPIRE 26\\TEMPIRE 26\\bin\\Debug\\net8.0-windows\\data\\fonts_ttf\\nk57.ttf",
+    "font_family": "NK57"
+  },
+  {
+    "name": "play-bold",
+    "file_path": "T:\\TEMPIRE 26\\TEMPIRE 26\\bin\\Debug\\net8.0-windows\\data\\fonts_ttf\\play-bold.ttf",
+    "font_family": "Play-Bold"
+  },
+  {
+    "name": "play",
+    "file_path": "T:\\TEMPIRE 26\\TEMPIRE 26\\bin\\Debug\\net8.0-windows\\data\\fonts_ttf\\play.ttf",
+    "font_family": "Play"
+  },
+  {
+    "name": "sarabun-bold",
+    "file_path": "T:\\TEMPIRE 26\\TEMPIRE 26\\bin\\Debug\\net8.0-windows\\data\\fonts_ttf\\sarabun-bold.ttf",
+    "font_family": "Sarabun-Bold"
+  },
+  {
+    "name": "sarabun",
+    "file_path": "T:\\TEMPIRE 26\\TEMPIRE 26\\bin\\Debug\\net8.0-windows\\data\\fonts_ttf\\sarabun.ttf",
+    "font_family": "Sarabun"
+  }
+]
