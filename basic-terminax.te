@@ -1,0 +1,95 @@
+//
+// Basic Terminax Documentation
+//
+// Contact: blerg@terminalempire.com
+//
+//
+
+/*
+NOTES:
+- Parameters with * are optional, ie: forecolor, backcolor* when creating a new color style.
+- Variable names and function names are not case sensitive, however consistency is encouraged.
+- Assigning text doesn't require double quotes "text" in all cases, however it is generally encouraged.
+- The x and y position locations that are given to objects is relative to its container window. (unless being drawn outside of a window)
+
+OBJECTS vs STYLES:
+There is a distinction between the objects created by different functions.
+OBJECT EXAMPLES: window, text, button, image, input
+STYLE EXAMPLES: font, color, border
+Both of these are created by functions, and returned into variables that link to the object or style.
+Styles are typically assigned to objects using $someObject.someProperty = $someStyle
+(Dev note - All OBJECTS use the EngineObject class. STYLES use their own distinct classes.
+*/
+
+
+// STYLE: FONTS
+// Supported fonts names are provided in json.
+// Parameters Option: name, size
+$someFont = font("Play-Bold",14)
+
+// STYLE: COLORS
+// Color objects have a base color and a secondary color, which when assigned to objects
+// will be used as a forecolor and backcolor.
+// Parameters Option: forecolor
+// Parameters Option: forecolor, backcolor*
+$someColor1 = color(blue)
+$someColor2 = color("blue")
+$someColor3 = color(#000, #EEE)
+
+// STYLE: BORDERS
+// Border function supports adding multiple border layers,
+// where the border layers are drawn outwards from the object that the border is assigned to.
+// Parameters Option: color, thickness
+// Parameters Option: color, thickness, color, thickness ... (repeat if required)
+$someBorder1 = border(green, 2) // a border with 1 layer, green and 2px thick
+$someBorder2 = border(green, 2, blue, 4) // a border with 2 layers, green 2px, and a second thicker blue layer around it.length
+$someBorder3 = border($someColor1, 4, $someColor2, 4) // a border with 2 layers, green 2px, and a second thicker blue layer around it.length
+
+
+// OBJECT: WINDOW
+// Parameters Option: title, x, y, width, height
+$myWindow = window("New Window 4 u", 100, 100, 500, 400)
+$myWindow.border = $someBorder1 // assign a border to the object
+
+
+// OBJECT: TEXT
+// Create a text area.
+// Parameters Option: text, x, y, width, height
+// Parameters Option: text, x, y, [keyword], [keyword]
+$myText = text("Hello, stranger!", 100, 100, 500, 400)
+$myText.color = $someColor1 // assign a color to the object, this can change both the text color (forecolor) and back color at the same time.
+
+
+
+// NEGATIVE VALUES FOR OBJECT POSITIONS
+// x = 10 will place the object 10 px away from the left side
+// x = -10 will place the object 10 px away from the right side
+// y = 10 will place the object 10 px away from the top side
+// y = -10 will place the object 10 px away from the bottom side
+
+// NEGATIVE VALUES FOR OBJECT SIZES
+// width = 100 will set a width of 100 for the object
+// width = -20 will set a width of the object to the maximum allowed (based on its window container), minus 20 from the right side.
+// height = 80 will set a height of 80 for the object
+// width = -40 will set a width of the object to the maximum allowed (based on its window container), minus 40 from the bottom side.
+
+
+
+
+// OBJECT: BUTTON
+// Parameters Option: title, x, y, width, height
+$myButton = button("Click me asap!", 100, 100, 500, 400)
+$myButton.border = $someBorder1 // assign a border to the object
+$myButton.color = $someColor1 // assign a color to the object, this can change both the text color (forecolor) and back color at the same time.
+
+// ADDITIONAL PROPERTY EXAMPLES
+myButton.x = 100
+myButton.y = 50
+myButton.width = 200
+myButton.height = 100
+
+// THESE CAN ALSO BE ASSIGNED USING VARIABLES
+$newXposition = 100
+myButton.x = $newXposition
+
+
