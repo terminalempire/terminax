@@ -85,7 +85,19 @@
   },
   {
     "name": "window",
-    "description": "Create or update a window.",
+    "description": "Create or update a rectangular window.",
+    "params": "title,x,y,width,height,visible,backcolor,font,border",
+    "is_remote": false
+  },
+  {
+    "name": "window_ellipse",
+    "description": "Create or update an elliptical or circular window.",
+    "params": "title,x,y,width,height,visible,backcolor,font,border",
+    "is_remote": false
+  },
+  {
+    "name": "window_custom",
+    "description": "Create or update a custom shaped window.",
     "params": "title,x,y,width,height,visible,backcolor,font,border",
     "is_remote": false
   },
