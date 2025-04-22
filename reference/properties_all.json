@@ -1,0 +1,168 @@
+[
+  {
+    "name": "x",
+    "description": "The x coordinate of the object.",
+    "supported_types": [
+      "window",
+      "text",
+      "button"
+    ]
+  },
+  {
+    "name": "left",
+    "description": "The x coordinate of the object.",
+    "supported_types": [
+      "window",
+      "text",
+      "button"
+    ]
+  },
+  {
+    "name": "y",
+    "description": "The y coordinate of the object.",
+    "supported_types": [
+      "window",
+      "text",
+      "button"
+    ]
+  },
+  {
+    "name": "top",
+    "description": "The y coordinate of the object.",
+    "supported_types": [
+      "window",
+      "text",
+      "button"
+    ]
+  },
+  {
+    "name": "w",
+    "description": "The width of the object.",
+    "supported_types": [
+      "window",
+      "text",
+      "button"
+    ]
+  },
+  {
+    "name": "width",
+    "description": "The width of the object.",
+    "supported_types": [
+      "window",
+      "text",
+      "button"
+    ]
+  },
+  {
+    "name": "h",
+    "description": "The height of the object.",
+    "supported_types": [
+      "window",
+      "text",
+      "button"
+    ]
+  },
+  {
+    "name": "height",
+    "description": "The height of the object.",
+    "supported_types": [
+      "window",
+      "text",
+      "button"
+    ]
+  },
+  {
+    "name": "visible",
+    "description": "The visibility of the object.",
+    "supported_types": [
+      "window",
+      "text",
+      "button"
+    ]
+  },
+  {
+    "name": "text",
+    "description": "The main text inside the object.",
+    "supported_types": [
+      "text",
+      "button"
+    ]
+  },
+  {
+    "name": "forecolor",
+    "description": "The forecolor of the object.",
+    "supported_types": [
+      "color"
+    ]
+  },
+  {
+    "name": "backcolor",
+    "description": "The backcolor of the object.",
+    "supported_types": [
+      "color"
+    ]
+  },
+  {
+    "name": "layer1",
+    "description": "The layer 1 properties of the border.",
+    "supported_types": [
+      "border"
+    ]
+  },
+  {
+    "name": "layer2",
+    "description": "The layer 2 properties of the border.",
+    "supported_types": [
+      "border"
+    ]
+  },
+  {
+    "name": "layer3",
+    "description": "The layer 3 properties of the border.",
+    "supported_types": [
+      "border"
+    ]
+  },
+  {
+    "name": "layer4",
+    "description": "The layer 4 properties of the border.",
+    "supported_types": [
+      "border"
+    ]
+  },
+  {
+    "name": "layer5",
+    "description": "The layer 5 properties of the border.",
+    "supported_types": [
+      "border"
+    ]
+  },
+  {
+    "name": "layer6",
+    "description": "The layer 6 properties of the border.",
+    "supported_types": [
+      "border"
+    ]
+  },
+  {
+    "name": "layer7",
+    "description": "The layer 7 properties of the border.",
+    "supported_types": [
+      "border"
+    ]
+  },
+  {
+    "name": "layer8",
+    "description": "The layer 8 properties of the border.",
+    "supported_types": [
+      "border"
+    ]
+  },
+  {
+    "name": "layer9",
+    "description": "The layer 9 properties of the border.",
+    "supported_types": [
+      "border"
+    ]
+  }
+]
