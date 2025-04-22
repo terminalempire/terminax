@@ -99,6 +99,39 @@
     ]
   },
   {
+    "name": "color",
+    "description": "The (color style) assigned to the object.",
+    "accepted_values": "$someColor or forecolor,backcolor",
+    "example": "$myVariable.color = teal,black",
+    "supported_types": [
+      "window",
+      "text",
+      "button"
+    ]
+  },
+  {
+    "name": "border",
+    "description": "The (border style) assigned to the object.",
+    "accepted_values": "$someBorder or lime,1",
+    "example": "$myVariable.border = lime,1",
+    "supported_types": [
+      "window",
+      "text",
+      "button"
+    ]
+  },
+  {
+    "name": "font",
+    "description": "The (font style) assigned to the object.",
+    "accepted_values": "$someFont",
+    "example": "$myVariable.font = $someFont",
+    "supported_types": [
+      "window",
+      "text",
+      "button"
+    ]
+  },
+  {
     "name": "text",
     "description": "The main text inside the object.",
     "accepted_values": "",
