@@ -1,65 +1,86 @@
 [
   {
-    "name": "arial"
+    "name": "arial",
+    "filename": "C:\\Windows\\Fonts\\arial.ttf"
   },
   {
-    "name": "arial-black"
+    "name": "arial-black",
+    "filename": "C:\\Windows\\Fonts\\ariblk.ttf"
   },
   {
-    "name": "arial-bold"
+    "name": "arial-bold",
+    "filename": "C:\\Windows\\Fonts\\arialbd.ttf"
   },
   {
-    "name": "arial-bold-italic"
+    "name": "arial-bold-italic",
+    "filename": "C:\\Windows\\Fonts\\arialbi.ttf"
   },
   {
-    "name": "arial-italic"
+    "name": "arial-italic",
+    "filename": "C:\\Windows\\Fonts\\ariali.ttf"
   },
   {
-    "name": "consolas"
+    "name": "consolas",
+    "filename": "T:\\TEMPIRE 26\\TEMPIRE 26\\bin\\Debug\\net8.0-windows\\data\\fonts_ttf\\consolas.ttf"
   },
   {
-    "name": "consolas-bold"
+    "name": "consolas-bold",
+    "filename": "T:\\TEMPIRE 26\\TEMPIRE 26\\bin\\Debug\\net8.0-windows\\data\\fonts_ttf\\consolas-bold.ttf"
   },
   {
-    "name": "cousine"
+    "name": "cousine",
+    "filename": "T:\\TEMPIRE 26\\TEMPIRE 26\\bin\\Debug\\net8.0-windows\\data\\fonts_ttf\\cousine.ttf"
   },
   {
-    "name": "cousine-bold"
+    "name": "cousine-bold",
+    "filename": "T:\\TEMPIRE 26\\TEMPIRE 26\\bin\\Debug\\net8.0-windows\\data\\fonts_ttf\\cousine-bold.ttf"
   },
   {
-    "name": "moire"
+    "name": "moire",
+    "filename": "T:\\TEMPIRE 26\\TEMPIRE 26\\bin\\Debug\\net8.0-windows\\data\\fonts_ttf\\moire.ttf"
   },
   {
-    "name": "moire-bold"
+    "name": "moire-bold",
+    "filename": "T:\\TEMPIRE 26\\TEMPIRE 26\\bin\\Debug\\net8.0-windows\\data\\fonts_ttf\\moire-bold.ttf"
   },
   {
-    "name": "nk57"
+    "name": "nk57",
+    "filename": "T:\\TEMPIRE 26\\TEMPIRE 26\\bin\\Debug\\net8.0-windows\\data\\fonts_ttf\\nk57.ttf"
   },
   {
-    "name": "nk57-bold"
+    "name": "nk57-bold",
+    "filename": "T:\\TEMPIRE 26\\TEMPIRE 26\\bin\\Debug\\net8.0-windows\\data\\fonts_ttf\\nk57-bold.ttf"
   },
   {
-    "name": "play"
+    "name": "play",
+    "filename": "T:\\TEMPIRE 26\\TEMPIRE 26\\bin\\Debug\\net8.0-windows\\data\\fonts_ttf\\play.ttf"
   },
   {
-    "name": "play-bold"
+    "name": "play-bold",
+    "filename": "T:\\TEMPIRE 26\\TEMPIRE 26\\bin\\Debug\\net8.0-windows\\data\\fonts_ttf\\play-bold.ttf"
   },
   {
-    "name": "sarabun"
+    "name": "sarabun",
+    "filename": "T:\\TEMPIRE 26\\TEMPIRE 26\\bin\\Debug\\net8.0-windows\\data\\fonts_ttf\\sarabun.ttf"
   },
   {
-    "name": "sarabun-bold"
+    "name": "sarabun-bold",
+    "filename": "T:\\TEMPIRE 26\\TEMPIRE 26\\bin\\Debug\\net8.0-windows\\data\\fonts_ttf\\sarabun-bold.ttf"
   },
   {
-    "name": "verdana"
+    "name": "verdana",
+    "filename": "C:\\Windows\\Fonts\\verdana.ttf"
   },
   {
-    "name": "verdana-bold"
+    "name": "verdana-bold",
+    "filename": "C:\\Windows\\Fonts\\verdanab.ttf"
   },
   {
-    "name": "verdana-bold-italic"
+    "name": "verdana-bold-italic",
+    "filename": "C:\\Windows\\Fonts\\verdanaz.ttf"
   },
   {
-    "name": "verdana-italic"
+    "name": "verdana-italic",
+    "filename": "C:\\Windows\\Fonts\\verdanai.ttf"
   }
 ]
