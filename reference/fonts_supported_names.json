@@ -1,53 +1,53 @@
 [
   {
-    "name": "consolas-bold"
-  },
-  {
-    "name": "consolas"
-  },
-  {
-    "name": "cousine-bold"
-  },
-  {
-    "name": "cousine"
-  },
-  {
-    "name": "moire-bold"
-  },
-  {
-    "name": "moire"
-  },
-  {
-    "name": "nk57-bold"
-  },
-  {
-    "name": "nk57"
-  },
-  {
-    "name": "play-bold"
-  },
-  {
-    "name": "play"
-  },
-  {
-    "name": "sarabun-bold"
-  },
-  {
-    "name": "sarabun"
-  },
-  {
     "name": "arial"
+  },
+  {
+    "name": "arial-black"
   },
   {
     "name": "arial-bold"
   },
   {
-    "name": "arial-italic"
-  },
-  {
     "name": "arial-bold-italic"
   },
   {
-    "name": "arial-black"
+    "name": "arial-italic"
+  },
+  {
+    "name": "consolas"
+  },
+  {
+    "name": "consolas-bold"
+  },
+  {
+    "name": "cousine"
+  },
+  {
+    "name": "cousine-bold"
+  },
+  {
+    "name": "moire"
+  },
+  {
+    "name": "moire-bold"
+  },
+  {
+    "name": "nk57"
+  },
+  {
+    "name": "nk57-bold"
+  },
+  {
+    "name": "play"
+  },
+  {
+    "name": "play-bold"
+  },
+  {
+    "name": "sarabun"
+  },
+  {
+    "name": "sarabun-bold"
   }
 ]
