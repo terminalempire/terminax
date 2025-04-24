@@ -68,6 +68,14 @@
     "filename": "sarabun-bold.ttf"
   },
   {
+    "name": "tahoma",
+    "filename": "tahoma.ttf"
+  },
+  {
+    "name": "tahoma-bold",
+    "filename": "tahomabd.ttf"
+  },
+  {
     "name": "verdana",
     "filename": "verdana.ttf"
   },
@@ -82,5 +90,9 @@
   {
     "name": "verdana-italic",
     "filename": "verdanai.ttf"
+  },
+  {
+    "name": "wingdings",
+    "filename": "wingding.ttf"
   }
 ]
