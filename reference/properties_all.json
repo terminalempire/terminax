@@ -12,10 +12,10 @@
     ]
   },
   {
-    "name": "left",
+    "name": "Left",
     "description": "The x coordinate of the object.",
     "accepted_values": "$someX",
-    "example": "$myObject.left = 400",
+    "example": "$myObject.Left = 400",
     "supported_types": [
       "window",
       "text",
@@ -36,10 +36,10 @@
     ]
   },
   {
-    "name": "top",
+    "name": "Top",
     "description": "The y coordinate of the object.",
     "accepted_values": "$someY",
-    "example": "$myObject.top = 300",
+    "example": "$myObject.Top = 300",
     "supported_types": [
       "window",
       "text",
@@ -60,10 +60,10 @@
     ]
   },
   {
-    "name": "position",
+    "name": "Position",
     "description": "The position of the object, both x and y coordinates.",
     "accepted_values": "$x,$y",
-    "example": "$myObject.position = 50,50",
+    "example": "$myObject.Position = 50,50",
     "supported_types": [
       "window",
       "text",
