@@ -1,6 +1,6 @@
 [
   {
-    "name": "x",
+    "name": "left",
     "description": "The x coordinate of the object.",
     "accepted_values": "$someX",
     "example": "$myObject.left = 400",
@@ -22,7 +22,7 @@
     ]
   },
   {
-    "name": "y",
+    "name": "top",
     "description": "The y coordinate of the object.",
     "accepted_values": "$someY",
     "example": "$myObject.top = 300",
@@ -44,7 +44,7 @@
     ]
   },
   {
-    "name": "xy",
+    "name": "position",
     "description": "The position of the object, both x and y coordinates.",
     "accepted_values": "$x,$y",
     "example": "$myObject.position = 50,50",
@@ -66,7 +66,7 @@
     ]
   },
   {
-    "name": "width",
+    "name": "Width",
     "description": "The width of the object.",
     "accepted_values": "$someWidth",
     "example": "$myObject.Width = 600",
@@ -77,7 +77,7 @@
     ]
   },
   {
-    "name": "height",
+    "name": "Height",
     "description": "The height of the object.",
     "accepted_values": "$someHeight",
     "example": "$myObject.Height = 500",
@@ -88,7 +88,7 @@
     ]
   },
   {
-    "name": "size",
+    "name": "Size",
     "description": "The size of the object, both width and height.",
     "accepted_values": "$objWidth,$objHeight",
     "example": "$myObject.Size = 400,300",
@@ -99,7 +99,7 @@
     ]
   },
   {
-    "name": "visible",
+    "name": "Visible",
     "description": "The visibility of the object.",
     "accepted_values": "True",
     "example": "$myObject.Visible = 1",
@@ -110,7 +110,7 @@
     ]
   },
   {
-    "name": "show",
+    "name": "Show",
     "description": "Make an object visible.",
     "accepted_values": "",
     "example": "$myObject.Show",
@@ -121,7 +121,7 @@
     ]
   },
   {
-    "name": "hide",
+    "name": "Hide",
     "description": "Make an object invisible.",
     "accepted_values": "",
     "example": "$myObject.Hide",
@@ -132,7 +132,7 @@
     ]
   },
   {
-    "name": "color",
+    "name": "Color",
     "description": "The (color style) assigned to the object.",
     "accepted_values": "$someColor | blue | blue,black",
     "example": "$myObject.Color = teal,black",
@@ -143,7 +143,7 @@
     ]
   },
   {
-    "name": "border",
+    "name": "Border",
     "description": "The (border style) assigned to the object.",
     "accepted_values": "$someBorder | lime,1 | lime,2,green,2",
     "example": "$myObject.Border = lime,1",
@@ -154,7 +154,7 @@
     ]
   },
   {
-    "name": "font",
+    "name": "Font",
     "description": "The (font style) assigned to the object.",
     "accepted_values": "$someFont",
     "example": "$myObject.Font = $someFont",
@@ -165,7 +165,7 @@
     ]
   },
   {
-    "name": "text",
+    "name": "Text",
     "description": "The main text inside the object.",
     "accepted_values": "",
     "example": "$myObject.Text = \"Hello world!\"",
@@ -176,7 +176,7 @@
     ]
   },
   {
-    "name": "textalign",
+    "name": "TextAlign",
     "description": "The main text inside the object.",
     "accepted_values": "top-left, top, top-right, left, center, right, bottom-left, bottom, bottom-right",
     "example": "$myObject.TextAlign = center",
@@ -186,7 +186,7 @@
     ]
   },
   {
-    "name": "forecolor",
+    "name": "ForeColor",
     "description": "The forecolor of the object.",
     "accepted_values": "color name, hex code, or rgb value",
     "example": "$myObject.ForeColor = teal",
@@ -195,7 +195,7 @@
     ]
   },
   {
-    "name": "backcolor",
+    "name": "BackColor",
     "description": "The backcolor of the object.",
     "accepted_values": "color name, hex code, or rgb value",
     "example": "$myObject.BackColor = black",
@@ -204,7 +204,7 @@
     ]
   },
   {
-    "name": "layer1",
+    "name": "Layer1",
     "description": "The layer 1 properties of the border.",
     "accepted_values": "color,thickness",
     "example": "$myObject.Layer1 = blue,4",
@@ -213,7 +213,7 @@
     ]
   },
   {
-    "name": "layer2",
+    "name": "Layer2",
     "description": "The layer 2 properties of the border.",
     "accepted_values": "color,thickness",
     "example": "$myObject.Layer2 = blue,4",
@@ -222,7 +222,7 @@
     ]
   },
   {
-    "name": "layer3",
+    "name": "Layer3",
     "description": "The layer 3 properties of the border.",
     "accepted_values": "color,thickness",
     "example": "$myObject.Layer3 = blue,4",
@@ -231,7 +231,7 @@
     ]
   },
   {
-    "name": "layer4",
+    "name": "Layer4",
     "description": "The layer 4 properties of the border.",
     "accepted_values": "color,thickness",
     "example": "$myObject.Layer4 = blue,4",
@@ -240,7 +240,7 @@
     ]
   },
   {
-    "name": "layer5",
+    "name": "Layer5",
     "description": "The layer 5 properties of the border.",
     "accepted_values": "color,thickness",
     "example": "$myObject.Layer5 = blue,4",
@@ -249,7 +249,7 @@
     ]
   },
   {
-    "name": "layer6",
+    "name": "Layer6",
     "description": "The layer 6 properties of the border.",
     "accepted_values": "color,thickness",
     "example": "$myObject.Layer6 = blue,4",
@@ -258,7 +258,7 @@
     ]
   },
   {
-    "name": "layer7",
+    "name": "Layer7",
     "description": "The layer 7 properties of the border.",
     "accepted_values": "color,thickness",
     "example": "$myObject.Layer7 = blue,4",
@@ -267,7 +267,7 @@
     ]
   },
   {
-    "name": "layer8",
+    "name": "Layer8",
     "description": "The layer 8 properties of the border.",
     "accepted_values": "color,thickness",
     "example": "$myObject.Layer8 = blue,4",
@@ -276,7 +276,7 @@
     ]
   },
   {
-    "name": "layer9",
+    "name": "Layer9",
     "description": "The layer 9 properties of the border.",
     "accepted_values": "color,thickness",
     "example": "$myObject.Layer9 = blue,4",
