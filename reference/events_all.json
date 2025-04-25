@@ -5,7 +5,9 @@
     "accepted_values": "someFunctionName",
     "example": "$myObject.MouseDown = someFunctionName",
     "supported_types": [
-      "border"
+      "window",
+      "text",
+      "button"
     ]
   },
   {
@@ -14,7 +16,9 @@
     "accepted_values": "someFunctionName",
     "example": "$myObject.Click = someFunctionName",
     "supported_types": [
-      "border"
+      "window",
+      "text",
+      "button"
     ]
   },
   {
@@ -23,7 +27,9 @@
     "accepted_values": "someFunctionName",
     "example": "$myObject.Click = someFunctionName",
     "supported_types": [
-      "border"
+      "window",
+      "text",
+      "button"
     ]
   },
   {
@@ -32,7 +38,9 @@
     "accepted_values": "someFunctionName",
     "example": "$myObject.DoubleClick = someFunctionName",
     "supported_types": [
-      "border"
+      "window",
+      "text",
+      "button"
     ]
   }
 ]
