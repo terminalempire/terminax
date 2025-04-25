@@ -114,6 +114,18 @@
     "is_remote": false
   },
   {
+    "name": "input",
+    "description": "Create or update a single line text input.",
+    "params": "text,x,y,width,height,font,color,border",
+    "is_remote": false
+  },
+  {
+    "name": "timer",
+    "description": "Create or update a timer.",
+    "params": "",
+    "is_remote": false
+  },
+  {
     "name": "font",
     "description": "Create or update a font definition. Fonts can be applied to objects like text and buttons",
     "params": "fontname,size,style",
@@ -138,13 +150,13 @@
     "is_remote": true
   },
   {
-    "name": "up",
+    "name": "setrandom",
     "description": "Function found in T:\\system\\startup.te",
     "params": "",
     "is_remote": true
   },
   {
-    "name": "down",
+    "name": "cevents",
     "description": "Function found in T:\\system\\startup.te",
     "params": "",
     "is_remote": true
