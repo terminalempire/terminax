@@ -6,13 +6,13 @@
     "is_remote": true
   },
   {
-    "name": "up",
+    "name": "setrandom",
     "description": "Function found in T:\\system\\startup.te",
     "params": "",
     "is_remote": true
   },
   {
-    "name": "down",
+    "name": "cevents",
     "description": "Function found in T:\\system\\startup.te",
     "params": "",
     "is_remote": true
