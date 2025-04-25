@@ -7,7 +7,20 @@
     "supported_types": [
       "window",
       "text",
-      "button"
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "MouseUp",
+    "description": "Assign a custom function to clicking on the object.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.MouseUp = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
     ]
   },
   {
@@ -18,18 +31,8 @@
     "supported_types": [
       "window",
       "text",
-      "button"
-    ]
-  },
-  {
-    "name": "Click",
-    "description": "Assign a custom function to clicking on the object.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Click = someFunctionName",
-    "supported_types": [
-      "window",
-      "text",
-      "button"
+      "button",
+      "input"
     ]
   },
   {
@@ -40,7 +43,8 @@
     "supported_types": [
       "window",
       "text",
-      "button"
+      "button",
+      "input"
     ]
   },
   {
@@ -51,7 +55,8 @@
     "supported_types": [
       "window",
       "text",
-      "button"
+      "button",
+      "input"
     ]
   },
   {
@@ -62,7 +67,8 @@
     "supported_types": [
       "window",
       "text",
-      "button"
+      "button",
+      "input"
     ]
   },
   {
@@ -73,7 +79,8 @@
     "supported_types": [
       "window",
       "text",
-      "button"
+      "button",
+      "input"
     ]
   }
 ]
