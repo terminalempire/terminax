@@ -4,5 +4,17 @@
     "description": "",
     "params": "",
     "is_remote": true
+  },
+  {
+    "name": "up",
+    "description": "Function found in T:\\system\\startup.te",
+    "params": "",
+    "is_remote": true
+  },
+  {
+    "name": "down",
+    "description": "Function found in T:\\system\\startup.te",
+    "params": "",
+    "is_remote": true
   }
 ]
