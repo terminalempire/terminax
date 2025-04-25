@@ -1,6 +1,6 @@
 [
   {
-    "name": "mousedown",
+    "name": "MouseDown",
     "description": "Assign a function to pressing a mousebutton down on the object.",
     "accepted_values": "someFunctionName",
     "example": "$myObject.MouseDown = someFunctionName",
@@ -9,7 +9,7 @@
     ]
   },
   {
-    "name": "mouseup",
+    "name": "Click",
     "description": "Assign a custom function to clicking on the object.",
     "accepted_values": "someFunctionName",
     "example": "$myObject.Click = someFunctionName",
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "name": "click",
+    "name": "Click",
     "description": "Assign a custom function to clicking on the object.",
     "accepted_values": "someFunctionName",
     "example": "$myObject.Click = someFunctionName",
@@ -27,7 +27,7 @@
     ]
   },
   {
-    "name": "doubleclick",
+    "name": "DoubleClick",
     "description": "Assign a custom function to double clicking on the object.",
     "accepted_values": "someFunctionName",
     "example": "$myObject.DoubleClick = someFunctionName",
