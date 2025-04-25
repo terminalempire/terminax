@@ -176,50 +176,6 @@
     ]
   },
   {
-    "name": "mousedown",
-    "description": "Assign a function to pressing a mousebutton down on the object.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.MouseDown = someFunctionName",
-    "supported_types": [
-      "window",
-      "text",
-      "button"
-    ]
-  },
-  {
-    "name": "mouseup",
-    "description": "Assign a custom function to clicking on the object.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Click = someFunctionName",
-    "supported_types": [
-      "window",
-      "text",
-      "button"
-    ]
-  },
-  {
-    "name": "click",
-    "description": "Assign a custom function to clicking on the object.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Click = someFunctionName",
-    "supported_types": [
-      "window",
-      "text",
-      "button"
-    ]
-  },
-  {
-    "name": "doubleclick",
-    "description": "Assign a custom function to double clicking on the object.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.DoubleClick = someFunctionName",
-    "supported_types": [
-      "window",
-      "text",
-      "button"
-    ]
-  },
-  {
     "name": "textalign",
     "description": "The main text inside the object.",
     "accepted_values": "top-left, top, top-right, left, center, right, bottom-left, bottom, bottom-right",
