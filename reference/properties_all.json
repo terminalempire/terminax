@@ -69,7 +69,7 @@
     "name": "width",
     "description": "The width of the object.",
     "accepted_values": "$someWidth",
-    "example": "$myObject.width = 600",
+    "example": "$myObject.Width = 600",
     "supported_types": [
       "window",
       "text",
@@ -80,7 +80,7 @@
     "name": "height",
     "description": "The height of the object.",
     "accepted_values": "$someHeight",
-    "example": "$myObject.height = 500",
+    "example": "$myObject.Height = 500",
     "supported_types": [
       "window",
       "text",
@@ -91,7 +91,7 @@
     "name": "size",
     "description": "The size of the object, both width and height.",
     "accepted_values": "$objWidth,$objHeight",
-    "example": "$myObject.size = 400,300",
+    "example": "$myObject.Size = 400,300",
     "supported_types": [
       "window",
       "text",
@@ -102,7 +102,7 @@
     "name": "visible",
     "description": "The visibility of the object.",
     "accepted_values": "True",
-    "example": "$myObject.visible = 1",
+    "example": "$myObject.Visible = 1",
     "supported_types": [
       "window",
       "text",
@@ -113,7 +113,7 @@
     "name": "show",
     "description": "Make an object visible.",
     "accepted_values": "",
-    "example": "$myObject.show",
+    "example": "$myObject.Show",
     "supported_types": [
       "window",
       "text",
@@ -124,7 +124,7 @@
     "name": "hide",
     "description": "Make an object invisible.",
     "accepted_values": "",
-    "example": "$myObject.hide",
+    "example": "$myObject.Hide",
     "supported_types": [
       "window",
       "text",
@@ -135,7 +135,7 @@
     "name": "color",
     "description": "The (color style) assigned to the object.",
     "accepted_values": "$someColor | blue | blue,black",
-    "example": "$myObject.color = teal,black",
+    "example": "$myObject.Color = teal,black",
     "supported_types": [
       "window",
       "text",
@@ -146,7 +146,7 @@
     "name": "border",
     "description": "The (border style) assigned to the object.",
     "accepted_values": "$someBorder | lime,1 | lime,2,green,2",
-    "example": "$myObject.border = lime,1",
+    "example": "$myObject.Border = lime,1",
     "supported_types": [
       "window",
       "text",
@@ -157,7 +157,7 @@
     "name": "font",
     "description": "The (font style) assigned to the object.",
     "accepted_values": "$someFont",
-    "example": "$myObject.font = $someFont",
+    "example": "$myObject.Font = $someFont",
     "supported_types": [
       "window",
       "text",
@@ -168,7 +168,51 @@
     "name": "text",
     "description": "The main text inside the object.",
     "accepted_values": "",
-    "example": "$myObject.text = \"Hello world!\"",
+    "example": "$myObject.Text = \"Hello world!\"",
+    "supported_types": [
+      "window",
+      "text",
+      "button"
+    ]
+  },
+  {
+    "name": "mousedown",
+    "description": "Assign a function to pressing a mousebutton down on the object.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.MouseDown = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button"
+    ]
+  },
+  {
+    "name": "mouseup",
+    "description": "Assign a custom function to clicking on the object.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Click = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button"
+    ]
+  },
+  {
+    "name": "click",
+    "description": "Assign a custom function to clicking on the object.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Click = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button"
+    ]
+  },
+  {
+    "name": "doubleclick",
+    "description": "Assign a custom function to double clicking on the object.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.DoubleClick = someFunctionName",
     "supported_types": [
       "window",
       "text",
@@ -179,17 +223,7 @@
     "name": "textalign",
     "description": "The main text inside the object.",
     "accepted_values": "top-left, top, top-right, left, center, right, bottom-left, bottom, bottom-right",
-    "example": "$myObject.align = center",
-    "supported_types": [
-      "text",
-      "button"
-    ]
-  },
-  {
-    "name": "align",
-    "description": "The main text inside the object.",
-    "accepted_values": "top-left, top, top-right, left, center, right, bottom-left, bottom, bottom-right",
-    "example": "$myObject.align = center",
+    "example": "$myObject.TextAlign = center",
     "supported_types": [
       "text",
       "button"
@@ -199,7 +233,7 @@
     "name": "forecolor",
     "description": "The forecolor of the object.",
     "accepted_values": "color name, hex code, or rgb value",
-    "example": "$myObject.forecolor = teal",
+    "example": "$myObject.ForeColor = teal",
     "supported_types": [
       "color"
     ]
@@ -208,7 +242,7 @@
     "name": "backcolor",
     "description": "The backcolor of the object.",
     "accepted_values": "color name, hex code, or rgb value",
-    "example": "$myObject.backcolor = black",
+    "example": "$myObject.BackColor = black",
     "supported_types": [
       "color"
     ]
@@ -217,7 +251,7 @@
     "name": "layer1",
     "description": "The layer 1 properties of the border.",
     "accepted_values": "color,thickness",
-    "example": "$myObject.layer1 = blue,4",
+    "example": "$myObject.Layer1 = blue,4",
     "supported_types": [
       "border"
     ]
@@ -226,7 +260,7 @@
     "name": "layer2",
     "description": "The layer 2 properties of the border.",
     "accepted_values": "color,thickness",
-    "example": "$myObject.layer2 = blue,4",
+    "example": "$myObject.Layer2 = blue,4",
     "supported_types": [
       "border"
     ]
@@ -235,7 +269,7 @@
     "name": "layer3",
     "description": "The layer 3 properties of the border.",
     "accepted_values": "color,thickness",
-    "example": "$myObject.layer3 = blue,4",
+    "example": "$myObject.Layer3 = blue,4",
     "supported_types": [
       "border"
     ]
@@ -244,7 +278,7 @@
     "name": "layer4",
     "description": "The layer 4 properties of the border.",
     "accepted_values": "color,thickness",
-    "example": "$myObject.layer4 = blue,4",
+    "example": "$myObject.Layer4 = blue,4",
     "supported_types": [
       "border"
     ]
@@ -253,7 +287,7 @@
     "name": "layer5",
     "description": "The layer 5 properties of the border.",
     "accepted_values": "color,thickness",
-    "example": "$myObject.layer5 = blue,4",
+    "example": "$myObject.Layer5 = blue,4",
     "supported_types": [
       "border"
     ]
@@ -262,7 +296,7 @@
     "name": "layer6",
     "description": "The layer 6 properties of the border.",
     "accepted_values": "color,thickness",
-    "example": "$myObject.layer6 = blue,4",
+    "example": "$myObject.Layer6 = blue,4",
     "supported_types": [
       "border"
     ]
@@ -271,7 +305,7 @@
     "name": "layer7",
     "description": "The layer 7 properties of the border.",
     "accepted_values": "color,thickness",
-    "example": "$myObject.layer7 = blue,4",
+    "example": "$myObject.Layer7 = blue,4",
     "supported_types": [
       "border"
     ]
@@ -280,7 +314,7 @@
     "name": "layer8",
     "description": "The layer 8 properties of the border.",
     "accepted_values": "color,thickness",
-    "example": "$myObject.layer8 = blue,4",
+    "example": "$myObject.Layer8 = blue,4",
     "supported_types": [
       "border"
     ]
@@ -289,7 +323,7 @@
     "name": "layer9",
     "description": "The layer 9 properties of the border.",
     "accepted_values": "color,thickness",
-    "example": "$myObject.layer9 = blue,4",
+    "example": "$myObject.Layer9 = blue,4",
     "supported_types": [
       "border"
     ]
