@@ -1,7 +1,7 @@
 [
   {
     "name": "MouseDown",
-    "description": "Assign a function to pressing a mousebutton down on the object.",
+    "description": "Assign a function to pressing the left mousebutton down on the object.",
     "accepted_values": "someFunctionName",
     "example": "$myObject.MouseDown = someFunctionName",
     "supported_types": [
@@ -37,6 +37,39 @@
     "description": "Assign a custom function to double clicking on the object.",
     "accepted_values": "someFunctionName",
     "example": "$myObject.DoubleClick = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button"
+    ]
+  },
+  {
+    "name": "MouseDown_Right",
+    "description": "Assign a function to pressing the right mousebutton down on the object.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.MouseDown_Right = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button"
+    ]
+  },
+  {
+    "name": "MouseUp_Right",
+    "description": "Assign a function to raising the right mousebutton up on the object..",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.MouseUp_Right = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button"
+    ]
+  },
+  {
+    "name": "DoubleClick_Right",
+    "description": "Assign a custom function to double clicking on the object.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.DoubleClick_Right = someFunctionName",
     "supported_types": [
       "window",
       "text",
