@@ -1,4 +1,4 @@
-//
+﻿//
 // Basic Terminax Documentation
 //
 // Contact: blerg@terminalempire.com
@@ -22,6 +22,7 @@ Both of these are created by functions, and returned into variables that link to
 Styles are typically assigned to objects using $someObject.someProperty = $someStyle
 (Dev note - All OBJECTS use the EngineObject class. STYLES use their own distinct classes.
 */
+
 
 
 // STYLE: FONTS
@@ -49,8 +50,8 @@ $someBorder3 = border($someColor1, 4, $someColor2, 4) // a border with 2 layers,
 
 
 // OBJECT: WINDOW
-// Parameters Option: title, x, y, width, height
-$myWindow = window("New Window 4 u", 100, 100, 500, 400)
+// Parameters Option: x, y, width, height
+$myWindow = window(100, 100, 500, 400)
 $myWindow.border = $someBorder1 // assign a border to the object
 
 
@@ -93,5 +94,94 @@ myButton.height = 100
 // THESE CAN ALSO BE ASSIGNED USING VARIABLES
 $newXposition = 100
 myButton.x = $newXposition
+
+// STARTING OBJECTS AS INVIBLSE
+// By adding a * at the end of an object creation line,
+// you can start the object invisible, but still have it load in the background.
+$myWindow = window(40,40,300,200)*
+// Think of * as saying 'hold off on showing this for now'
+// You can set the object to visible when ready, using either of:
+$myWindow.show
+$myWindow.visible = true
+// This also works for other objects in the same way
+$myButton = button("Click me asap!", 100, 100, 500, 400) // Start with VISIBLE object
+$myButton = button("Click me asap!", 100, 100, 500, 400)* // Start with INVISIBLE object
+
+// CUSTOM FUNCTIONS
+// Custom functions can be creted with the following structure:
+function add {
+  $sum = $1 + $2
+  return $sum
+}
+
+// This is also valid, however the () are not required:
+function add() {
+  $sum = $1 + $2
+  return $sum
+}
+
+// Custom functions do not require predefining the parameters that are passed to them.
+// However, any number of parameters may be passed to a custom function.
+// These parameters are easily accessible from within the function
+// by referencing the variable names $1, $2 ... $n as needed.
+
+// You can add short descriptions to custom functions
+// with inline comments as follows:
+function add{ // add two numbers
+  $sum = $1 + $2
+  return $sum
+}
+// Comments added to custom functions in this way will 
+// automatically be seen as a 'short description' of your function, and treated as such.
+
+// Using custom functions
+$someVariable = add(5,10) // this will put 15 into $someVariable
+$someObject.text = Solution is $someVariable
+// or
+// call a function directly into an object property.
+$someObject.someProperty = some_function($someParam, $someParam2)
+
+// OBJECT EVENTS
+// Custom functions can be made to trigger on certain player actions.
+// Multiple custom functions can be set to the same trigger events.
+
+// Events are assigned to objects using the > operator,
+// which links them up to be activated later.
+
+function randomize(){ // generate a random numer
+    $randomnum = random(1,1000)
+    // now we can do something with it
+}
+
+
+// Valid events for some objects (like windows, button and text objects)
+
+// Right Mouse Button
+// (.click and .mouseup are effectively the same)
+$someObject.click > randomize()
+$someObject.mousedown > randomize()
+$someObject.mouseup > randomize()
+$someObject.doubleclick > randomize()
+
+// Similar events exist for the l
+$someObject.mousedown_right > randomize()
+$someObject.mouseup_right > randomize()
+$someObject.doubleclick_right > randomize()
+
+// These are both valid, assuming no parameters are required.
+$someObject.click > randomize()
+$someObject.click > randomize
+
+//You can also pass variables or values:
+function randomize_custom(){ // generate a random numer
+    $min = $1
+    $max = $2
+    $randomnum = random($min,$max)
+    // now we can do something with it
+{
+
+// These parameters are then collected from within the custom function
+// by referencing $1 and $2
+$someObject.click > randomize_custom(50,100)
 
 
