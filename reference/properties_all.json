@@ -1,13 +1,14 @@
 [
   {
-    "name": "left",
+    "name": "X",
     "description": "The x coordinate of the object.",
     "accepted_values": "$someX",
-    "example": "$myObject.left = 400",
+    "example": "$myObject.X = 400",
     "supported_types": [
       "window",
       "text",
-      "button"
+      "button",
+      "input"
     ]
   },
   {
@@ -18,7 +19,20 @@
     "supported_types": [
       "window",
       "text",
-      "button"
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Y",
+    "description": "The y coordinate of the object.",
+    "accepted_values": "$someY",
+    "example": "$myObject.Y = 300",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
     ]
   },
   {
@@ -29,18 +43,20 @@
     "supported_types": [
       "window",
       "text",
-      "button"
+      "button",
+      "input"
     ]
   },
   {
-    "name": "top",
-    "description": "The y coordinate of the object.",
-    "accepted_values": "$someY",
-    "example": "$myObject.top = 300",
+    "name": "XY",
+    "description": "The position of the object, both x and y coordinates.",
+    "accepted_values": "$x,$y",
+    "example": "$myObject.XY = 50,50",
     "supported_types": [
       "window",
       "text",
-      "button"
+      "button",
+      "input"
     ]
   },
   {
@@ -51,18 +67,8 @@
     "supported_types": [
       "window",
       "text",
-      "button"
-    ]
-  },
-  {
-    "name": "position",
-    "description": "The position of the object, both x and y coordinates.",
-    "accepted_values": "$x,$y",
-    "example": "$myObject.position = 50,50",
-    "supported_types": [
-      "window",
-      "text",
-      "button"
+      "button",
+      "input"
     ]
   },
   {
@@ -73,7 +79,8 @@
     "supported_types": [
       "window",
       "text",
-      "button"
+      "button",
+      "input"
     ]
   },
   {
@@ -84,7 +91,8 @@
     "supported_types": [
       "window",
       "text",
-      "button"
+      "button",
+      "input"
     ]
   },
   {
@@ -95,7 +103,8 @@
     "supported_types": [
       "window",
       "text",
-      "button"
+      "button",
+      "input"
     ]
   },
   {
@@ -106,7 +115,8 @@
     "supported_types": [
       "window",
       "text",
-      "button"
+      "button",
+      "input"
     ]
   },
   {
@@ -117,7 +127,8 @@
     "supported_types": [
       "window",
       "text",
-      "button"
+      "button",
+      "input"
     ]
   },
   {
@@ -128,7 +139,8 @@
     "supported_types": [
       "window",
       "text",
-      "button"
+      "button",
+      "input"
     ]
   },
   {
@@ -139,7 +151,8 @@
     "supported_types": [
       "window",
       "text",
-      "button"
+      "button",
+      "input"
     ]
   },
   {
@@ -150,7 +163,8 @@
     "supported_types": [
       "window",
       "text",
-      "button"
+      "button",
+      "input"
     ]
   },
   {
@@ -161,7 +175,8 @@
     "supported_types": [
       "window",
       "text",
-      "button"
+      "button",
+      "input"
     ]
   },
   {
@@ -172,7 +187,8 @@
     "supported_types": [
       "window",
       "text",
-      "button"
+      "button",
+      "input"
     ]
   },
   {
@@ -182,6 +198,15 @@
     "example": "$myObject.TextAlign = center",
     "supported_types": [
       "text",
+      "button"
+    ]
+  },
+  {
+    "name": "Indent",
+    "description": "The number of pixels that the object gets pushed down when pressed.",
+    "accepted_values": "0-10",
+    "example": "$myObject.Indent = 2",
+    "supported_types": [
       "button"
     ]
   },
@@ -282,6 +307,24 @@
     "example": "$myObject.Layer9 = blue,4",
     "supported_types": [
       "border"
+    ]
+  },
+  {
+    "name": "interval",
+    "description": "The interval (in ms) that this timer should trigger.",
+    "accepted_values": "100+",
+    "example": "$myObject.interval = 4000",
+    "supported_types": [
+      "timer"
+    ]
+  },
+  {
+    "name": "ClearEvents",
+    "description": "Completely remove all events currently assigned to the object.",
+    "accepted_values": "",
+    "example": "$myObject.ClearEvents",
+    "supported_types": [
+      "timer"
     ]
   }
 ]
