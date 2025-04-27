@@ -13,6 +13,7 @@ NOTES:
 - Variable names and function names are not case sensitive, however consistency is encouraged.
 - Assigning text doesn't require double quotes "text" in all cases, however it is generally encouraged.
 - The x and y position locations that are given to objects is relative to its container window. (unless being drawn outside of a window)
+- Terminax does NOT use semi-colons at the end of lines. This will destroy your code.
 
 OBJECTS vs STYLES:
 There is a distinction between the objects created by different functions.
@@ -123,6 +124,69 @@ $myWindow.visible = true
 // This also works for other objects in the same way
 $myButton = button("Click me asap!", 100, 100, 500, 400) // Start with VISIBLE object
 $myButton = button("Click me asap!", 100, 100, 500, 400)* // Start with INVISIBLE object
+
+
+// OBJECT: INPUT
+// Input objects are single line text boxes that can be used to get user input.length
+$myInput = input("Default Text", 100, 100, 400, 50)
+// They can be assigned borders, fonts and color styles like all objects.length
+$someColor = color(teal,red,green)
+$myInput.color = $someColor
+
+$someBorder = border(teal,4)
+$myInput.border = $someBorder
+
+$someFont = font("Verdana-Bold",10)
+$myInput.font = $someFont
+
+// Input objects also have some extra properties
+// the .prefix lets you show a field name, as if asking for information.
+$myInput.prefix = "Name"
+// This will cause Name to be shown in the input box
+// so the user knows what information the box is looking for.
+
+// Input boxes also have an .indent property.
+// this helps in the case where you have multiple input boxes,
+// perhaps one under another, and you want the input typing area
+// to start at the same x position for each one. (for neatness)
+$myInput1.prefix = "Name"
+$myInput1.indent = 100
+$myInput2.prefix = "Age"
+$myInput2,indent = 100
+// If you were to not specify a matching indent amount,
+// then the user typing x coordinate would be determined by
+// the width of the prefix text alone.
+
+// INPUT COLORS
+// Color objects can take any number of colors, and each object type, for example INPUT,
+// uses these colors in a specific way. In this case, 
+// color 1 = text color of input object
+// color 2 = background color of input object
+// color 3 = text selection color of input object
+// color 4 = prefix text color of input object
+$textcol = white
+$backcol = black
+$selcol = green
+$prefixcol = orange
+$inpColor = color($textcol, $backcol, $selcol, $prefixcol)
+$myInput = input("", 50,50,300,50)
+// $inpColor will be immediately assigned to my input automatically.
+
+// Borders can be created around input objects in the same way
+// that they are added to text and button objects.
+
+// INPUT UNDERLINED
+// There are two properties which, when set, underline the users text
+$myInput.dashcolor = green
+$myInput.underlinecolor = green
+// They can also be passed a color object
+$someColor = color(green)
+$myInput.dashcolor = green
+// This gives another way to customize the input objects.
+
+
+
+
 
 // CUSTOM FUNCTIONS
 // Custom functions can be creted with the following structure:
@@ -300,6 +364,17 @@ ELSE
   $someObject.text = "access denied!!!"
 END IF
 
+// IF STATEMENTS can check single values
+// In this case, $someVal will be true UNLESS it is 0, the word "false", or an empty value.
+$someVal = 1
+IF $someVal
+   // code
+ELSE
+  // code
+END IF
+
+
+
 // ADDITIONAL GUIDELINES - follow these to make sure your scripts work well.
 // To call a function, you must use this syntax:
 $var = function_name()
@@ -308,4 +383,17 @@ $var = function_name()
 // Never forget to assign an event to your timer using
 $someTimer > custom_function()
 
+
+
+// CENTER OBJECTS
+// .center, .centerx, and .centery can be used to quickly center windows and objects.
+$myWindow.center // center window in x and y
+$myObject.center // center object in its parent window
+$myObject.centerx // center objects x coordinate in its parent window
+$myObject.centery // center objects y coordinate in its parent window
+
+
+// COMMANDS
+// You can use the following commands in scripts
+exit // this immediately exits a script or a custom function.
 
