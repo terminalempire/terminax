@@ -148,5 +148,11 @@
     "description": "",
     "params": "",
     "is_remote": true
+  },
+  {
+    "name": "bleh",
+    "description": "Function found in T:\\system\\startup.te",
+    "params": "",
+    "is_remote": true
   }
 ]
