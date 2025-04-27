@@ -211,6 +211,24 @@
     ]
   },
   {
+    "name": "prefix",
+    "description": "A short text label in front of the input text area.",
+    "accepted_values": "text",
+    "example": "$myObject.prefix = Name",
+    "supported_types": [
+      "input"
+    ]
+  },
+  {
+    "name": "padding",
+    "description": "Internal padding around the input text.",
+    "accepted_values": "number",
+    "example": "$myObject.padding = 5",
+    "supported_types": [
+      "input"
+    ]
+  },
+  {
     "name": "ForeColor",
     "description": "The forecolor of the object.",
     "accepted_values": "color name, hex code, or rgb value",
@@ -310,10 +328,37 @@
     ]
   },
   {
-    "name": "interval",
+    "name": "Interval",
     "description": "The interval (in ms) that this timer should trigger.",
     "accepted_values": "100+",
-    "example": "$myObject.interval = 4000",
+    "example": "$myObject.Interval = 4000",
+    "supported_types": [
+      "timer"
+    ]
+  },
+  {
+    "name": "Desync",
+    "description": "Randomize the timer tick moment with respect to other timers that have similar intervals.",
+    "accepted_values": "",
+    "example": "$myObject.Desync",
+    "supported_types": [
+      "timer"
+    ]
+  },
+  {
+    "name": "Start",
+    "description": "Start the timer. (In the event it was stopped)",
+    "accepted_values": "",
+    "example": "$myObject.Start",
+    "supported_types": [
+      "timer"
+    ]
+  },
+  {
+    "name": "Stop",
+    "description": "Stop (pause) the timer. It can be resumed with .start",
+    "accepted_values": "",
+    "example": "$myObject.Stop",
     "supported_types": [
       "timer"
     ]
