@@ -31,13 +31,20 @@ Styles are typically assigned to objects using $someObject.someProperty = $someS
 $someFont = font("Play-Bold",14)
 
 // STYLE: COLORS
-// Color objects have a base color and a secondary color, which when assigned to objects
-// will be used as a forecolor and backcolor.
-// Parameters Option: forecolor
-// Parameters Option: forecolor, backcolor*
+// Color objects are created with a selection of some number of colors.
+// Parameters Option: color1, color2, color3, color4 ... etc
+// Color objects contain 1 or more color, each taking up a new parameter.
+// Windows color names, hex color codes, and rgb values in double quotes are all valid:
 $someColor1 = color(blue)
 $someColor2 = color("blue")
 $someColor3 = color(#000, #EEE)
+$someColor3 = color("0,0,0", "255,255,255", "255,0,0")
+// Typically, when assigned to objects:
+// color1 becomes the forecolor
+// color2 becomes the backcolor
+// In some specific cases, other colors are also used:
+// color3 may become a text selection color, for example.
+
 
 // STYLE: BORDERS
 // Border function supports adding multiple border layers,
@@ -184,4 +191,102 @@ function randomize_custom(){ // generate a random numer
 // by referencing $1 and $2
 $someObject.click > randomize_custom(50,100)
 
+// If required, all events can be remove from an object
+$someObject.clearevents
+
+// TIMERS
+// Timers can also be used to call custom functions.length
+$timer1 = timer(1000)
+// The main parameter is the interval in ms. 1000 = 1 second
+// There is a minimal interval that is under 100ms. (subject to change)
+// Assign custom functions to a timer by using the tick property.
+$timer1.tick > randomize_custom(50,100)
+// This has identical syntax to assigning custom functions to object events,
+// like .click and .mousedown.
+// MULTIPLE EVENTS can be added to the same timer.
+// All events on a timer will be run at the same interval.
+// Just reuse the tick property to add more custom functions.
+$timer1.tick > my_function_1()
+$timer1.tick > my_function_2()
+// you can clear them with
+$timer1.clearevents
+// Timers created at the same time with the same interval are in sync.
+// If they need to be randomized against each other use .desync
+// This may be useful if you want to randomize UI updates with multiple timers.
+// and dont want everything changing in sync.
+$timer1.desync
+
+
+// FOR LOOPS
+// Terminax supports FOR LOOPS in the following format:
+FOR $n = 1 to 10
+  // optionally, we can do something with $n in here
+NEXT
+
+// MORE EXAMPLES
+$start = 10
+$end = 20
+$step = 2
+FOR $n = $start to $end STEP $step
+  // the step value will make it count by two, each iteration
+  // 10, 12, 14, 16, 18, 20
+NEXT
+
+// BACKWARDS FOR LOOPS
+FOR $n = $end to $start STEP -1
+  // the step value will make it count by two, each iteration
+  // 20, 19, 18 ... 10
+NEXT
+
+
+// NESTED LOOPS 
+// Terminax supports nested loops
+FOR $n1 = 0 to 255
+  FOR $n2 = 0 to 255
+    FOR $n3 = 0 to 255
+      $ip_address = $n1.$n2.$n3 // loop through
+   NEXT
+  NEXT
+NEXT
+
+// WHILE LOOPS
+// Terminax supports WHILE LOOPS in the following format:
+WHILE $val1 < $val2
+  // do things
+LOOP
+
+// Valid operators are <=, =<, >=, =>, <>, =, <, >
+// Any of these can be used between $val1 and $val2
+// WHILE LOOPS can also be nested.length
+
+// IF STATEMENTS
+// Terminax supports IF STATEMENTS in the following format;
+IF $value > 10
+  // something
+END IF
+
+// MORE EXAMPLES
+IF $val = "john"
+  // something
+ELSE IF $val = "joan"
+  // something
+ELSE
+  // something
+ENDIF
+
+// The "then" keyword is supported, but is not encouraged.
+IF $val = 4 THEN
+  // something
+END IF
+
+// Like FOR LOOPS and WHILE LOOPS, IF statements can also be nested.
+IF $password = "secret123"
+  IF $accesslevel > 4
+    $window1.show
+  ELSE
+    $window2.show
+  END IF
+ELSE
+  $someObject.text = "access denied!!!"
+END IF
 
