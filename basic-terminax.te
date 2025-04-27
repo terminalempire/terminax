@@ -30,6 +30,10 @@ Styles are typically assigned to objects using $someObject.someProperty = $someS
 $someVar = 10
 $someVar2 = $otherVar + 1
 
+// WINDOW POSITIONS
+// The center of the Terminax Screen starts at 0,0.
+// Thus X and Y positions of windows can
+// sometimes start at negative values if they are going to be centered.
 
 // STYLE: FONTS
 // Supported fonts names are provided in json.
@@ -295,4 +299,13 @@ IF $password = "secret123"
 ELSE
   $someObject.text = "access denied!!!"
 END IF
+
+// ADDITIONAL GUIDELINES - follow these to make sure your scripts work well.
+// To call a function, you must use this syntax:
+$var = function_name()
+// regardless of if your function calls a value. 
+
+// Never forget to assign an event to your timer using
+$someTimer > custom_function()
+
 
