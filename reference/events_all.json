@@ -1,5 +1,14 @@
 [
   {
+    "name": "Tick",
+    "description": "Used to assign custom functions to run at every timer interval tick.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Tick = someFunctionName",
+    "supported_types": [
+      "timer"
+    ]
+  },
+  {
     "name": "MouseDown",
     "description": "Assign a function to pressing the left mousebutton down on the object.",
     "accepted_values": "someFunctionName",
