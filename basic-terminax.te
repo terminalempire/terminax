@@ -24,6 +24,12 @@ Styles are typically assigned to objects using $someObject.someProperty = $someS
 */
 
 
+// VARIABLES
+// Declare only one variable per line.
+// Examples:
+$someVar = 10
+$someVar2 = $otherVar + 1
+
 
 // STYLE: FONTS
 // Supported fonts names are provided in json.
