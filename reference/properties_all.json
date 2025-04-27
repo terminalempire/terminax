@@ -72,6 +72,42 @@
     ]
   },
   {
+    "name": "center",
+    "description": "Move an object so it is centered within its container.",
+    "accepted_values": "",
+    "example": "$myObject.center",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "centerx",
+    "description": "Move an object so the x coordinate is centered within its container.",
+    "accepted_values": "",
+    "example": "$myObject.centerx",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "centery",
+    "description": "Move an object so the y coordinate is centered within its container.",
+    "accepted_values": "",
+    "example": "$myObject.centery",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
     "name": "Width",
     "description": "The width of the object.",
     "accepted_values": "$someWidth",
@@ -203,27 +239,54 @@
   },
   {
     "name": "Indent",
-    "description": "The number of pixels that the object gets pushed down when pressed.",
-    "accepted_values": "0-10",
-    "example": "$myObject.Indent = 2",
-    "supported_types": [
-      "button"
-    ]
-  },
-  {
-    "name": "prefix",
-    "description": "A short text label in front of the input text area.",
-    "accepted_values": "text",
-    "example": "$myObject.prefix = Name",
+    "description": "The x position where user can start typing input.",
+    "accepted_values": "number",
+    "example": "$myObject.Indent = 100",
     "supported_types": [
       "input"
     ]
   },
   {
-    "name": "padding",
+    "name": "UnderlineColor",
+    "description": "Underline the area that the user will type into.",
+    "accepted_values": "red or $myColor",
+    "example": "$myObject.UnderlineColor = blue",
+    "supported_types": [
+      "input"
+    ]
+  },
+  {
+    "name": "DashColor",
+    "description": "Dash-underline the area that the user will type into.",
+    "accepted_values": "red or $myColor",
+    "example": "$myObject.DashColor = blue",
+    "supported_types": [
+      "input"
+    ]
+  },
+  {
+    "name": "Movement",
+    "description": "The number of pixels that the object gets pushed down and to the right when pressed.",
+    "accepted_values": "0-10",
+    "example": "$myObject.Movement = 2",
+    "supported_types": [
+      "button"
+    ]
+  },
+  {
+    "name": "Prefix",
+    "description": "A short text label in front of the input text area.",
+    "accepted_values": "text",
+    "example": "$myObject.Prefix = Name",
+    "supported_types": [
+      "input"
+    ]
+  },
+  {
+    "name": "Padding",
     "description": "Internal padding around the input text.",
     "accepted_values": "number",
-    "example": "$myObject.padding = 5",
+    "example": "$myObject.Padding = 5",
     "supported_types": [
       "input"
     ]
