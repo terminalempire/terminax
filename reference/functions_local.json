@@ -122,7 +122,7 @@
   {
     "name": "timer",
     "description": "Create or update a timer.",
-    "params": "",
+    "params": "interval-ms",
     "is_remote": false
   },
   {
@@ -133,8 +133,8 @@
   },
   {
     "name": "color",
-    "description": "Create or update a foreground color, with an optional background color. Colors can be applied to other objects.",
-    "params": "color1,color2",
+    "description": "Create a color object containing references to some amount of colors. Colors can be applied to other objects.",
+    "params": "color1,color2,color3,...",
     "is_remote": false
   },
   {
