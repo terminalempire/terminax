@@ -182,6 +182,41 @@
     "is_remote": false
   },
   {
+    "category": "strings",
+    "name": "shuffle",
+    "description": "Shuffle the characters in a string.",
+    "params": "text",
+    "is_remote": false
+  },
+  {
+    "category": "strings",
+    "name": "randomitem",
+    "description": "Pick one item from a comma-separated list.",
+    "params": "list",
+    "is_remote": false
+  },
+  {
+    "category": "strings",
+    "name": "uuid",
+    "description": "Generate a new GUID.",
+    "params": "",
+    "is_remote": false
+  },
+  {
+    "category": "strings",
+    "name": "reversewords",
+    "description": "Reverse the order of words.",
+    "params": "text",
+    "is_remote": false
+  },
+  {
+    "category": "strings",
+    "name": "ispalindrome",
+    "description": "True if text is a palindrome.",
+    "params": "text",
+    "is_remote": false
+  },
+  {
     "category": "datetime",
     "name": "time",
     "description": "Return current local time without seconds (default HH:mm).",
@@ -312,6 +347,27 @@
     "name": "isleapyear",
     "description": "True if given year is a leap year.",
     "params": "year",
+    "is_remote": false
+  },
+  {
+    "category": "spooky",
+    "name": "fortune",
+    "description": "Return a random fortune-cookie phrase.",
+    "params": "",
+    "is_remote": false
+  },
+  {
+    "category": "spooky",
+    "name": "leet",
+    "description": "Convert text to 1337 speak.",
+    "params": "text",
+    "is_remote": false
+  },
+  {
+    "category": "spooky",
+    "name": "mock",
+    "description": "Randomize letter casing (meme).",
+    "params": "text",
     "is_remote": false
   },
   {
@@ -543,6 +599,13 @@
     "name": "binarytotext",
     "description": "Convert 8-bit binary back into text.",
     "params": "binary[,sep]",
+    "is_remote": false
+  },
+  {
+    "category": "encoding",
+    "name": "rot13",
+    "description": "Apply the ROT13 cipher.",
+    "params": "text",
     "is_remote": false
   },
   {
