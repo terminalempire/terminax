@@ -14,6 +14,8 @@ NOTES:
 - Assigning text doesn't require double quotes "text" in all cases, however it is generally encouraged.
 - The x and y position locations that are given to objects is relative to its container window. (unless being drawn outside of a window)
 - Terminax does NOT use semi-colons at the end of lines. This will destroy your code.
+- Terminax does NOT support ; to have multiple code lines on the same line.
+- Supported Date and Time Functions take any Microsoft .NET DateTime format string.
 
 OBJECTS vs STYLES:
 There is a distinction between the objects created by different functions.
@@ -374,6 +376,19 @@ ELSE IF $val = "joan"
 ELSE
   // something
 ENDIF
+
+// The AND keyword can check multiple things and once
+IF $val1 = "something" and $val2 = "another thing"
+// do things
+END IF
+
+// The OR keyword is also valid
+IF $val1 = "something" and $val2 = "another thing"
+// do things
+END IF
+
+// Note that Brackets () are *NOT* currently supported on IF condition lines.
+
 
 // The "then" keyword is supported, but is not encouraged.
 IF $val = 4 THEN
