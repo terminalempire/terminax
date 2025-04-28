@@ -198,6 +198,16 @@ $myInput.dashcolor = green
 
 
 
+
+// OBJECT PROPERTY VALUES
+// You can get object property values:
+$someTextVariable = $myTextObject.text
+// or get them inline
+$someTextVariable = "the x position is $myTextObject.X"
+
+
+
+
 // CUSTOM FUNCTIONS
 // Custom functions can be creted with the following structure:
 function add {
@@ -207,6 +217,12 @@ function add {
 
 // This is also valid, however the () are not required:
 function add() {
+  $sum = $1 + $2
+  return $sum
+}
+
+// The func keyword can optionally be used instead.
+func add() {
   $sum = $1 + $2
   return $sum
 }
