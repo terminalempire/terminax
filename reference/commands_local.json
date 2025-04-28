@@ -1,0 +1,38 @@
+[
+  {
+    "name": "run",
+    "parameters": "filename",
+    "description": "Run a terminax script file.",
+    "is_remote": false
+  },
+  {
+    "name": "return",
+    "parameters": "value",
+    "description": "Exit a script or function, optionally with a return value.",
+    "is_remote": false
+  },
+  {
+    "name": "exit",
+    "parameters": null,
+    "description": "Immediately exit a script or custom function.",
+    "is_remote": false
+  },
+  {
+    "name": "wait",
+    "parameters": null,
+    "description": "Wait for some number of ms before continuuing the script [1000ms = 1sec].",
+    "is_remote": false
+  },
+  {
+    "name": "message",
+    "parameters": "text",
+    "description": "DEV COMMAND.",
+    "is_remote": false
+  },
+  {
+    "name": "debugs",
+    "parameters": null,
+    "description": "Set some debug info (dev command).",
+    "is_remote": false
+  }
+]
