@@ -1,11 +1,13 @@
 [
   {
+    "category": "remote",
     "name": "ping",
     "description": "",
     "params": "",
     "is_remote": true
   },
   {
+    "category": "remote",
     "name": "bleh",
     "description": "Function found in T:\\system\\startup.te",
     "params": "",
