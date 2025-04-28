@@ -22,17 +22,5 @@
     "parameters": null,
     "description": "Wait for some number of ms before continuuing the script [1000ms = 1sec].",
     "is_remote": false
-  },
-  {
-    "name": "message",
-    "parameters": "text",
-    "description": "DEV COMMAND.",
-    "is_remote": false
-  },
-  {
-    "name": "debugs",
-    "parameters": null,
-    "description": "Set some debug info (dev command).",
-    "is_remote": false
   }
 ]
