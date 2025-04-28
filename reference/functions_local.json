@@ -1,254 +1,100 @@
 [
   {
-    "category": "strings",
-    "name": "trim",
-    "description": "Remove whitespace from both sides of a string.",
+    "category": "bitwise",
+    "name": "and",
+    "description": "Bitwise AND of two integers.",
+    "params": "a,b",
+    "is_remote": false
+  },
+  {
+    "category": "bitwise",
+    "name": "clearbit",
+    "description": "Return a with bit at pos cleared.",
+    "params": "a,pos",
+    "is_remote": false
+  },
+  {
+    "category": "bitwise",
+    "name": "not",
+    "description": "Bitwise NOT of an integer (two's complement).",
+    "params": "a",
+    "is_remote": false
+  },
+  {
+    "category": "bitwise",
+    "name": "or",
+    "description": "Bitwise OR of two integers.",
+    "params": "a,b",
+    "is_remote": false
+  },
+  {
+    "category": "bitwise",
+    "name": "popcount",
+    "description": "Count number of set bits in a.",
+    "params": "a",
+    "is_remote": false
+  },
+  {
+    "category": "bitwise",
+    "name": "setbit",
+    "description": "Return a with bit at pos set.",
+    "params": "a,pos",
+    "is_remote": false
+  },
+  {
+    "category": "bitwise",
+    "name": "shiftleft",
+    "description": "Left shift (a << bits).",
+    "params": "a,bits",
+    "is_remote": false
+  },
+  {
+    "category": "bitwise",
+    "name": "shiftright",
+    "description": "Logical right shift (a >> bits).",
+    "params": "a,bits",
+    "is_remote": false
+  },
+  {
+    "category": "bitwise",
+    "name": "testbit",
+    "description": "True if bit at position pos is 1 (0-based).",
+    "params": "a,pos",
+    "is_remote": false
+  },
+  {
+    "category": "bitwise",
+    "name": "togglebit",
+    "description": "Return a with bit at pos toggled.",
+    "params": "a,pos",
+    "is_remote": false
+  },
+  {
+    "category": "bitwise",
+    "name": "xor",
+    "description": "Bitwise XOR of two integers.",
+    "params": "a,b",
+    "is_remote": false
+  },
+  {
+    "category": "cryptography",
+    "name": "md5",
+    "description": "MD5 hash of text (hex).",
     "params": "text",
     "is_remote": false
   },
   {
-    "category": "strings",
-    "name": "ltrim",
-    "description": "Remove whitespace from the left side of a string.",
+    "category": "cryptography",
+    "name": "sha1",
+    "description": "SHA1 hash of text (hex).",
     "params": "text",
     "is_remote": false
   },
   {
-    "category": "strings",
-    "name": "rtrim",
-    "description": "Remove whitespace from the right side of a string.",
+    "category": "cryptography",
+    "name": "sha256",
+    "description": "SHA256 hash of text (hex).",
     "params": "text",
-    "is_remote": false
-  },
-  {
-    "category": "strings",
-    "name": "reverse",
-    "description": "Reverse the characters of a string.",
-    "params": "text",
-    "is_remote": false
-  },
-  {
-    "category": "strings",
-    "name": "ucase",
-    "description": "Change all characters in a string to upper-case.",
-    "params": "text",
-    "is_remote": false
-  },
-  {
-    "category": "strings",
-    "name": "lcase",
-    "description": "Change all characters in a string to lower-case.",
-    "params": "text",
-    "is_remote": false
-  },
-  {
-    "category": "strings",
-    "name": "rcase",
-    "description": "Change all characters in a string to a random case.",
-    "params": "text",
-    "is_remote": false
-  },
-  {
-    "category": "strings",
-    "name": "ucwords",
-    "description": "Change the first character in each word of a string to upper-case.",
-    "params": "text",
-    "is_remote": false
-  },
-  {
-    "category": "strings",
-    "name": "lcwords",
-    "description": "Change the first character in each word of a string to lower-case.",
-    "params": "text",
-    "is_remote": false
-  },
-  {
-    "category": "strings",
-    "name": "random",
-    "description": "Return a random integer within the specified range.",
-    "params": "minimum,maximum",
-    "is_remote": false
-  },
-  {
-    "category": "strings",
-    "name": "random_decimal",
-    "description": "Return a random number within the specified range, with a specified number of decimal places.",
-    "params": "minimum,maximum,decimals",
-    "is_remote": false
-  },
-  {
-    "category": "strings",
-    "name": "random_color",
-    "description": "Return a random R-G-B color.",
-    "params": "",
-    "is_remote": false
-  },
-  {
-    "category": "strings",
-    "name": "random_color_range",
-    "description": "Return a random R-G-B color within the specified range of random RGB values.",
-    "params": "minred-maxred,mingreen-maxgreen,minblue-maxblue",
-    "is_remote": false
-  },
-  {
-    "category": "strings",
-    "name": "mid",
-    "description": "Return a portion of a string, starting at position, for the specific number of characters.",
-    "params": "text,start_position,length",
-    "is_remote": false
-  },
-  {
-    "category": "strings",
-    "name": "len",
-    "description": "Return the length of a string.",
-    "params": "text",
-    "is_remote": false
-  },
-  {
-    "category": "strings",
-    "name": "left",
-    "description": "Return the leftmost N characters.",
-    "params": "text,count",
-    "is_remote": false
-  },
-  {
-    "category": "strings",
-    "name": "right",
-    "description": "Return the rightmost N characters.",
-    "params": "text,count",
-    "is_remote": false
-  },
-  {
-    "category": "strings",
-    "name": "instr",
-    "description": "Return 1-based index of first occurrence, or 0.",
-    "params": "text,substring",
-    "is_remote": false
-  },
-  {
-    "category": "strings",
-    "name": "instrrev",
-    "description": "Return 1-based index of last occurrence, or 0.",
-    "params": "text,substring",
-    "is_remote": false
-  },
-  {
-    "category": "strings",
-    "name": "replace",
-    "description": "Replace all occurrences of old with new.",
-    "params": "text,old,new",
-    "is_remote": false
-  },
-  {
-    "category": "strings",
-    "name": "contains",
-    "description": "Return True if substring is found.",
-    "params": "text,substring",
-    "is_remote": false
-  },
-  {
-    "category": "strings",
-    "name": "startswith",
-    "description": "Return True if text starts with prefix.",
-    "params": "text,prefix",
-    "is_remote": false
-  },
-  {
-    "category": "strings",
-    "name": "endswith",
-    "description": "Return True if text ends with suffix.",
-    "params": "text,suffix",
-    "is_remote": false
-  },
-  {
-    "category": "strings",
-    "name": "padleft",
-    "description": "Pad the string on the left to a given width.",
-    "params": "text,totalWidth[,padChar]",
-    "is_remote": false
-  },
-  {
-    "category": "strings",
-    "name": "padright",
-    "description": "Pad the string on the right to a given width.",
-    "params": "text,totalWidth[,padChar]",
-    "is_remote": false
-  },
-  {
-    "category": "strings",
-    "name": "repeat",
-    "description": "Repeat the string a specified number of times.",
-    "params": "text,count",
-    "is_remote": false
-  },
-  {
-    "category": "strings",
-    "name": "shuffle",
-    "description": "Shuffle the characters in a string.",
-    "params": "text",
-    "is_remote": false
-  },
-  {
-    "category": "strings",
-    "name": "randomitem",
-    "description": "Pick one item from a comma-separated list.",
-    "params": "list",
-    "is_remote": false
-  },
-  {
-    "category": "strings",
-    "name": "uuid",
-    "description": "Generate a new GUID.",
-    "params": "",
-    "is_remote": false
-  },
-  {
-    "category": "strings",
-    "name": "reversewords",
-    "description": "Reverse the order of words.",
-    "params": "text",
-    "is_remote": false
-  },
-  {
-    "category": "strings",
-    "name": "ispalindrome",
-    "description": "True if text is a palindrome.",
-    "params": "text",
-    "is_remote": false
-  },
-  {
-    "category": "datetime",
-    "name": "time",
-    "description": "Return current local time without seconds (default HH:mm).",
-    "params": "[format]",
-    "is_remote": false
-  },
-  {
-    "category": "datetime",
-    "name": "timeseconds",
-    "description": "Return current local time with seconds (default HH:mm:ss).",
-    "params": "[format]",
-    "is_remote": false
-  },
-  {
-    "category": "datetime",
-    "name": "now",
-    "description": "Return current local date/time (optionally formatted).",
-    "params": "[format]",
-    "is_remote": false
-  },
-  {
-    "category": "datetime",
-    "name": "today",
-    "description": "Return current local date (optionally formatted).",
-    "params": "[format]",
-    "is_remote": false
-  },
-  {
-    "category": "datetime",
-    "name": "timestamp",
-    "description": "Unix seconds since epoch (UTC).",
-    "params": "",
     "is_remote": false
   },
   {
@@ -281,50 +127,8 @@
   },
   {
     "category": "datetime",
-    "name": "formatdate",
-    "description": "Format a date string.",
-    "params": "date,fmt",
-    "is_remote": false
-  },
-  {
-    "category": "datetime",
-    "name": "year",
-    "description": "Extract the year.",
-    "params": "date",
-    "is_remote": false
-  },
-  {
-    "category": "datetime",
-    "name": "month",
-    "description": "Extract the month (1–12).",
-    "params": "date",
-    "is_remote": false
-  },
-  {
-    "category": "datetime",
     "name": "day",
     "description": "Extract the day of month.",
-    "params": "date",
-    "is_remote": false
-  },
-  {
-    "category": "datetime",
-    "name": "hour",
-    "description": "Extract the hour (0–23).",
-    "params": "date",
-    "is_remote": false
-  },
-  {
-    "category": "datetime",
-    "name": "minute",
-    "description": "Extract the minute.",
-    "params": "date",
-    "is_remote": false
-  },
-  {
-    "category": "datetime",
-    "name": "second",
-    "description": "Extract the second.",
     "params": "date",
     "is_remote": false
   },
@@ -344,51 +148,177 @@
   },
   {
     "category": "datetime",
+    "name": "formatdate",
+    "description": "Format a date string.",
+    "params": "date,fmt",
+    "is_remote": false
+  },
+  {
+    "category": "datetime",
+    "name": "hour",
+    "description": "Extract the hour (0–23).",
+    "params": "date",
+    "is_remote": false
+  },
+  {
+    "category": "datetime",
     "name": "isleapyear",
     "description": "True if given year is a leap year.",
     "params": "year",
     "is_remote": false
   },
   {
-    "category": "spooky",
-    "name": "fortune",
-    "description": "Return a random fortune-cookie phrase.",
+    "category": "datetime",
+    "name": "minute",
+    "description": "Extract the minute.",
+    "params": "date",
+    "is_remote": false
+  },
+  {
+    "category": "datetime",
+    "name": "month",
+    "description": "Extract the month (1–12).",
+    "params": "date",
+    "is_remote": false
+  },
+  {
+    "category": "datetime",
+    "name": "now",
+    "description": "Return current local date/time (optionally formatted).",
+    "params": "[format]",
+    "is_remote": false
+  },
+  {
+    "category": "datetime",
+    "name": "second",
+    "description": "Extract the second.",
+    "params": "date",
+    "is_remote": false
+  },
+  {
+    "category": "datetime",
+    "name": "time",
+    "description": "Return current local time without seconds (default HH:mm).",
+    "params": "[format]",
+    "is_remote": false
+  },
+  {
+    "category": "datetime",
+    "name": "timeseconds",
+    "description": "Return current local time with seconds (default HH:mm:ss).",
+    "params": "[format]",
+    "is_remote": false
+  },
+  {
+    "category": "datetime",
+    "name": "timestamp",
+    "description": "Unix seconds since epoch (UTC).",
     "params": "",
     "is_remote": false
   },
   {
-    "category": "spooky",
-    "name": "leet",
-    "description": "Convert text to 1337 speak.",
+    "category": "datetime",
+    "name": "today",
+    "description": "Return current local date (optionally formatted).",
+    "params": "[format]",
+    "is_remote": false
+  },
+  {
+    "category": "datetime",
+    "name": "year",
+    "description": "Extract the year.",
+    "params": "date",
+    "is_remote": false
+  },
+  {
+    "category": "encoding",
+    "name": "base64decode",
+    "description": "Decode Base64 to text.",
     "params": "text",
     "is_remote": false
   },
   {
-    "category": "spooky",
-    "name": "mock",
-    "description": "Randomize letter casing (meme).",
+    "category": "encoding",
+    "name": "base64encode",
+    "description": "Encode text as Base64.",
     "params": "text",
     "is_remote": false
   },
   {
-    "category": "math",
-    "name": "evaluate",
-    "description": "Evaluate a mathematical expression and return the result.",
-    "params": "expression",
+    "category": "encoding",
+    "name": "binarytotext",
+    "description": "Convert 8-bit binary back into text.",
+    "params": "binary[,sep]",
     "is_remote": false
   },
   {
-    "category": "math",
-    "name": "sqrt",
-    "description": "Return the square root of a number.",
-    "params": "value",
+    "category": "encoding",
+    "name": "frombinary",
+    "description": "Parse a binary string into a number.",
+    "params": "binary",
     "is_remote": false
   },
   {
-    "category": "math",
-    "name": "pow",
-    "description": "Raise a number to a given power.",
-    "params": "base,exponent",
+    "category": "encoding",
+    "name": "fromhex",
+    "description": "Parse a hex string into a number.",
+    "params": "hex",
+    "is_remote": false
+  },
+  {
+    "category": "encoding",
+    "name": "hexdecode",
+    "description": "Convert a hex string back to text.",
+    "params": "hex",
+    "is_remote": false
+  },
+  {
+    "category": "encoding",
+    "name": "hexencode",
+    "description": "Convert text to a lowercase hex string.",
+    "params": "text",
+    "is_remote": false
+  },
+  {
+    "category": "encoding",
+    "name": "rot13",
+    "description": "Apply the ROT13 cipher.",
+    "params": "text",
+    "is_remote": false
+  },
+  {
+    "category": "encoding",
+    "name": "texttobinary",
+    "description": "Convert text to space-separated 8-bit bytes.",
+    "params": "text[,sep]",
+    "is_remote": false
+  },
+  {
+    "category": "encoding",
+    "name": "tobinary",
+    "description": "Convert a number to binary, optionally zero-pad.",
+    "params": "number[,pad]",
+    "is_remote": false
+  },
+  {
+    "category": "encoding",
+    "name": "tohex",
+    "description": "Convert a number to hex (lowercase), optionally zero-pad.",
+    "params": "number[,pad]",
+    "is_remote": false
+  },
+  {
+    "category": "encoding",
+    "name": "urldecode",
+    "description": "URL-decode a string.",
+    "params": "text",
+    "is_remote": false
+  },
+  {
+    "category": "encoding",
+    "name": "urlencode",
+    "description": "URL-encode a string.",
+    "params": "text",
     "is_remote": false
   },
   {
@@ -400,6 +330,48 @@
   },
   {
     "category": "math",
+    "name": "ceiling",
+    "description": "Round up to the nearest integer.",
+    "params": "value",
+    "is_remote": false
+  },
+  {
+    "category": "math",
+    "name": "clamp",
+    "description": "Constrain x to the [min,max] range.",
+    "params": "x,min,max",
+    "is_remote": false
+  },
+  {
+    "category": "math",
+    "name": "cos",
+    "description": "Cosine of an angle (radians).",
+    "params": "radians",
+    "is_remote": false
+  },
+  {
+    "category": "math",
+    "name": "evaluate",
+    "description": "Evaluate a mathematical expression and return the result.",
+    "params": "expression",
+    "is_remote": false
+  },
+  {
+    "category": "math",
+    "name": "exp",
+    "description": "Exponential function e^x.",
+    "params": "value",
+    "is_remote": false
+  },
+  {
+    "category": "math",
+    "name": "factorial",
+    "description": "Factorial of a non-negative integer.",
+    "params": "n",
+    "is_remote": false
+  },
+  {
+    "category": "math",
     "name": "floor",
     "description": "Round down to the nearest integer.",
     "params": "value",
@@ -407,9 +379,51 @@
   },
   {
     "category": "math",
-    "name": "ceiling",
-    "description": "Round up to the nearest integer.",
+    "name": "gcd",
+    "description": "Greatest common divisor of two integers.",
+    "params": "a,b",
+    "is_remote": false
+  },
+  {
+    "category": "math",
+    "name": "isprime",
+    "description": "True if n is prime.",
+    "params": "n",
+    "is_remote": false
+  },
+  {
+    "category": "math",
+    "name": "lcm",
+    "description": "Least common multiple of two integers.",
+    "params": "a,b",
+    "is_remote": false
+  },
+  {
+    "category": "math",
+    "name": "log",
+    "description": "Natural logarithm (base e).",
     "params": "value",
+    "is_remote": false
+  },
+  {
+    "category": "math",
+    "name": "max",
+    "description": "Maximum of two numbers.",
+    "params": "a,b",
+    "is_remote": false
+  },
+  {
+    "category": "math",
+    "name": "min",
+    "description": "Minimum of two numbers.",
+    "params": "a,b",
+    "is_remote": false
+  },
+  {
+    "category": "math",
+    "name": "pow",
+    "description": "Raise a number to a given power.",
+    "params": "base,exponent",
     "is_remote": false
   },
   {
@@ -428,9 +442,9 @@
   },
   {
     "category": "math",
-    "name": "cos",
-    "description": "Cosine of an angle (radians).",
-    "params": "radians",
+    "name": "sqrt",
+    "description": "Return the square root of a number.",
+    "params": "value",
     "is_remote": false
   },
   {
@@ -442,69 +456,6 @@
   },
   {
     "category": "math",
-    "name": "log",
-    "description": "Natural logarithm (base e).",
-    "params": "value",
-    "is_remote": false
-  },
-  {
-    "category": "math",
-    "name": "exp",
-    "description": "Exponential function e^x.",
-    "params": "value",
-    "is_remote": false
-  },
-  {
-    "category": "math",
-    "name": "min",
-    "description": "Minimum of two numbers.",
-    "params": "a,b",
-    "is_remote": false
-  },
-  {
-    "category": "math",
-    "name": "max",
-    "description": "Maximum of two numbers.",
-    "params": "a,b",
-    "is_remote": false
-  },
-  {
-    "category": "math",
-    "name": "clamp",
-    "description": "Constrain x to the [min,max] range.",
-    "params": "x,min,max",
-    "is_remote": false
-  },
-  {
-    "category": "math",
-    "name": "factorial",
-    "description": "Factorial of a non-negative integer.",
-    "params": "n",
-    "is_remote": false
-  },
-  {
-    "category": "math",
-    "name": "gcd",
-    "description": "Greatest common divisor of two integers.",
-    "params": "a,b",
-    "is_remote": false
-  },
-  {
-    "category": "math",
-    "name": "lcm",
-    "description": "Least common multiple of two integers.",
-    "params": "a,b",
-    "is_remote": false
-  },
-  {
-    "category": "math",
-    "name": "toradians",
-    "description": "Convert degrees to radians.",
-    "params": "degrees",
-    "is_remote": false
-  },
-  {
-    "category": "math",
     "name": "todegrees",
     "description": "Convert radians to degrees.",
     "params": "radians",
@@ -512,149 +463,9 @@
   },
   {
     "category": "math",
-    "name": "isprime",
-    "description": "True if n is prime.",
-    "params": "n",
-    "is_remote": false
-  },
-  {
-    "category": "encoding",
-    "name": "base64encode",
-    "description": "Encode text as Base64.",
-    "params": "text",
-    "is_remote": false
-  },
-  {
-    "category": "encoding",
-    "name": "base64decode",
-    "description": "Decode Base64 to text.",
-    "params": "text",
-    "is_remote": false
-  },
-  {
-    "category": "encoding",
-    "name": "urlencode",
-    "description": "URL-encode a string.",
-    "params": "text",
-    "is_remote": false
-  },
-  {
-    "category": "encoding",
-    "name": "urldecode",
-    "description": "URL-decode a string.",
-    "params": "text",
-    "is_remote": false
-  },
-  {
-    "category": "encoding",
-    "name": "hexencode",
-    "description": "Convert text to a lowercase hex string.",
-    "params": "text",
-    "is_remote": false
-  },
-  {
-    "category": "encoding",
-    "name": "hexdecode",
-    "description": "Convert a hex string back to text.",
-    "params": "hex",
-    "is_remote": false
-  },
-  {
-    "category": "encoding",
-    "name": "tohex",
-    "description": "Convert a number to hex (lowercase), optionally zero-pad.",
-    "params": "number[,pad]",
-    "is_remote": false
-  },
-  {
-    "category": "encoding",
-    "name": "fromhex",
-    "description": "Parse a hex string into a number.",
-    "params": "hex",
-    "is_remote": false
-  },
-  {
-    "category": "encoding",
-    "name": "tobinary",
-    "description": "Convert a number to binary, optionally zero-pad.",
-    "params": "number[,pad]",
-    "is_remote": false
-  },
-  {
-    "category": "encoding",
-    "name": "frombinary",
-    "description": "Parse a binary string into a number.",
-    "params": "binary",
-    "is_remote": false
-  },
-  {
-    "category": "encoding",
-    "name": "texttobinary",
-    "description": "Convert text to space-separated 8-bit bytes.",
-    "params": "text[,sep]",
-    "is_remote": false
-  },
-  {
-    "category": "encoding",
-    "name": "binarytotext",
-    "description": "Convert 8-bit binary back into text.",
-    "params": "binary[,sep]",
-    "is_remote": false
-  },
-  {
-    "category": "encoding",
-    "name": "rot13",
-    "description": "Apply the ROT13 cipher.",
-    "params": "text",
-    "is_remote": false
-  },
-  {
-    "category": "cryptography",
-    "name": "md5",
-    "description": "MD5 hash of text (hex).",
-    "params": "text",
-    "is_remote": false
-  },
-  {
-    "category": "cryptography",
-    "name": "sha1",
-    "description": "SHA1 hash of text (hex).",
-    "params": "text",
-    "is_remote": false
-  },
-  {
-    "category": "cryptography",
-    "name": "sha256",
-    "description": "SHA256 hash of text (hex).",
-    "params": "text",
-    "is_remote": false
-  },
-  {
-    "category": "objects",
-    "name": "window",
-    "description": "Create or update a rectangular window.",
-    "params": "x,y,width,height,backcolor",
-    "is_remote": false
-  },
-  {
-    "category": "objects",
-    "name": "window_ellipse",
-    "description": "Create or update an elliptical or circular window.",
-    "params": "points,backcolor,border",
-    "is_remote": false
-  },
-  {
-    "category": "objects",
-    "name": "window_custom",
-    "description": "Create or update a custom shaped window.",
-    "params": "points,backcolor,border",
-    "is_remote": false
-  },
-  {
-    "category": "objects",
-    "name": "text",
-    "description": "Create or update a text area.",
-    "params": "text,x,y,width,height,font,color,border",
+    "name": "toradians",
+    "description": "Convert degrees to radians.",
+    "params": "degrees",
     "is_remote": false
   },
   {
@@ -673,16 +484,289 @@
   },
   {
     "category": "objects",
+    "name": "text",
+    "description": "Create or update a text area.",
+    "params": "text,x,y,width,height,font,color,border",
+    "is_remote": false
+  },
+  {
+    "category": "objects",
     "name": "timer",
     "description": "Create or update a timer.",
     "params": "interval-ms",
     "is_remote": false
   },
   {
+    "category": "objects",
+    "name": "window",
+    "description": "Create or update a rectangular window.",
+    "params": "x,y,width,height,backcolor",
+    "is_remote": false
+  },
+  {
+    "category": "objects",
+    "name": "window_custom",
+    "description": "Create or update a custom shaped window.",
+    "params": "points,backcolor,border",
+    "is_remote": false
+  },
+  {
+    "category": "objects",
+    "name": "window_ellipse",
+    "description": "Create or update an elliptical or circular window.",
+    "params": "points,backcolor,border",
+    "is_remote": false
+  },
+  {
+    "category": "spooky",
+    "name": "fortune",
+    "description": "Return a random fortune-cookie phrase.",
+    "params": "",
+    "is_remote": false
+  },
+  {
+    "category": "spooky",
+    "name": "leet",
+    "description": "Convert text to basic 1337 speak.",
+    "params": "text",
+    "is_remote": false
+  },
+  {
+    "category": "spooky",
+    "name": "mock",
+    "description": "Randomize letter casing (meme).",
+    "params": "text",
+    "is_remote": false
+  },
+  {
+    "category": "spooky",
+    "name": "mockalt",
+    "description": "Alternate letter casing: upper/lower/upper…",
+    "params": "text",
+    "is_remote": false
+  },
+  {
+    "category": "strings",
+    "name": "contains",
+    "description": "Return True if substring is found.",
+    "params": "text,substring",
+    "is_remote": false
+  },
+  {
+    "category": "strings",
+    "name": "endswith",
+    "description": "Return True if text ends with suffix.",
+    "params": "text,suffix",
+    "is_remote": false
+  },
+  {
+    "category": "strings",
+    "name": "instr",
+    "description": "Return 1-based index of first occurrence, or 0.",
+    "params": "text,substring",
+    "is_remote": false
+  },
+  {
+    "category": "strings",
+    "name": "instrrev",
+    "description": "Return 1-based index of last occurrence, or 0.",
+    "params": "text,substring",
+    "is_remote": false
+  },
+  {
+    "category": "strings",
+    "name": "ispalindrome",
+    "description": "True if text is a palindrome.",
+    "params": "text",
+    "is_remote": false
+  },
+  {
+    "category": "strings",
+    "name": "lcase",
+    "description": "Change all characters in a string to lower-case.",
+    "params": "text",
+    "is_remote": false
+  },
+  {
+    "category": "strings",
+    "name": "lcwords",
+    "description": "Change the first character in each word of a string to lower-case.",
+    "params": "text",
+    "is_remote": false
+  },
+  {
+    "category": "strings",
+    "name": "left",
+    "description": "Return the leftmost N characters.",
+    "params": "text,count",
+    "is_remote": false
+  },
+  {
+    "category": "strings",
+    "name": "len",
+    "description": "Return the length of a string.",
+    "params": "text",
+    "is_remote": false
+  },
+  {
+    "category": "strings",
+    "name": "ltrim",
+    "description": "Remove whitespace from the left side of a string.",
+    "params": "text",
+    "is_remote": false
+  },
+  {
+    "category": "strings",
+    "name": "mid",
+    "description": "Return a portion of a string, starting at position, for the specific number of characters.",
+    "params": "text,start_position,length",
+    "is_remote": false
+  },
+  {
+    "category": "strings",
+    "name": "padleft",
+    "description": "Pad the string on the left to a given width.",
+    "params": "text,totalWidth[,padChar]",
+    "is_remote": false
+  },
+  {
+    "category": "strings",
+    "name": "padright",
+    "description": "Pad the string on the right to a given width.",
+    "params": "text,totalWidth[,padChar]",
+    "is_remote": false
+  },
+  {
+    "category": "strings",
+    "name": "random",
+    "description": "Return a random integer within the specified range.",
+    "params": "minimum,maximum",
+    "is_remote": false
+  },
+  {
+    "category": "strings",
+    "name": "random_color",
+    "description": "Return a random R-G-B color.",
+    "params": "",
+    "is_remote": false
+  },
+  {
+    "category": "strings",
+    "name": "random_color_range",
+    "description": "Return a random R-G-B color within the specified range of random RGB values.",
+    "params": "minred-maxred,mingreen-maxgreen,minblue-maxblue",
+    "is_remote": false
+  },
+  {
+    "category": "strings",
+    "name": "random_decimal",
+    "description": "Return a random number within the specified range, with a specified number of decimal places.",
+    "params": "minimum,maximum,decimals",
+    "is_remote": false
+  },
+  {
+    "category": "strings",
+    "name": "randomitem",
+    "description": "Pick one item from a comma-separated list.",
+    "params": "list",
+    "is_remote": false
+  },
+  {
+    "category": "strings",
+    "name": "rcase",
+    "description": "Change all characters in a string to a random case.",
+    "params": "text",
+    "is_remote": false
+  },
+  {
+    "category": "strings",
+    "name": "repeat",
+    "description": "Repeat the string a specified number of times.",
+    "params": "text,count",
+    "is_remote": false
+  },
+  {
+    "category": "strings",
+    "name": "replace",
+    "description": "Replace all occurrences of old with new.",
+    "params": "text,old,new",
+    "is_remote": false
+  },
+  {
+    "category": "strings",
+    "name": "reverse",
+    "description": "Reverse the characters of a string.",
+    "params": "text",
+    "is_remote": false
+  },
+  {
+    "category": "strings",
+    "name": "reversewords",
+    "description": "Reverse the order of words.",
+    "params": "text",
+    "is_remote": false
+  },
+  {
+    "category": "strings",
+    "name": "right",
+    "description": "Return the rightmost N characters.",
+    "params": "text,count",
+    "is_remote": false
+  },
+  {
+    "category": "strings",
+    "name": "rtrim",
+    "description": "Remove whitespace from the right side of a string.",
+    "params": "text",
+    "is_remote": false
+  },
+  {
+    "category": "strings",
+    "name": "shuffle",
+    "description": "Shuffle the characters in a string.",
+    "params": "text",
+    "is_remote": false
+  },
+  {
+    "category": "strings",
+    "name": "startswith",
+    "description": "Return True if text starts with prefix.",
+    "params": "text,prefix",
+    "is_remote": false
+  },
+  {
+    "category": "strings",
+    "name": "trim",
+    "description": "Remove whitespace from both sides of a string.",
+    "params": "text",
+    "is_remote": false
+  },
+  {
+    "category": "strings",
+    "name": "ucase",
+    "description": "Change all characters in a string to upper-case.",
+    "params": "text",
+    "is_remote": false
+  },
+  {
+    "category": "strings",
+    "name": "ucwords",
+    "description": "Change the first character in each word of a string to upper-case.",
+    "params": "text",
+    "is_remote": false
+  },
+  {
+    "category": "strings",
+    "name": "uuid",
+    "description": "Generate a new GUID.",
+    "params": "",
+    "is_remote": false
+  },
+  {
     "category": "styles",
-    "name": "font",
-    "description": "Create or update a font definition. Fonts can be applied to objects like text and buttons",
-    "params": "fontname,size,style",
+    "name": "border",
+    "description": "Create a border. Borders can be applied to some other objects.",
+    "params": "color,thickness,style-keywords",
     "is_remote": false
   },
   {
@@ -694,9 +778,9 @@
   },
   {
     "category": "styles",
-    "name": "border",
-    "description": "Create a border. Borders can be applied to some other objects.",
-    "params": "color,thickness,style-keywords",
+    "name": "font",
+    "description": "Create or update a font definition. Fonts can be applied to objects like text and buttons",
+    "params": "fontname,size,style",
     "is_remote": false
   }
 ]
