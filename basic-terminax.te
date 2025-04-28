@@ -31,6 +31,14 @@ Styles are typically assigned to objects using $someObject.someProperty = $someS
 $someVar = 10
 $someVar2 = $otherVar + 1
 
+// JOINING VARIABLES INTO STRINGS
+$var1 = 10
+$someString = "The number is $var1" // this is correct
+// Periods are not required to join strings together, and should NOT be used.
+// This is wrong:
+$some = "This number is ".$var1 // periods are not necessary to join strings.
+
+
 // WINDOW POSITIONS
 // The center of the Terminax Screen starts at 0,0.
 // Thus X and Y positions of windows can
@@ -222,6 +230,25 @@ $someObject.text = Solution is $someVariable
 // call a function directly into an object property.
 $someObject.someProperty = some_function($someParam, $someParam2)
 
+
+// FUNCTIONS CAN RETURN OBJECTS
+// for example you can make a button creation function
+// Just MAKE SURE to "return" the button you created to the variable
+// that called the function.
+function new_button{
+  $text = $1
+  $b = button($text,10,10,100,50)
+  return $b // don't forget this
+}
+$myButton = new_button("click me asap")
+// Using functions to create objects like this 
+// can make it easier to customize your styles with less code.
+
+
+
+
+
+
 // OBJECT EVENTS
 // Custom functions can be made to trigger on certain player actions.
 // Multiple custom functions can be set to the same trigger events.
@@ -375,13 +402,19 @@ END IF
 
 
 
-// ADDITIONAL GUIDELINES - follow these to make sure your scripts work well.
-// To call a function, you must use this syntax:
+// CALLING FUNCTIONS
+// There are two ways to call a function.
+// With a return value:
 $var = function_name()
-// regardless of if your function calls a value. 
+// Without a return value:
+function_name()
+// If calling a function without expecting a return value,
+// you MUST use the () so Terminax knows to look for this function.
+
 
 // Never forget to assign an event to your timer using
-$someTimer > custom_function()
+$someTimer.tick > custom_function()
+
 
 
 
