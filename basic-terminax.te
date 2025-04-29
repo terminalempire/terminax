@@ -457,7 +457,33 @@ $myObject.centerx // center objects x coordinate in its parent window
 $myObject.centery // center objects y coordinate in its parent window
 
 
+
 // COMMANDS
 // You can use the following commands in scripts
+
 exit // this immediately exits a script or a custom function.
+
+run filename.te // run another script file, but wait for it to finish before continuuing
+runasync filename.te // run another script file async (in parallel, at the same time)
+
+// The * symbol on object creation
+// Adding * at the end of a function call puts it in the 'background'.
+// For object creation, this means they start invisible.
+$myText = text("words", 10,10,100,100)* // the * causes it to exist in the background
+
+
+// RUN CUSTOM FUNCTIONS AS ASYNC using the @ symbol.
+// For custom functions, this will case the custom function to run in the background
+// which means it won't hold up your script.
+func loop1{
+   for $k = 1 to 500000
+        $myText.text = $k
+    next
+}
+$var = loop1() // this will cause your script to wait for loop1 before continuuing
+// more code
+$var = loop1()@ // this will cause the loop1 to run in parallel, at the same time
+// Both of these are useful at different times.
+// It depends if you need to wait for some result from the custom fucntion before continuiing.
+
 
