@@ -1,10 +1,98 @@
 [
   {
-    "name": "$_date",
-    "description": "The local date"
+    "category": "terminax",
+    "name": "$_FPS",
+    "example": "$_fps",
+    "description": "Terminal Empire frames per second."
   },
   {
-    "name": "$_longdate",
-    "description": "The local long date"
+    "category": "terminax",
+    "name": "$_LPS",
+    "example": "$_lps",
+    "description": "Terminal Empire script lines per second. (depends on running scripts)"
+  },
+  {
+    "category": "datetime",
+    "name": "$_DATE",
+    "example": "$_date",
+    "description": "The current date, short form."
+  },
+  {
+    "category": "datetime",
+    "name": "$_LONGDATE",
+    "example": "$_longdate",
+    "description": "The current date, long form."
+  },
+  {
+    "category": "datetime",
+    "name": "$_TIME",
+    "example": "$_time",
+    "description": "The current time, without seconds."
+  },
+  {
+    "category": "datetime",
+    "name": "$_LONGTIME",
+    "example": "$_longtime",
+    "description": "The current time, with seconds."
+  },
+  {
+    "category": "datetime",
+    "name": "$_YEAR",
+    "example": "$_year",
+    "description": "The current year as an integer."
+  },
+  {
+    "category": "datetime",
+    "name": "$_MONTH",
+    "example": "$_month",
+    "description": "The current month as an integer."
+  },
+  {
+    "category": "datetime",
+    "name": "$_DAYOFMONTH",
+    "example": "$_dayofmonth",
+    "description": "The day of the current month as an integer."
+  },
+  {
+    "category": "datetime",
+    "name": "$_DAYOFWEEK",
+    "example": "$_dayofweek",
+    "description": "The day of the current week as an integer."
+  },
+  {
+    "category": "datetime",
+    "name": "$_DAYOFYEAR",
+    "example": "$_dayofyear",
+    "description": "The day of the current year as an integer."
+  },
+  {
+    "category": "datetime",
+    "name": "$_SECONDS",
+    "example": "$_seconds",
+    "description": "The number of seconds from the current time."
+  },
+  {
+    "category": "datetime",
+    "name": "$_MINUTES",
+    "example": "$_minutes",
+    "description": "The number of minutes from the current time."
+  },
+  {
+    "category": "datetime",
+    "name": "$_HOURS",
+    "example": "$_hours",
+    "description": "The number of hours from the current time."
+  },
+  {
+    "category": "datetime",
+    "name": "$_TIMESTAMP",
+    "example": "$_timestamp",
+    "description": "The current unix timestamp in seconds."
+  },
+  {
+    "category": "datetime",
+    "name": "$_TIMESTAMP_MS",
+    "example": "$_timestamp_ms",
+    "description": "The current unix timestamp in miliseconds."
   }
 ]
