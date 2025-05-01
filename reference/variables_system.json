@@ -1,0 +1,10 @@
+[
+  {
+    "name": "$_date",
+    "description": "The local date"
+  },
+  {
+    "name": "$_longdate",
+    "description": "The local long date"
+  }
+]
