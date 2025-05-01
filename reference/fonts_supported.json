@@ -1,0 +1,234 @@
+[
+  {
+    "name": "arial",
+    "filename": "arial.ttf"
+  },
+  {
+    "name": "arial-black",
+    "filename": "ariblk.ttf"
+  },
+  {
+    "name": "arial-bold",
+    "filename": "arialbd.ttf"
+  },
+  {
+    "name": "arial-bold-italic",
+    "filename": "arialbi.ttf"
+  },
+  {
+    "name": "arial-italic",
+    "filename": "ariali.ttf"
+  },
+  {
+    "name": "calibri",
+    "filename": "calibri.ttf"
+  },
+  {
+    "name": "calibri-bold",
+    "filename": "calibrib.ttf"
+  },
+  {
+    "name": "calibri-bold-italic",
+    "filename": "calibriz.ttf"
+  },
+  {
+    "name": "calibri-italic",
+    "filename": "calibrii.ttf"
+  },
+  {
+    "name": "cambria",
+    "filename": "cambria.ttc"
+  },
+  {
+    "name": "cambria-bold",
+    "filename": "cambriab.ttf"
+  },
+  {
+    "name": "cambria-bold-italic",
+    "filename": "cambriaz.ttf"
+  },
+  {
+    "name": "cambria-italic",
+    "filename": "cambriai.ttf"
+  },
+  {
+    "name": "comic-sans",
+    "filename": "comic.ttf"
+  },
+  {
+    "name": "comic-sans-bold",
+    "filename": "comicbd.ttf"
+  },
+  {
+    "name": "comic-sans-bold-italic",
+    "filename": "comicz.ttf"
+  },
+  {
+    "name": "comic-sans-italic",
+    "filename": "comici.ttf"
+  },
+  {
+    "name": "consolas",
+    "filename": "consolas.ttf"
+  },
+  {
+    "name": "consolas-bold",
+    "filename": "consolas-bold.ttf"
+  },
+  {
+    "name": "courier-new",
+    "filename": "cour.ttf"
+  },
+  {
+    "name": "courier-new-bold",
+    "filename": "courbd.ttf"
+  },
+  {
+    "name": "courier-new-bold-italic",
+    "filename": "courbi.ttf"
+  },
+  {
+    "name": "courier-new-italic",
+    "filename": "couri.ttf"
+  },
+  {
+    "name": "cousine",
+    "filename": "cousine.ttf"
+  },
+  {
+    "name": "cousine-bold",
+    "filename": "cousine-bold.ttf"
+  },
+  {
+    "name": "georgia",
+    "filename": "georgia.ttf"
+  },
+  {
+    "name": "georgia-bold",
+    "filename": "georgiab.ttf"
+  },
+  {
+    "name": "georgia-bold-italic",
+    "filename": "georgiaz.ttf"
+  },
+  {
+    "name": "georgia-italic",
+    "filename": "georgiai.ttf"
+  },
+  {
+    "name": "moire",
+    "filename": "moire.ttf"
+  },
+  {
+    "name": "moire-bold",
+    "filename": "moire-bold.ttf"
+  },
+  {
+    "name": "nk57",
+    "filename": "nk57.ttf"
+  },
+  {
+    "name": "nk57-bold",
+    "filename": "nk57-bold.ttf"
+  },
+  {
+    "name": "play",
+    "filename": "play.ttf"
+  },
+  {
+    "name": "play-bold",
+    "filename": "play-bold.ttf"
+  },
+  {
+    "name": "sarabun",
+    "filename": "sarabun.ttf"
+  },
+  {
+    "name": "sarabun-bold",
+    "filename": "sarabun-bold.ttf"
+  },
+  {
+    "name": "segoe",
+    "filename": "segoeui.ttf"
+  },
+  {
+    "name": "segoe-black",
+    "filename": "seguibl.ttf"
+  },
+  {
+    "name": "segoe-bold",
+    "filename": "segoeuib.ttf"
+  },
+  {
+    "name": "segoe-bold-italic",
+    "filename": "segoeuiz.ttf"
+  },
+  {
+    "name": "segoe-italic",
+    "filename": "segoeuii.ttf"
+  },
+  {
+    "name": "tahoma",
+    "filename": "tahoma.ttf"
+  },
+  {
+    "name": "tahoma-bold",
+    "filename": "tahomabd.ttf"
+  },
+  {
+    "name": "times-new-roman",
+    "filename": "times.ttf"
+  },
+  {
+    "name": "times-new-roman-bold",
+    "filename": "timesbd.ttf"
+  },
+  {
+    "name": "times-new-roman-bold-italic",
+    "filename": "timesbi.ttf"
+  },
+  {
+    "name": "times-new-roman-italic",
+    "filename": "timesi.ttf"
+  },
+  {
+    "name": "trebuchet",
+    "filename": "trebuc.ttf"
+  },
+  {
+    "name": "trebuchet-bold",
+    "filename": "trebucbd.ttf"
+  },
+  {
+    "name": "trebuchet-bold-italic",
+    "filename": "trebucbi.ttf"
+  },
+  {
+    "name": "trebuchet-italic",
+    "filename": "trebucit.ttf"
+  },
+  {
+    "name": "verdana",
+    "filename": "verdana.ttf"
+  },
+  {
+    "name": "verdana-bold",
+    "filename": "verdanab.ttf"
+  },
+  {
+    "name": "verdana-bold-italic",
+    "filename": "verdanaz.ttf"
+  },
+  {
+    "name": "verdana-italic",
+    "filename": "verdanai.ttf"
+  },
+  {
+    "name": "webdings",
+    "filename": "webdings.ttf"
+  },
+  {
+    "name": "wingdings",
+    "filename": "wingding.ttf"
+  }
+]
