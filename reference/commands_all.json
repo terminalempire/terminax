@@ -2,7 +2,13 @@
   {
     "name": "run",
     "parameters": "filename",
-    "description": "Run a terminax script file.",
+    "description": "Run a terminax script file (and wait for it to finish). Also see 'runasync'.",
+    "is_remote": false
+  },
+  {
+    "name": "runasync",
+    "parameters": "filename",
+    "description": "Run a terminax script file async (run in the background). Also see 'run'.",
     "is_remote": false
   },
   {
@@ -19,7 +25,7 @@
   },
   {
     "name": "wait",
-    "parameters": null,
+    "parameters": "milliseconds",
     "description": "Wait for some number of ms before continuuing the script [1000ms = 1sec].",
     "is_remote": false
   }
