@@ -1,0 +1,42 @@
+[
+  {
+    "category": "bitwise",
+    "count": 11
+  },
+  {
+    "category": "cryptography",
+    "count": 3
+  },
+  {
+    "category": "datetime",
+    "count": 19
+  },
+  {
+    "category": "encoding",
+    "count": 13
+  },
+  {
+    "category": "math",
+    "count": 21
+  },
+  {
+    "category": "objects",
+    "count": 12
+  },
+  {
+    "category": "remote",
+    "count": 1
+  },
+  {
+    "category": "spooky",
+    "count": 4
+  },
+  {
+    "category": "strings",
+    "count": 31
+  },
+  {
+    "category": "styles",
+    "count": 3
+  }
+]
