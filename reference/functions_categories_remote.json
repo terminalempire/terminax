@@ -1,6 +1,7 @@
 [
   {
     "category": "remote",
-    "count": 1
+    "count": 1,
+    "is_remote": true
   }
 ]
