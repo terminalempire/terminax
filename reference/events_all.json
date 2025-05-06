@@ -129,10 +129,10 @@
     ]
   },
   {
-    "name": "Keyup_A",
+    "name": "KeyUp_A",
     "description": "Triggers when the 'A' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_A > myCustomFunction()",
+    "example": "$myObject.KeyUp_A > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -153,10 +153,10 @@
     ]
   },
   {
-    "name": "Keyup_B",
+    "name": "KeyUp_B",
     "description": "Triggers when the 'B' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_B > myCustomFunction()",
+    "example": "$myObject.KeyUp_B > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -177,10 +177,10 @@
     ]
   },
   {
-    "name": "Keyup_C",
+    "name": "KeyUp_C",
     "description": "Triggers when the 'C' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_C > myCustomFunction()",
+    "example": "$myObject.KeyUp_C > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -201,10 +201,10 @@
     ]
   },
   {
-    "name": "Keyup_D",
+    "name": "KeyUp_D",
     "description": "Triggers when the 'D' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_D > myCustomFunction()",
+    "example": "$myObject.KeyUp_D > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -225,10 +225,10 @@
     ]
   },
   {
-    "name": "Keyup_E",
+    "name": "KeyUp_E",
     "description": "Triggers when the 'E' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_E > myCustomFunction()",
+    "example": "$myObject.KeyUp_E > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -249,10 +249,10 @@
     ]
   },
   {
-    "name": "Keyup_F",
+    "name": "KeyUp_F",
     "description": "Triggers when the 'F' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_F > myCustomFunction()",
+    "example": "$myObject.KeyUp_F > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -273,10 +273,10 @@
     ]
   },
   {
-    "name": "Keyup_G",
+    "name": "KeyUp_G",
     "description": "Triggers when the 'G' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_G > myCustomFunction()",
+    "example": "$myObject.KeyUp_G > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -297,10 +297,10 @@
     ]
   },
   {
-    "name": "Keyup_H",
+    "name": "KeyUp_H",
     "description": "Triggers when the 'H' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_H > myCustomFunction()",
+    "example": "$myObject.KeyUp_H > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -321,10 +321,10 @@
     ]
   },
   {
-    "name": "Keyup_I",
+    "name": "KeyUp_I",
     "description": "Triggers when the 'I' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_I > myCustomFunction()",
+    "example": "$myObject.KeyUp_I > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -345,10 +345,10 @@
     ]
   },
   {
-    "name": "Keyup_J",
+    "name": "KeyUp_J",
     "description": "Triggers when the 'J' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_J > myCustomFunction()",
+    "example": "$myObject.KeyUp_J > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -369,10 +369,10 @@
     ]
   },
   {
-    "name": "Keyup_K",
+    "name": "KeyUp_K",
     "description": "Triggers when the 'K' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_K > myCustomFunction()",
+    "example": "$myObject.KeyUp_K > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -393,10 +393,10 @@
     ]
   },
   {
-    "name": "Keyup_L",
+    "name": "KeyUp_L",
     "description": "Triggers when the 'L' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_L > myCustomFunction()",
+    "example": "$myObject.KeyUp_L > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -417,10 +417,10 @@
     ]
   },
   {
-    "name": "Keyup_M",
+    "name": "KeyUp_M",
     "description": "Triggers when the 'M' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_M > myCustomFunction()",
+    "example": "$myObject.KeyUp_M > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -441,10 +441,10 @@
     ]
   },
   {
-    "name": "Keyup_N",
+    "name": "KeyUp_N",
     "description": "Triggers when the 'N' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_N > myCustomFunction()",
+    "example": "$myObject.KeyUp_N > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -465,10 +465,10 @@
     ]
   },
   {
-    "name": "Keyup_O",
+    "name": "KeyUp_O",
     "description": "Triggers when the 'O' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_O > myCustomFunction()",
+    "example": "$myObject.KeyUp_O > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -489,10 +489,10 @@
     ]
   },
   {
-    "name": "Keyup_P",
+    "name": "KeyUp_P",
     "description": "Triggers when the 'P' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_P > myCustomFunction()",
+    "example": "$myObject.KeyUp_P > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -513,10 +513,10 @@
     ]
   },
   {
-    "name": "Keyup_Q",
+    "name": "KeyUp_Q",
     "description": "Triggers when the 'Q' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_Q > myCustomFunction()",
+    "example": "$myObject.KeyUp_Q > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -537,10 +537,10 @@
     ]
   },
   {
-    "name": "Keyup_R",
+    "name": "KeyUp_R",
     "description": "Triggers when the 'R' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_R > myCustomFunction()",
+    "example": "$myObject.KeyUp_R > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -561,10 +561,10 @@
     ]
   },
   {
-    "name": "Keyup_S",
+    "name": "KeyUp_S",
     "description": "Triggers when the 'S' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_S > myCustomFunction()",
+    "example": "$myObject.KeyUp_S > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -585,10 +585,10 @@
     ]
   },
   {
-    "name": "Keyup_T",
+    "name": "KeyUp_T",
     "description": "Triggers when the 'T' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_T > myCustomFunction()",
+    "example": "$myObject.KeyUp_T > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -609,10 +609,10 @@
     ]
   },
   {
-    "name": "Keyup_U",
+    "name": "KeyUp_U",
     "description": "Triggers when the 'U' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_U > myCustomFunction()",
+    "example": "$myObject.KeyUp_U > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -633,10 +633,10 @@
     ]
   },
   {
-    "name": "Keyup_V",
+    "name": "KeyUp_V",
     "description": "Triggers when the 'V' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_V > myCustomFunction()",
+    "example": "$myObject.KeyUp_V > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -657,10 +657,10 @@
     ]
   },
   {
-    "name": "Keyup_W",
+    "name": "KeyUp_W",
     "description": "Triggers when the 'W' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_W > myCustomFunction()",
+    "example": "$myObject.KeyUp_W > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -681,10 +681,10 @@
     ]
   },
   {
-    "name": "Keyup_X",
+    "name": "KeyUp_X",
     "description": "Triggers when the 'X' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_X > myCustomFunction()",
+    "example": "$myObject.KeyUp_X > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -705,10 +705,10 @@
     ]
   },
   {
-    "name": "Keyup_Y",
+    "name": "KeyUp_Y",
     "description": "Triggers when the 'Y' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_Y > myCustomFunction()",
+    "example": "$myObject.KeyUp_Y > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -729,10 +729,10 @@
     ]
   },
   {
-    "name": "Keyup_Z",
+    "name": "KeyUp_Z",
     "description": "Triggers when the 'Z' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_Z > myCustomFunction()",
+    "example": "$myObject.KeyUp_Z > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -753,10 +753,10 @@
     ]
   },
   {
-    "name": "Keyup_0",
+    "name": "KeyUp_0",
     "description": "Triggers when the '0' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_0 > myCustomFunction()",
+    "example": "$myObject.KeyUp_0 > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -777,10 +777,10 @@
     ]
   },
   {
-    "name": "Keyup_1",
+    "name": "KeyUp_1",
     "description": "Triggers when the '1' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_1 > myCustomFunction()",
+    "example": "$myObject.KeyUp_1 > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -801,10 +801,10 @@
     ]
   },
   {
-    "name": "Keyup_2",
+    "name": "KeyUp_2",
     "description": "Triggers when the '2' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_2 > myCustomFunction()",
+    "example": "$myObject.KeyUp_2 > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -825,10 +825,10 @@
     ]
   },
   {
-    "name": "Keyup_3",
+    "name": "KeyUp_3",
     "description": "Triggers when the '3' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_3 > myCustomFunction()",
+    "example": "$myObject.KeyUp_3 > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -849,10 +849,10 @@
     ]
   },
   {
-    "name": "Keyup_4",
+    "name": "KeyUp_4",
     "description": "Triggers when the '4' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_4 > myCustomFunction()",
+    "example": "$myObject.KeyUp_4 > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -873,10 +873,10 @@
     ]
   },
   {
-    "name": "Keyup_5",
+    "name": "KeyUp_5",
     "description": "Triggers when the '5' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_5 > myCustomFunction()",
+    "example": "$myObject.KeyUp_5 > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -897,10 +897,10 @@
     ]
   },
   {
-    "name": "Keyup_6",
+    "name": "KeyUp_6",
     "description": "Triggers when the '6' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_6 > myCustomFunction()",
+    "example": "$myObject.KeyUp_6 > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -921,10 +921,10 @@
     ]
   },
   {
-    "name": "Keyup_7",
+    "name": "KeyUp_7",
     "description": "Triggers when the '7' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_7 > myCustomFunction()",
+    "example": "$myObject.KeyUp_7 > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -945,10 +945,10 @@
     ]
   },
   {
-    "name": "Keyup_8",
+    "name": "KeyUp_8",
     "description": "Triggers when the '8' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_8 > myCustomFunction()",
+    "example": "$myObject.KeyUp_8 > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -969,10 +969,10 @@
     ]
   },
   {
-    "name": "Keyup_9",
+    "name": "KeyUp_9",
     "description": "Triggers when the '9' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_9 > myCustomFunction()",
+    "example": "$myObject.KeyUp_9 > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -993,10 +993,10 @@
     ]
   },
   {
-    "name": "Keyup_Left",
+    "name": "KeyUp_Left",
     "description": "Triggers when the 'Left Arrow' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_Left > myCustomFunction()",
+    "example": "$myObject.KeyUp_Left > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1017,10 +1017,10 @@
     ]
   },
   {
-    "name": "Keyup_Up",
+    "name": "KeyUp_Up",
     "description": "Triggers when the 'Up Arrow' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_Up > myCustomFunction()",
+    "example": "$myObject.KeyUp_Up > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1041,10 +1041,10 @@
     ]
   },
   {
-    "name": "Keyup_Right",
+    "name": "KeyUp_Right",
     "description": "Triggers when the 'Right Arrow' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_Right > myCustomFunction()",
+    "example": "$myObject.KeyUp_Right > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1065,10 +1065,10 @@
     ]
   },
   {
-    "name": "Keyup_Down",
+    "name": "KeyUp_Down",
     "description": "Triggers when the 'Down Arrow' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_Down > myCustomFunction()",
+    "example": "$myObject.KeyUp_Down > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1089,10 +1089,10 @@
     ]
   },
   {
-    "name": "Keyup_Tilde",
+    "name": "KeyUp_Tilde",
     "description": "Triggers when the 'Tilde' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_Tilde > myCustomFunction()",
+    "example": "$myObject.KeyUp_Tilde > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1113,10 +1113,10 @@
     ]
   },
   {
-    "name": "Keyup_Minus",
+    "name": "KeyUp_Minus",
     "description": "Triggers when the 'Minus' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_Minus > myCustomFunction()",
+    "example": "$myObject.KeyUp_Minus > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1137,10 +1137,10 @@
     ]
   },
   {
-    "name": "Keyup_Plus",
+    "name": "KeyUp_Plus",
     "description": "Triggers when the 'Plus' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_Plus > myCustomFunction()",
+    "example": "$myObject.KeyUp_Plus > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1161,10 +1161,10 @@
     ]
   },
   {
-    "name": "Keyup_Openbrackets",
+    "name": "KeyUp_Openbrackets",
     "description": "Triggers when the 'Open Brackets' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_Openbrackets > myCustomFunction()",
+    "example": "$myObject.KeyUp_Openbrackets > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1185,10 +1185,10 @@
     ]
   },
   {
-    "name": "Keyup_Closebrackets",
+    "name": "KeyUp_Closebrackets",
     "description": "Triggers when the 'Close Brackets' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_Closebrackets > myCustomFunction()",
+    "example": "$myObject.KeyUp_Closebrackets > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1209,10 +1209,10 @@
     ]
   },
   {
-    "name": "Keyup_Pipe",
+    "name": "KeyUp_Pipe",
     "description": "Triggers when the 'Pipe' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_Pipe > myCustomFunction()",
+    "example": "$myObject.KeyUp_Pipe > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1233,10 +1233,10 @@
     ]
   },
   {
-    "name": "Keyup_Semicolon",
+    "name": "KeyUp_Semicolon",
     "description": "Triggers when the 'Semicolon' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_Semicolon > myCustomFunction()",
+    "example": "$myObject.KeyUp_Semicolon > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1257,10 +1257,10 @@
     ]
   },
   {
-    "name": "Keyup_Quotes",
+    "name": "KeyUp_Quotes",
     "description": "Triggers when the 'Quotes' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_Quotes > myCustomFunction()",
+    "example": "$myObject.KeyUp_Quotes > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1281,10 +1281,10 @@
     ]
   },
   {
-    "name": "Keyup_Comma",
+    "name": "KeyUp_Comma",
     "description": "Triggers when the 'Comma' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_Comma > myCustomFunction()",
+    "example": "$myObject.KeyUp_Comma > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1305,10 +1305,10 @@
     ]
   },
   {
-    "name": "Keyup_Period",
+    "name": "KeyUp_Period",
     "description": "Triggers when the 'Period' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_Period > myCustomFunction()",
+    "example": "$myObject.KeyUp_Period > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1329,10 +1329,10 @@
     ]
   },
   {
-    "name": "Keyup_Question",
+    "name": "KeyUp_Question",
     "description": "Triggers when the 'Question Mark' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_Question > myCustomFunction()",
+    "example": "$myObject.KeyUp_Question > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1353,10 +1353,10 @@
     ]
   },
   {
-    "name": "Keyup_Space",
+    "name": "KeyUp_Space",
     "description": "Triggers when the 'Space' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_Space > myCustomFunction()",
+    "example": "$myObject.KeyUp_Space > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1377,10 +1377,10 @@
     ]
   },
   {
-    "name": "Keyup_Enter",
+    "name": "KeyUp_Enter",
     "description": "Triggers when the 'Enter' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_Enter > myCustomFunction()",
+    "example": "$myObject.KeyUp_Enter > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1401,10 +1401,10 @@
     ]
   },
   {
-    "name": "Keyup_Backspace",
+    "name": "KeyUp_Backspace",
     "description": "Triggers when the 'Backspace' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_Backspace > myCustomFunction()",
+    "example": "$myObject.KeyUp_Backspace > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1425,10 +1425,10 @@
     ]
   },
   {
-    "name": "Keyup_Tab",
+    "name": "KeyUp_Tab",
     "description": "Triggers when the 'Tab' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_Tab > myCustomFunction()",
+    "example": "$myObject.KeyUp_Tab > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1449,10 +1449,10 @@
     ]
   },
   {
-    "name": "Keyup_Capslock",
+    "name": "KeyUp_Capslock",
     "description": "Triggers when the 'Capslock' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_Capslock > myCustomFunction()",
+    "example": "$myObject.KeyUp_Capslock > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1473,10 +1473,10 @@
     ]
   },
   {
-    "name": "Keyup_Shift",
+    "name": "KeyUp_Shift",
     "description": "Triggers when the 'Shift' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_Shift > myCustomFunction()",
+    "example": "$myObject.KeyUp_Shift > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1497,10 +1497,10 @@
     ]
   },
   {
-    "name": "Keyup_Control",
+    "name": "KeyUp_Control",
     "description": "Triggers when the 'Control' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_Control > myCustomFunction()",
+    "example": "$myObject.KeyUp_Control > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1521,10 +1521,10 @@
     ]
   },
   {
-    "name": "Keyup_Alt",
+    "name": "KeyUp_Alt",
     "description": "Triggers when the 'Alt' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_Alt > myCustomFunction()",
+    "example": "$myObject.KeyUp_Alt > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1545,10 +1545,10 @@
     ]
   },
   {
-    "name": "Keyup_Home",
+    "name": "KeyUp_Home",
     "description": "Triggers when the 'Home' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_Home > myCustomFunction()",
+    "example": "$myObject.KeyUp_Home > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1569,10 +1569,10 @@
     ]
   },
   {
-    "name": "Keyup_End",
+    "name": "KeyUp_End",
     "description": "Triggers when the 'End' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_End > myCustomFunction()",
+    "example": "$myObject.KeyUp_End > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1593,10 +1593,10 @@
     ]
   },
   {
-    "name": "Keyup_Pageup",
+    "name": "KeyUp_Pageup",
     "description": "Triggers when the 'Pageup' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_Pageup > myCustomFunction()",
+    "example": "$myObject.KeyUp_Pageup > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1617,10 +1617,10 @@
     ]
   },
   {
-    "name": "Keyup_Pagedown",
+    "name": "KeyUp_Pagedown",
     "description": "Triggers when the 'Pagedown' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_Pagedown > myCustomFunction()",
+    "example": "$myObject.KeyUp_Pagedown > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1641,10 +1641,10 @@
     ]
   },
   {
-    "name": "Keyup_Insert",
+    "name": "KeyUp_Insert",
     "description": "Triggers when the 'Insert' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_Insert > myCustomFunction()",
+    "example": "$myObject.KeyUp_Insert > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1665,10 +1665,10 @@
     ]
   },
   {
-    "name": "Keyup_Delete",
+    "name": "KeyUp_Delete",
     "description": "Triggers when the 'Delete' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_Delete > myCustomFunction()",
+    "example": "$myObject.KeyUp_Delete > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1689,10 +1689,10 @@
     ]
   },
   {
-    "name": "Keyup_Pause",
+    "name": "KeyUp_Pause",
     "description": "Triggers when the 'Pause' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_Pause > myCustomFunction()",
+    "example": "$myObject.KeyUp_Pause > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1713,10 +1713,10 @@
     ]
   },
   {
-    "name": "Keyup_Printscreen",
+    "name": "KeyUp_Printscreen",
     "description": "Triggers when the 'Printscreen' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_Printscreen > myCustomFunction()",
+    "example": "$myObject.KeyUp_Printscreen > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1737,10 +1737,10 @@
     ]
   },
   {
-    "name": "Keyup_Scrolllock",
+    "name": "KeyUp_Scrolllock",
     "description": "Triggers when the 'Scrolllock' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_Scrolllock > myCustomFunction()",
+    "example": "$myObject.KeyUp_Scrolllock > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1761,10 +1761,10 @@
     ]
   },
   {
-    "name": "Keyup_Numlock",
+    "name": "KeyUp_Numlock",
     "description": "Triggers when the 'Numlock' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_Numlock > myCustomFunction()",
+    "example": "$myObject.KeyUp_Numlock > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1785,10 +1785,10 @@
     ]
   },
   {
-    "name": "Keyup_Numpad0",
+    "name": "KeyUp_Numpad0",
     "description": "Triggers when the 'NumPad 0' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_Numpad0 > myCustomFunction()",
+    "example": "$myObject.KeyUp_Numpad0 > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1809,10 +1809,10 @@
     ]
   },
   {
-    "name": "Keyup_Numpad1",
+    "name": "KeyUp_Numpad1",
     "description": "Triggers when the 'NumPad 1' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_Numpad1 > myCustomFunction()",
+    "example": "$myObject.KeyUp_Numpad1 > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1833,10 +1833,10 @@
     ]
   },
   {
-    "name": "Keyup_Numpad2",
+    "name": "KeyUp_Numpad2",
     "description": "Triggers when the 'NumPad 2' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_Numpad2 > myCustomFunction()",
+    "example": "$myObject.KeyUp_Numpad2 > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1857,10 +1857,10 @@
     ]
   },
   {
-    "name": "Keyup_Numpad3",
+    "name": "KeyUp_Numpad3",
     "description": "Triggers when the 'NumPad 3' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_Numpad3 > myCustomFunction()",
+    "example": "$myObject.KeyUp_Numpad3 > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1881,10 +1881,10 @@
     ]
   },
   {
-    "name": "Keyup_Numpad4",
+    "name": "KeyUp_Numpad4",
     "description": "Triggers when the 'NumPad 4' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_Numpad4 > myCustomFunction()",
+    "example": "$myObject.KeyUp_Numpad4 > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1905,10 +1905,10 @@
     ]
   },
   {
-    "name": "Keyup_Numpad5",
+    "name": "KeyUp_Numpad5",
     "description": "Triggers when the 'NumPad 5' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_Numpad5 > myCustomFunction()",
+    "example": "$myObject.KeyUp_Numpad5 > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1929,10 +1929,10 @@
     ]
   },
   {
-    "name": "Keyup_Numpad6",
+    "name": "KeyUp_Numpad6",
     "description": "Triggers when the 'NumPad 6' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_Numpad6 > myCustomFunction()",
+    "example": "$myObject.KeyUp_Numpad6 > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1953,10 +1953,10 @@
     ]
   },
   {
-    "name": "Keyup_Numpad7",
+    "name": "KeyUp_Numpad7",
     "description": "Triggers when the 'NumPad 7' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_Numpad7 > myCustomFunction()",
+    "example": "$myObject.KeyUp_Numpad7 > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1977,10 +1977,10 @@
     ]
   },
   {
-    "name": "Keyup_Numpad8",
+    "name": "KeyUp_Numpad8",
     "description": "Triggers when the 'NumPad 8' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_Numpad8 > myCustomFunction()",
+    "example": "$myObject.KeyUp_Numpad8 > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -2001,10 +2001,10 @@
     ]
   },
   {
-    "name": "Keyup_Numpad9",
+    "name": "KeyUp_Numpad9",
     "description": "Triggers when the 'NumPad 9' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_Numpad9 > myCustomFunction()",
+    "example": "$myObject.KeyUp_Numpad9 > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -2025,10 +2025,10 @@
     ]
   },
   {
-    "name": "Keyup_Numpadadd",
+    "name": "KeyUp_Numpadadd",
     "description": "Triggers when the 'NumPad Add' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_Numpadadd > myCustomFunction()",
+    "example": "$myObject.KeyUp_Numpadadd > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -2049,10 +2049,10 @@
     ]
   },
   {
-    "name": "Keyup_Numpadsubtract",
+    "name": "KeyUp_Numpadsubtract",
     "description": "Triggers when the 'NumPad Subtract' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_Numpadsubtract > myCustomFunction()",
+    "example": "$myObject.KeyUp_Numpadsubtract > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -2073,10 +2073,10 @@
     ]
   },
   {
-    "name": "Keyup_Numpadmultiply",
+    "name": "KeyUp_Numpadmultiply",
     "description": "Triggers when the 'NumPad Multiply' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_Numpadmultiply > myCustomFunction()",
+    "example": "$myObject.KeyUp_Numpadmultiply > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -2097,10 +2097,10 @@
     ]
   },
   {
-    "name": "Keyup_Numpaddivide",
+    "name": "KeyUp_Numpaddivide",
     "description": "Triggers when the 'NumPad Divide' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_Numpaddivide > myCustomFunction()",
+    "example": "$myObject.KeyUp_Numpaddivide > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -2121,10 +2121,10 @@
     ]
   },
   {
-    "name": "Keyup_Numpaddecimal",
+    "name": "KeyUp_Numpaddecimal",
     "description": "Triggers when the 'NumPad Decimal' key is released.",
     "accepted_values": "",
-    "example": "$myObject.Keyup_Numpaddecimal > myCustomFunction()",
+    "example": "$myObject.KeyUp_Numpaddecimal > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
