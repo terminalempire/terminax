@@ -10,7 +10,7 @@
   },
   {
     "name": "MouseDown",
-    "description": "Assign a custom function to pressing the left mousebutton down on the object.",
+    "description": "Triggers when the left mousebutton is pressed on the object.",
     "accepted_values": "someFunctionName",
     "example": "$myObject.MouseDown = someFunctionName",
     "supported_types": [
@@ -22,7 +22,7 @@
   },
   {
     "name": "MouseUp",
-    "description": "Assign a custom function to clicking on the object.",
+    "description": "Triggers when the left mousebutton is raised on the object.",
     "accepted_values": "someFunctionName",
     "example": "$myObject.MouseUp = someFunctionName",
     "supported_types": [
@@ -34,7 +34,7 @@
   },
   {
     "name": "Click",
-    "description": "Assign a custom function to clicking on the object.",
+    "description": "Triggers when the object is clicked on.",
     "accepted_values": "someFunctionName",
     "example": "$myObject.Click = someFunctionName",
     "supported_types": [
@@ -46,7 +46,7 @@
   },
   {
     "name": "DoubleClick",
-    "description": "Assign a custom function to double clicking on the object with the left button.",
+    "description": "Triggers when the object is double clicked on.",
     "accepted_values": "someFunctionName",
     "example": "$myObject.DoubleClick = someFunctionName",
     "supported_types": [
@@ -58,7 +58,7 @@
   },
   {
     "name": "MouseDown_Right",
-    "description": "Assign a custom function to pressing the right mousebutton down on the object.",
+    "description": "Triggers when the right mousebutton is pressed on the object.",
     "accepted_values": "someFunctionName",
     "example": "$myObject.MouseDown_Right = someFunctionName",
     "supported_types": [
@@ -70,7 +70,7 @@
   },
   {
     "name": "MouseUp_Right",
-    "description": "Assign a custom function to raising the right mousebutton up on the object.",
+    "description": "Triggers when the right mousebutton is raised on the object.",
     "accepted_values": "someFunctionName",
     "example": "$myObject.MouseUp_Right = someFunctionName",
     "supported_types": [
@@ -82,9 +82,1041 @@
   },
   {
     "name": "DoubleClick_Right",
-    "description": "Assign a custom function to double clicking on the object with the right button.",
+    "description": "Triggers when the object is double clicked on with the right mousebutton.",
     "accepted_values": "someFunctionName",
     "example": "$myObject.DoubleClick_Right = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "MouseLeave",
+    "description": "Triggers when the mouse leaves the object area.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.MouseLeave = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "MouseEnter",
+    "description": "Triggers when the mouse enters the object area.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.MouseEnter = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_A",
+    "description": "Triggers when the 'A' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_A = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_B",
+    "description": "Triggers when the 'B' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_B = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_C",
+    "description": "Triggers when the 'C' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_C = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_D",
+    "description": "Triggers when the 'D' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_D = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_E",
+    "description": "Triggers when the 'E' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_E = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_F",
+    "description": "Triggers when the 'F' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_F = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_G",
+    "description": "Triggers when the 'G' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_G = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_H",
+    "description": "Triggers when the 'H' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_H = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_I",
+    "description": "Triggers when the 'I' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_I = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_J",
+    "description": "Triggers when the 'J' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_J = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_K",
+    "description": "Triggers when the 'K' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_K = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_L",
+    "description": "Triggers when the 'L' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_L = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_M",
+    "description": "Triggers when the 'M' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_M = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_N",
+    "description": "Triggers when the 'N' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_N = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_O",
+    "description": "Triggers when the 'O' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_O = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_P",
+    "description": "Triggers when the 'P' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_P = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_Q",
+    "description": "Triggers when the 'Q' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_Q = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_R",
+    "description": "Triggers when the 'R' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_R = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_S",
+    "description": "Triggers when the 'S' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_S = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_T",
+    "description": "Triggers when the 'T' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_T = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_U",
+    "description": "Triggers when the 'U' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_U = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_V",
+    "description": "Triggers when the 'V' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_V = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_W",
+    "description": "Triggers when the 'W' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_W = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_X",
+    "description": "Triggers when the 'X' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_X = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_Y",
+    "description": "Triggers when the 'Y' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_Y = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_Z",
+    "description": "Triggers when the 'Z' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_Z = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_0",
+    "description": "Triggers when the '0' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_0 = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_1",
+    "description": "Triggers when the '1' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_1 = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_2",
+    "description": "Triggers when the '2' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_2 = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_3",
+    "description": "Triggers when the '3' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_3 = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_4",
+    "description": "Triggers when the '4' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_4 = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_5",
+    "description": "Triggers when the '5' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_5 = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_6",
+    "description": "Triggers when the '6' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_6 = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_7",
+    "description": "Triggers when the '7' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_7 = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_8",
+    "description": "Triggers when the '8' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_8 = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_9",
+    "description": "Triggers when the '9' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_9 = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_Left",
+    "description": "Triggers when the 'Left Arrow' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_Left = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_Up",
+    "description": "Triggers when the 'Up Arrow' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_Up = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_Right",
+    "description": "Triggers when the 'Right Arrow' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_Right = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_Down",
+    "description": "Triggers when the 'Down Arrow' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_Down = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_Tilde",
+    "description": "Triggers when the 'Tilde' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_Tilde = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_Minus",
+    "description": "Triggers when the 'Minus' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_Minus = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_Plus",
+    "description": "Triggers when the 'Plus' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_Plus = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_Openbrackets",
+    "description": "Triggers when the 'Open Brackets' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_Openbrackets = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_Closebrackets",
+    "description": "Triggers when the 'Close Brackets' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_Closebrackets = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_Pipe",
+    "description": "Triggers when the 'Pipe' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_Pipe = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_Semicolon",
+    "description": "Triggers when the 'Semicolon' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_Semicolon = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_Quotes",
+    "description": "Triggers when the 'Quotes' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_Quotes = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_Comma",
+    "description": "Triggers when the 'Comma' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_Comma = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_Period",
+    "description": "Triggers when the 'Period' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_Period = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_Question",
+    "description": "Triggers when the 'Question Mark' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_Question = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_Space",
+    "description": "Triggers when the 'Space' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_Space = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_Enter",
+    "description": "Triggers when the 'Enter' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_Enter = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_Backspace",
+    "description": "Triggers when the 'Backspace' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_Backspace = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_Tab",
+    "description": "Triggers when the 'Tab' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_Tab = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_Capslock",
+    "description": "Triggers when the 'Capslock' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_Capslock = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_Shift",
+    "description": "Triggers when the 'Shift' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_Shift = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_Control",
+    "description": "Triggers when the 'Control' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_Control = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_Alt",
+    "description": "Triggers when the 'Alt' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_Alt = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_Home",
+    "description": "Triggers when the 'Home' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_Home = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_End",
+    "description": "Triggers when the 'End' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_End = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_Pageup",
+    "description": "Triggers when the 'Pageup' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_Pageup = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_Pagedown",
+    "description": "Triggers when the 'Pagedown' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_Pagedown = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_Insert",
+    "description": "Triggers when the 'Insert' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_Insert = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_Delete",
+    "description": "Triggers when the 'Delete' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_Delete = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_Pause",
+    "description": "Triggers when the 'Pause' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_Pause = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_Printscreen",
+    "description": "Triggers when the 'Printscreen' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_Printscreen = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_Scrolllock",
+    "description": "Triggers when the 'Scrolllock' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_Scrolllock = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_Numlock",
+    "description": "Triggers when the 'Numlock' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_Numlock = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_Numpad0",
+    "description": "Triggers when the 'NumPad 0' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_Numpad0 = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_Numpad1",
+    "description": "Triggers when the 'NumPad 1' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_Numpad1 = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_Numpad2",
+    "description": "Triggers when the 'NumPad 2' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_Numpad2 = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_Numpad3",
+    "description": "Triggers when the 'NumPad 3' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_Numpad3 = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_Numpad4",
+    "description": "Triggers when the 'NumPad 4' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_Numpad4 = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_Numpad5",
+    "description": "Triggers when the 'NumPad 5' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_Numpad5 = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_Numpad6",
+    "description": "Triggers when the 'NumPad 6' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_Numpad6 = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_Numpad7",
+    "description": "Triggers when the 'NumPad 7' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_Numpad7 = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_Numpad8",
+    "description": "Triggers when the 'NumPad 8' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_Numpad8 = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_Numpad9",
+    "description": "Triggers when the 'NumPad 9' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_Numpad9 = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_Numpadadd",
+    "description": "Triggers when the 'NumPad Add' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_Numpadadd = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_Numpadsubtract",
+    "description": "Triggers when the 'NumPad Subtract' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_Numpadsubtract = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_Numpadmultiply",
+    "description": "Triggers when the 'NumPad Multiply' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_Numpadmultiply = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_Numpaddivide",
+    "description": "Triggers when the 'NumPad Divide' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_Numpaddivide = someFunctionName",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Key_Numpaddecimal",
+    "description": "Triggers when the 'NumPad Decimal' key is pressed.",
+    "accepted_values": "someFunctionName",
+    "example": "$myObject.Key_Numpaddecimal = someFunctionName",
     "supported_types": [
       "window",
       "text",
