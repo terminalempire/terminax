@@ -1,42 +1,52 @@
 [
   {
     "category": "bitwise",
-    "count": 11
+    "count": 11,
+    "is_remote": false
   },
   {
     "category": "cryptography",
-    "count": 3
+    "count": 3,
+    "is_remote": false
   },
   {
     "category": "datetime",
-    "count": 19
+    "count": 19,
+    "is_remote": false
   },
   {
     "category": "encoding",
-    "count": 13
+    "count": 13,
+    "is_remote": false
   },
   {
     "category": "math",
-    "count": 21
+    "count": 21,
+    "is_remote": false
   },
   {
     "category": "objects",
-    "count": 12
+    "count": 12,
+    "is_remote": false
   },
   {
     "category": "remote",
-    "count": 1
+    "count": 1,
+    "is_remote": true
   },
   {
     "category": "spooky",
-    "count": 4
+    "count": 4,
+    "is_remote": false
   },
   {
     "category": "strings",
-    "count": 31
+    "count": 31,
+    "is_remote": false
   },
   {
     "category": "styles",
-    "count": 3
+    "count": 3,
+    "is_remote": false
   }
 ]
