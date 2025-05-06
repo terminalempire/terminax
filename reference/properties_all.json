@@ -1,5 +1,183 @@
 [
   {
+    "name": "Float",
+    "description": "Set a window to float above the map, making it unaffected by map movements. (Lock window position onscreen)",
+    "accepted_values": "True",
+    "example": "$myObject.Float = True",
+    "supported_types": [
+      "window"
+    ]
+  },
+  {
+    "name": "Text",
+    "description": "The main text inside the object.",
+    "accepted_values": "",
+    "example": "$myObject.Text = \"Hello world!\"",
+    "supported_types": [
+      "text",
+      "button",
+      "input",
+      "list",
+      "filelist",
+      "checkbox",
+      "optionbox",
+      "image"
+    ]
+  },
+  {
+    "name": "Radius",
+    "description": "Apply rounded corners to a window or objects.",
+    "accepted_values": "10",
+    "example": "$myObject.Radius = 10",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input",
+      "list",
+      "filelist",
+      "checkbox",
+      "optionbox",
+      "image"
+    ]
+  },
+  {
+    "name": "RadiusTopLeft",
+    "description": "Apply a rounded corner to the top left of a window or object.",
+    "accepted_values": "10",
+    "example": "$myObject.RadiusTopLeft = 10",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input",
+      "list",
+      "filelist",
+      "checkbox",
+      "optionbox",
+      "image"
+    ]
+  },
+  {
+    "name": "RadiusTopRight",
+    "description": "Apply a rounded corner to the top right of a window or object.",
+    "accepted_values": "10",
+    "example": "$myObject.RadiusTopRight = 10",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input",
+      "list",
+      "filelist",
+      "checkbox",
+      "optionbox",
+      "image"
+    ]
+  },
+  {
+    "name": "RadiusBottomLeft",
+    "description": "Apply a rounded corner to the bottom left of a window or object.",
+    "accepted_values": "10",
+    "example": "$myObject.RadiusBottomLeft = 10",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input",
+      "list",
+      "filelist",
+      "checkbox",
+      "optionbox",
+      "image"
+    ]
+  },
+  {
+    "name": "RadiusBottomRight",
+    "description": "Apply a rounded corner to the bottom right of a window or object.",
+    "accepted_values": "10",
+    "example": "$myObject.RadiusBottomRight = 10",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input",
+      "list",
+      "filelist",
+      "checkbox",
+      "optionbox",
+      "image"
+    ]
+  },
+  {
+    "name": "Padding",
+    "description": "Internal padding around the input text.",
+    "accepted_values": "number",
+    "example": "$myObject.Padding = 5",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input",
+      "list",
+      "filelist",
+      "checkbox",
+      "optionbox",
+      "image"
+    ]
+  },
+  {
+    "name": "Maximize",
+    "description": "Change the size to completely fill the size of its container. Useful for full window applications, especially with float.",
+    "accepted_values": "optional-padding",
+    "example": "$myObject.Maximize = 20",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input",
+      "list",
+      "filelist",
+      "checkbox",
+      "optionbox",
+      "image"
+    ]
+  },
+  {
+    "name": "Lock",
+    "description": "Prevent a draggable object (like a window) from being dragged.",
+    "accepted_values": "",
+    "example": "$myObject.Lock",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input",
+      "list",
+      "filelist",
+      "checkbox",
+      "optionbox",
+      "image"
+    ]
+  },
+  {
+    "name": "Unlock",
+    "description": "Allow an object to be dragged around by the mouse (like an object on a window) in play mode.",
+    "accepted_values": "",
+    "example": "$myObject.Unlock",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input",
+      "list",
+      "filelist",
+      "checkbox",
+      "optionbox",
+      "image"
+    ]
+  },
+  {
     "name": "X",
     "description": "The x coordinate of the object.",
     "accepted_values": "$someX",
@@ -8,19 +186,12 @@
       "window",
       "text",
       "button",
-      "input"
-    ]
-  },
-  {
-    "name": "Left",
-    "description": "The x coordinate of the object.",
-    "accepted_values": "$someX",
-    "example": "$myObject.Left = 400",
-    "supported_types": [
-      "window",
-      "text",
-      "button",
-      "input"
+      "input",
+      "list",
+      "filelist",
+      "checkbox",
+      "optionbox",
+      "image"
     ]
   },
   {
@@ -32,7 +203,29 @@
       "window",
       "text",
       "button",
-      "input"
+      "input",
+      "list",
+      "filelist",
+      "checkbox",
+      "optionbox",
+      "image"
+    ]
+  },
+  {
+    "name": "Left",
+    "description": "The x coordinate of the object.",
+    "accepted_values": "$someX",
+    "example": "$myObject.Left = 400",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input",
+      "list",
+      "filelist",
+      "checkbox",
+      "optionbox",
+      "image"
     ]
   },
   {
@@ -44,7 +237,12 @@
       "window",
       "text",
       "button",
-      "input"
+      "input",
+      "list",
+      "filelist",
+      "checkbox",
+      "optionbox",
+      "image"
     ]
   },
   {
@@ -56,7 +254,12 @@
       "window",
       "text",
       "button",
-      "input"
+      "input",
+      "list",
+      "filelist",
+      "checkbox",
+      "optionbox",
+      "image"
     ]
   },
   {
@@ -68,43 +271,63 @@
       "window",
       "text",
       "button",
-      "input"
+      "input",
+      "list",
+      "filelist",
+      "checkbox",
+      "optionbox",
+      "image"
     ]
   },
   {
-    "name": "center",
+    "name": "Center",
     "description": "Move an object so it is centered within its container.",
     "accepted_values": "",
-    "example": "$myObject.center",
+    "example": "$myObject.Center",
     "supported_types": [
       "window",
       "text",
       "button",
-      "input"
+      "input",
+      "list",
+      "filelist",
+      "checkbox",
+      "optionbox",
+      "image"
     ]
   },
   {
-    "name": "centerx",
+    "name": "CenterX",
     "description": "Move an object so the x coordinate is centered within its container.",
     "accepted_values": "",
-    "example": "$myObject.centerx",
+    "example": "$myObject.CenterX",
     "supported_types": [
       "window",
       "text",
       "button",
-      "input"
+      "input",
+      "list",
+      "filelist",
+      "checkbox",
+      "optionbox",
+      "image"
     ]
   },
   {
-    "name": "centery",
+    "name": "CenterY",
     "description": "Move an object so the y coordinate is centered within its container.",
     "accepted_values": "",
-    "example": "$myObject.centery",
+    "example": "$myObject.CenterY",
     "supported_types": [
       "window",
       "text",
       "button",
-      "input"
+      "input",
+      "list",
+      "filelist",
+      "checkbox",
+      "optionbox",
+      "image"
     ]
   },
   {
@@ -116,7 +339,12 @@
       "window",
       "text",
       "button",
-      "input"
+      "input",
+      "list",
+      "filelist",
+      "checkbox",
+      "optionbox",
+      "image"
     ]
   },
   {
@@ -128,7 +356,12 @@
       "window",
       "text",
       "button",
-      "input"
+      "input",
+      "list",
+      "filelist",
+      "checkbox",
+      "optionbox",
+      "image"
     ]
   },
   {
@@ -140,19 +373,29 @@
       "window",
       "text",
       "button",
-      "input"
+      "input",
+      "list",
+      "filelist",
+      "checkbox",
+      "optionbox",
+      "image"
     ]
   },
   {
     "name": "Visible",
-    "description": "The visibility of the object.",
+    "description": "The visibility of the object. Does not apply to edit mode.",
     "accepted_values": "True",
     "example": "$myObject.Visible = 1",
     "supported_types": [
       "window",
       "text",
       "button",
-      "input"
+      "input",
+      "list",
+      "filelist",
+      "checkbox",
+      "optionbox",
+      "image"
     ]
   },
   {
@@ -164,7 +407,12 @@
       "window",
       "text",
       "button",
-      "input"
+      "input",
+      "list",
+      "filelist",
+      "checkbox",
+      "optionbox",
+      "image"
     ]
   },
   {
@@ -176,7 +424,12 @@
       "window",
       "text",
       "button",
-      "input"
+      "input",
+      "list",
+      "filelist",
+      "checkbox",
+      "optionbox",
+      "image"
     ]
   },
   {
@@ -188,7 +441,12 @@
       "window",
       "text",
       "button",
-      "input"
+      "input",
+      "list",
+      "filelist",
+      "checkbox",
+      "optionbox",
+      "image"
     ]
   },
   {
@@ -200,7 +458,12 @@
       "window",
       "text",
       "button",
-      "input"
+      "input",
+      "list",
+      "filelist",
+      "checkbox",
+      "optionbox",
+      "image"
     ]
   },
   {
@@ -212,19 +475,12 @@
       "window",
       "text",
       "button",
-      "input"
-    ]
-  },
-  {
-    "name": "Text",
-    "description": "The main text inside the object.",
-    "accepted_values": "",
-    "example": "$myObject.Text = \"Hello world!\"",
-    "supported_types": [
-      "window",
-      "text",
-      "button",
-      "input"
+      "input",
+      "list",
+      "filelist",
+      "checkbox",
+      "optionbox",
+      "image"
     ]
   },
   {
@@ -278,15 +534,6 @@
     "description": "A short text label in front of the input text area.",
     "accepted_values": "text",
     "example": "$myObject.Prefix = Name",
-    "supported_types": [
-      "input"
-    ]
-  },
-  {
-    "name": "Padding",
-    "description": "Internal padding around the input text.",
-    "accepted_values": "number",
-    "example": "$myObject.Padding = 5",
     "supported_types": [
       "input"
     ]
