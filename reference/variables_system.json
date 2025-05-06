@@ -9,7 +9,13 @@
     "category": "terminax",
     "name": "$_LPS",
     "example": "$_lps",
-    "description": "Terminal Empire script lines per second. (depends on running scripts)"
+    "description": "The number of script lines processed per second (overall), updated every second."
+  },
+  {
+    "category": "terminax",
+    "name": "$_SERVER_LPS",
+    "example": "$_server_lps",
+    "description": "The number of script lines processed per second (on active server), updated every second."
   },
   {
     "category": "datetime",
@@ -94,5 +100,509 @@
     "name": "$_TIMESTAMP_MS",
     "example": "$_timestamp_ms",
     "description": "The current unix timestamp in miliseconds."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_UP",
+    "example": "$_key_up",
+    "description": "Returns True if the 'up arrow' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_DOWN",
+    "example": "$_key_down",
+    "description": "Returns True if the 'down arrow' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_LEFT",
+    "example": "$_key_left",
+    "description": "Returns True if the 'left arrow' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_RIGHT",
+    "example": "$_key_right",
+    "description": "Returns True if the 'right arrow' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_A",
+    "example": "$_key_a",
+    "description": "Returns True if the 'A' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_B",
+    "example": "$_key_b",
+    "description": "Returns True if the 'B' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_C",
+    "example": "$_key_c",
+    "description": "Returns True if the 'C' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_D",
+    "example": "$_key_d",
+    "description": "Returns True if the 'D' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_E",
+    "example": "$_key_e",
+    "description": "Returns True if the 'E' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_F",
+    "example": "$_key_f",
+    "description": "Returns True if the 'F' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_G",
+    "example": "$_key_g",
+    "description": "Returns True if the 'G' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_H",
+    "example": "$_key_h",
+    "description": "Returns True if the 'H' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_I",
+    "example": "$_key_i",
+    "description": "Returns True if the 'I' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_J",
+    "example": "$_key_j",
+    "description": "Returns True if the 'J' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_K",
+    "example": "$_key_k",
+    "description": "Returns True if the 'K' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_L",
+    "example": "$_key_l",
+    "description": "Returns True if the 'L' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_M",
+    "example": "$_key_m",
+    "description": "Returns True if the 'M' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_N",
+    "example": "$_key_n",
+    "description": "Returns True if the 'N' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_O",
+    "example": "$_key_o",
+    "description": "Returns True if the 'O' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_P",
+    "example": "$_key_p",
+    "description": "Returns True if the 'P' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_Q",
+    "example": "$_key_q",
+    "description": "Returns True if the 'Q' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_R",
+    "example": "$_key_r",
+    "description": "Returns True if the 'R' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_S",
+    "example": "$_key_s",
+    "description": "Returns True if the 'S' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_T",
+    "example": "$_key_t",
+    "description": "Returns True if the 'T' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_U",
+    "example": "$_key_u",
+    "description": "Returns True if the 'U' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_V",
+    "example": "$_key_v",
+    "description": "Returns True if the 'V' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_W",
+    "example": "$_key_w",
+    "description": "Returns True if the 'W' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_X",
+    "example": "$_key_x",
+    "description": "Returns True if the 'X' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_Y",
+    "example": "$_key_y",
+    "description": "Returns True if the 'Y' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_Z",
+    "example": "$_key_z",
+    "description": "Returns True if the 'Z' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_0",
+    "example": "$_key_0",
+    "description": "Returns True if the 'number 0' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_1",
+    "example": "$_key_1",
+    "description": "Returns True if the 'number 1' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_2",
+    "example": "$_key_2",
+    "description": "Returns True if the 'number 2' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_3",
+    "example": "$_key_3",
+    "description": "Returns True if the 'number 3' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_4",
+    "example": "$_key_4",
+    "description": "Returns True if the 'number 4' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_5",
+    "example": "$_key_5",
+    "description": "Returns True if the 'number 5' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_6",
+    "example": "$_key_6",
+    "description": "Returns True if the 'number 6' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_7",
+    "example": "$_key_7",
+    "description": "Returns True if the 'number 7' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_8",
+    "example": "$_key_8",
+    "description": "Returns True if the 'number 8' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_9",
+    "example": "$_key_9",
+    "description": "Returns True if the 'number 9' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_SHIFT",
+    "example": "$_key_shift",
+    "description": "Returns True if the 'shift' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_CONTROL",
+    "example": "$_key_control",
+    "description": "Returns True if the 'control' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_ALT",
+    "example": "$_key_alt",
+    "description": "Returns True if the 'alt' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_SPACE",
+    "example": "$_key_space",
+    "description": "Returns True if the 'space' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_TILDE",
+    "example": "$_key_tilde",
+    "description": "Returns True if the 'Tilde' key is pressed."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_MINUS",
+    "example": "$_key_minus",
+    "description": "Returns True if the 'Minus' key is pressed."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_PLUS",
+    "example": "$_key_plus",
+    "description": "Returns True if the 'Plus' key is pressed."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_OPENBRACKETS",
+    "example": "$_key_openbrackets",
+    "description": "Returns True if the 'OpenBrackets' key is pressed."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_CLOSEBRACKETS",
+    "example": "$_key_closebrackets",
+    "description": "Returns True if the 'CloseBrackets' key is pressed."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_PIPE",
+    "example": "$_key_pipe",
+    "description": "Returns True if the 'Pipe' key is pressed."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_SEMICOLON",
+    "example": "$_key_semicolon",
+    "description": "Returns True if the 'Semicolon' key is pressed."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_QUOTES",
+    "example": "$_key_quotes",
+    "description": "Returns True if the 'Quotes' key is pressed."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_COMMA",
+    "example": "$_key_comma",
+    "description": "Returns True if the 'Comma' key is pressed."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_PERIOD",
+    "example": "$_key_period",
+    "description": "Returns True if the 'Period' key is pressed."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_QUESTION",
+    "example": "$_key_question",
+    "description": "Returns True if the 'Question' key is pressed."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_BACKSPACE",
+    "example": "$_key_backspace",
+    "description": "Returns True if the 'Backspace' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_ENTER",
+    "example": "$_key_enter",
+    "description": "Returns True if the 'Enter' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_INSERT",
+    "example": "$_key_insert",
+    "description": "Returns True if the 'Insert' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_DELETE",
+    "example": "$_key_delete",
+    "description": "Returns True if the 'Delete' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_HOME",
+    "example": "$_key_home",
+    "description": "Returns True if the 'Home' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_END",
+    "example": "$_key_end",
+    "description": "Returns True if the 'End' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_PAGEUP",
+    "example": "$_key_pageup",
+    "description": "Returns True if the 'PageUp' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_PAGEDOWN",
+    "example": "$_key_pagedown",
+    "description": "Returns True if the 'PageDown' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_TAB",
+    "example": "$_key_tab",
+    "description": "Returns True if the 'Tab' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_CAPSLOCK",
+    "example": "$_key_capslock",
+    "description": "Returns True if the 'CapsLock' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_NUMLOCK",
+    "example": "$_key_numlock",
+    "description": "Returns True if the 'NumLock' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_SCROLLLOCK",
+    "example": "$_key_scrolllock",
+    "description": "Returns True if the 'ScrollLock' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_PRINTSCREEN",
+    "example": "$_key_printscreen",
+    "description": "Returns True if the 'PrintScreen' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_PAUSE",
+    "example": "$_key_pause",
+    "description": "Returns True if the 'Pause' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_NUMPAD0",
+    "example": "$_key_numpad0",
+    "description": "Returns True if the 'NumPad 0' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_NUMPAD1",
+    "example": "$_key_numpad1",
+    "description": "Returns True if the 'NumPad 1' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_NUMPAD2",
+    "example": "$_key_numpad2",
+    "description": "Returns True if the 'NumPad 2' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_NUMPAD3",
+    "example": "$_key_numpad3",
+    "description": "Returns True if the 'NumPad 3' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_NUMPAD4",
+    "example": "$_key_numpad4",
+    "description": "Returns True if the 'NumPad 4' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_NUMPAD5",
+    "example": "$_key_numpad5",
+    "description": "Returns True if the 'NumPad 5' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_NUMPAD6",
+    "example": "$_key_numpad6",
+    "description": "Returns True if the 'NumPad 6' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_NUMPAD7",
+    "example": "$_key_numpad7",
+    "description": "Returns True if the 'NumPad 7' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_NUMPAD8",
+    "example": "$_key_numpad8",
+    "description": "Returns True if the 'NumPad 8' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_NUMPAD9",
+    "example": "$_key_numpad9",
+    "description": "Returns True if the 'NumPad 9' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_NUMPADADD",
+    "example": "$_key_numpadadd",
+    "description": "Returns True if the 'NumPad Add' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_NUMPADSUBTRACT",
+    "example": "$_key_numpadsubtract",
+    "description": "Returns True if the 'NumPad Subtract' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_NUMPADMULTIPLY",
+    "example": "$_key_numpadmultiply",
+    "description": "Returns True if the 'NumPad Multiply' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_NUMPADDIVIDE",
+    "example": "$_key_numpaddivide",
+    "description": "Returns True if the 'NumPad Divide' key is pressed, otherwise False."
+  },
+  {
+    "category": "keys",
+    "name": "$_KEY_NUMPADDECIMAL",
+    "example": "$_key_numpaddecimal",
+    "description": "Returns True if the 'NumPad Decimal' key is pressed, otherwise False."
   }
 ]
