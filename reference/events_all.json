@@ -2,8 +2,8 @@
   {
     "name": "Tick",
     "description": "Used to assign custom functions to run at every timer interval tick.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Tick = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Tick > myCustomFunction()",
     "supported_types": [
       "timer"
     ]
@@ -11,8 +11,8 @@
   {
     "name": "MouseDown",
     "description": "Triggers when the left mousebutton is pressed on the object.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.MouseDown = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.MouseDown > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -23,8 +23,8 @@
   {
     "name": "MouseUp",
     "description": "Triggers when the left mousebutton is raised on the object.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.MouseUp = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.MouseUp > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -35,8 +35,8 @@
   {
     "name": "Click",
     "description": "Triggers when the object is clicked on.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Click = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Click > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -47,8 +47,8 @@
   {
     "name": "DoubleClick",
     "description": "Triggers when the object is double clicked on.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.DoubleClick = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.DoubleClick > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -59,8 +59,8 @@
   {
     "name": "MouseDown_Right",
     "description": "Triggers when the right mousebutton is pressed on the object.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.MouseDown_Right = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.MouseDown_Right > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -71,8 +71,8 @@
   {
     "name": "MouseUp_Right",
     "description": "Triggers when the right mousebutton is raised on the object.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.MouseUp_Right = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.MouseUp_Right > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -83,8 +83,8 @@
   {
     "name": "DoubleClick_Right",
     "description": "Triggers when the object is double clicked on with the right mousebutton.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.DoubleClick_Right = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.DoubleClick_Right > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -95,8 +95,8 @@
   {
     "name": "MouseLeave",
     "description": "Triggers when the mouse leaves the object area.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.MouseLeave = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.MouseLeave > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -107,8 +107,8 @@
   {
     "name": "MouseEnter",
     "description": "Triggers when the mouse enters the object area.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.MouseEnter = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.MouseEnter > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -119,8 +119,8 @@
   {
     "name": "Key_A",
     "description": "Triggers when the 'A' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_A = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_A > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -131,8 +131,8 @@
   {
     "name": "Key_B",
     "description": "Triggers when the 'B' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_B = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_B > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -143,8 +143,8 @@
   {
     "name": "Key_C",
     "description": "Triggers when the 'C' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_C = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_C > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -155,8 +155,8 @@
   {
     "name": "Key_D",
     "description": "Triggers when the 'D' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_D = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_D > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -167,8 +167,8 @@
   {
     "name": "Key_E",
     "description": "Triggers when the 'E' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_E = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_E > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -179,8 +179,8 @@
   {
     "name": "Key_F",
     "description": "Triggers when the 'F' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_F = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_F > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -191,8 +191,8 @@
   {
     "name": "Key_G",
     "description": "Triggers when the 'G' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_G = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_G > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -203,8 +203,8 @@
   {
     "name": "Key_H",
     "description": "Triggers when the 'H' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_H = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_H > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -215,8 +215,8 @@
   {
     "name": "Key_I",
     "description": "Triggers when the 'I' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_I = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_I > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -227,8 +227,8 @@
   {
     "name": "Key_J",
     "description": "Triggers when the 'J' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_J = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_J > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -239,8 +239,8 @@
   {
     "name": "Key_K",
     "description": "Triggers when the 'K' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_K = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_K > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -251,8 +251,8 @@
   {
     "name": "Key_L",
     "description": "Triggers when the 'L' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_L = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_L > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -263,8 +263,8 @@
   {
     "name": "Key_M",
     "description": "Triggers when the 'M' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_M = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_M > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -275,8 +275,8 @@
   {
     "name": "Key_N",
     "description": "Triggers when the 'N' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_N = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_N > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -287,8 +287,8 @@
   {
     "name": "Key_O",
     "description": "Triggers when the 'O' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_O = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_O > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -299,8 +299,8 @@
   {
     "name": "Key_P",
     "description": "Triggers when the 'P' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_P = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_P > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -311,8 +311,8 @@
   {
     "name": "Key_Q",
     "description": "Triggers when the 'Q' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_Q = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_Q > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -323,8 +323,8 @@
   {
     "name": "Key_R",
     "description": "Triggers when the 'R' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_R = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_R > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -335,8 +335,8 @@
   {
     "name": "Key_S",
     "description": "Triggers when the 'S' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_S = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_S > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -347,8 +347,8 @@
   {
     "name": "Key_T",
     "description": "Triggers when the 'T' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_T = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_T > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -359,8 +359,8 @@
   {
     "name": "Key_U",
     "description": "Triggers when the 'U' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_U = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_U > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -371,8 +371,8 @@
   {
     "name": "Key_V",
     "description": "Triggers when the 'V' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_V = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_V > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -383,8 +383,8 @@
   {
     "name": "Key_W",
     "description": "Triggers when the 'W' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_W = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_W > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -395,8 +395,8 @@
   {
     "name": "Key_X",
     "description": "Triggers when the 'X' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_X = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_X > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -407,8 +407,8 @@
   {
     "name": "Key_Y",
     "description": "Triggers when the 'Y' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_Y = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_Y > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -419,8 +419,8 @@
   {
     "name": "Key_Z",
     "description": "Triggers when the 'Z' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_Z = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_Z > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -431,8 +431,8 @@
   {
     "name": "Key_0",
     "description": "Triggers when the '0' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_0 = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_0 > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -443,8 +443,8 @@
   {
     "name": "Key_1",
     "description": "Triggers when the '1' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_1 = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_1 > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -455,8 +455,8 @@
   {
     "name": "Key_2",
     "description": "Triggers when the '2' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_2 = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_2 > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -467,8 +467,8 @@
   {
     "name": "Key_3",
     "description": "Triggers when the '3' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_3 = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_3 > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -479,8 +479,8 @@
   {
     "name": "Key_4",
     "description": "Triggers when the '4' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_4 = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_4 > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -491,8 +491,8 @@
   {
     "name": "Key_5",
     "description": "Triggers when the '5' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_5 = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_5 > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -503,8 +503,8 @@
   {
     "name": "Key_6",
     "description": "Triggers when the '6' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_6 = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_6 > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -515,8 +515,8 @@
   {
     "name": "Key_7",
     "description": "Triggers when the '7' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_7 = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_7 > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -527,8 +527,8 @@
   {
     "name": "Key_8",
     "description": "Triggers when the '8' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_8 = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_8 > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -539,8 +539,8 @@
   {
     "name": "Key_9",
     "description": "Triggers when the '9' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_9 = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_9 > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -551,8 +551,8 @@
   {
     "name": "Key_Left",
     "description": "Triggers when the 'Left Arrow' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_Left = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_Left > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -563,8 +563,8 @@
   {
     "name": "Key_Up",
     "description": "Triggers when the 'Up Arrow' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_Up = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_Up > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -575,8 +575,8 @@
   {
     "name": "Key_Right",
     "description": "Triggers when the 'Right Arrow' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_Right = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_Right > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -587,8 +587,8 @@
   {
     "name": "Key_Down",
     "description": "Triggers when the 'Down Arrow' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_Down = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_Down > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -599,8 +599,8 @@
   {
     "name": "Key_Tilde",
     "description": "Triggers when the 'Tilde' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_Tilde = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_Tilde > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -611,8 +611,8 @@
   {
     "name": "Key_Minus",
     "description": "Triggers when the 'Minus' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_Minus = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_Minus > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -623,8 +623,8 @@
   {
     "name": "Key_Plus",
     "description": "Triggers when the 'Plus' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_Plus = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_Plus > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -635,8 +635,8 @@
   {
     "name": "Key_Openbrackets",
     "description": "Triggers when the 'Open Brackets' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_Openbrackets = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_Openbrackets > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -647,8 +647,8 @@
   {
     "name": "Key_Closebrackets",
     "description": "Triggers when the 'Close Brackets' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_Closebrackets = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_Closebrackets > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -659,8 +659,8 @@
   {
     "name": "Key_Pipe",
     "description": "Triggers when the 'Pipe' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_Pipe = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_Pipe > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -671,8 +671,8 @@
   {
     "name": "Key_Semicolon",
     "description": "Triggers when the 'Semicolon' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_Semicolon = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_Semicolon > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -683,8 +683,8 @@
   {
     "name": "Key_Quotes",
     "description": "Triggers when the 'Quotes' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_Quotes = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_Quotes > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -695,8 +695,8 @@
   {
     "name": "Key_Comma",
     "description": "Triggers when the 'Comma' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_Comma = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_Comma > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -707,8 +707,8 @@
   {
     "name": "Key_Period",
     "description": "Triggers when the 'Period' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_Period = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_Period > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -719,8 +719,8 @@
   {
     "name": "Key_Question",
     "description": "Triggers when the 'Question Mark' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_Question = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_Question > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -731,8 +731,8 @@
   {
     "name": "Key_Space",
     "description": "Triggers when the 'Space' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_Space = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_Space > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -743,8 +743,8 @@
   {
     "name": "Key_Enter",
     "description": "Triggers when the 'Enter' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_Enter = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_Enter > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -755,8 +755,8 @@
   {
     "name": "Key_Backspace",
     "description": "Triggers when the 'Backspace' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_Backspace = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_Backspace > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -767,8 +767,8 @@
   {
     "name": "Key_Tab",
     "description": "Triggers when the 'Tab' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_Tab = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_Tab > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -779,8 +779,8 @@
   {
     "name": "Key_Capslock",
     "description": "Triggers when the 'Capslock' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_Capslock = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_Capslock > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -791,8 +791,8 @@
   {
     "name": "Key_Shift",
     "description": "Triggers when the 'Shift' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_Shift = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_Shift > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -803,8 +803,8 @@
   {
     "name": "Key_Control",
     "description": "Triggers when the 'Control' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_Control = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_Control > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -815,8 +815,8 @@
   {
     "name": "Key_Alt",
     "description": "Triggers when the 'Alt' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_Alt = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_Alt > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -827,8 +827,8 @@
   {
     "name": "Key_Home",
     "description": "Triggers when the 'Home' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_Home = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_Home > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -839,8 +839,8 @@
   {
     "name": "Key_End",
     "description": "Triggers when the 'End' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_End = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_End > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -851,8 +851,8 @@
   {
     "name": "Key_Pageup",
     "description": "Triggers when the 'Pageup' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_Pageup = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_Pageup > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -863,8 +863,8 @@
   {
     "name": "Key_Pagedown",
     "description": "Triggers when the 'Pagedown' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_Pagedown = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_Pagedown > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -875,8 +875,8 @@
   {
     "name": "Key_Insert",
     "description": "Triggers when the 'Insert' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_Insert = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_Insert > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -887,8 +887,8 @@
   {
     "name": "Key_Delete",
     "description": "Triggers when the 'Delete' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_Delete = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_Delete > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -899,8 +899,8 @@
   {
     "name": "Key_Pause",
     "description": "Triggers when the 'Pause' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_Pause = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_Pause > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -911,8 +911,8 @@
   {
     "name": "Key_Printscreen",
     "description": "Triggers when the 'Printscreen' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_Printscreen = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_Printscreen > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -923,8 +923,8 @@
   {
     "name": "Key_Scrolllock",
     "description": "Triggers when the 'Scrolllock' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_Scrolllock = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_Scrolllock > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -935,8 +935,8 @@
   {
     "name": "Key_Numlock",
     "description": "Triggers when the 'Numlock' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_Numlock = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_Numlock > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -947,8 +947,8 @@
   {
     "name": "Key_Numpad0",
     "description": "Triggers when the 'NumPad 0' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_Numpad0 = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_Numpad0 > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -959,8 +959,8 @@
   {
     "name": "Key_Numpad1",
     "description": "Triggers when the 'NumPad 1' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_Numpad1 = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_Numpad1 > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -971,8 +971,8 @@
   {
     "name": "Key_Numpad2",
     "description": "Triggers when the 'NumPad 2' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_Numpad2 = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_Numpad2 > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -983,8 +983,8 @@
   {
     "name": "Key_Numpad3",
     "description": "Triggers when the 'NumPad 3' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_Numpad3 = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_Numpad3 > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -995,8 +995,8 @@
   {
     "name": "Key_Numpad4",
     "description": "Triggers when the 'NumPad 4' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_Numpad4 = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_Numpad4 > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1007,8 +1007,8 @@
   {
     "name": "Key_Numpad5",
     "description": "Triggers when the 'NumPad 5' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_Numpad5 = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_Numpad5 > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1019,8 +1019,8 @@
   {
     "name": "Key_Numpad6",
     "description": "Triggers when the 'NumPad 6' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_Numpad6 = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_Numpad6 > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1031,8 +1031,8 @@
   {
     "name": "Key_Numpad7",
     "description": "Triggers when the 'NumPad 7' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_Numpad7 = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_Numpad7 > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1043,8 +1043,8 @@
   {
     "name": "Key_Numpad8",
     "description": "Triggers when the 'NumPad 8' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_Numpad8 = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_Numpad8 > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1055,8 +1055,8 @@
   {
     "name": "Key_Numpad9",
     "description": "Triggers when the 'NumPad 9' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_Numpad9 = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_Numpad9 > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1067,8 +1067,8 @@
   {
     "name": "Key_Numpadadd",
     "description": "Triggers when the 'NumPad Add' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_Numpadadd = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_Numpadadd > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1079,8 +1079,8 @@
   {
     "name": "Key_Numpadsubtract",
     "description": "Triggers when the 'NumPad Subtract' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_Numpadsubtract = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_Numpadsubtract > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1091,8 +1091,8 @@
   {
     "name": "Key_Numpadmultiply",
     "description": "Triggers when the 'NumPad Multiply' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_Numpadmultiply = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_Numpadmultiply > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1103,8 +1103,8 @@
   {
     "name": "Key_Numpaddivide",
     "description": "Triggers when the 'NumPad Divide' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_Numpaddivide = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_Numpaddivide > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1115,8 +1115,8 @@
   {
     "name": "Key_Numpaddecimal",
     "description": "Triggers when the 'NumPad Decimal' key is pressed.",
-    "accepted_values": "someFunctionName",
-    "example": "$myObject.Key_Numpaddecimal = someFunctionName",
+    "accepted_values": "",
+    "example": "$myObject.Key_Numpaddecimal > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
