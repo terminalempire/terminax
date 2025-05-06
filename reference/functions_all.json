@@ -477,9 +477,44 @@
   },
   {
     "category": "objects",
+    "name": "checkbox",
+    "description": "Create or update a checkbox.",
+    "params": "",
+    "is_remote": false
+  },
+  {
+    "category": "objects",
+    "name": "filelist",
+    "description": "Create or update a file list.",
+    "params": "",
+    "is_remote": false
+  },
+  {
+    "category": "objects",
+    "name": "image",
+    "description": "Create or update an image.",
+    "params": "",
+    "is_remote": false
+  },
+  {
+    "category": "objects",
     "name": "input",
     "description": "Create or update a single line text input.",
     "params": "text,x,y,width,height,font,color,border",
+    "is_remote": false
+  },
+  {
+    "category": "objects",
+    "name": "list",
+    "description": "Create or update a list.",
+    "params": "",
+    "is_remote": false
+  },
+  {
+    "category": "objects",
+    "name": "optionbox",
+    "description": "Create or update an option box.",
+    "params": "",
     "is_remote": false
   },
   {
