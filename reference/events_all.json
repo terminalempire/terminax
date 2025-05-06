@@ -129,10 +129,34 @@
     ]
   },
   {
+    "name": "Keyup_A",
+    "description": "Triggers when the 'A' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_A > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
     "name": "Key_B",
     "description": "Triggers when the 'B' key is pressed.",
     "accepted_values": "",
     "example": "$myObject.Key_B > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Keyup_B",
+    "description": "Triggers when the 'B' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_B > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -153,10 +177,34 @@
     ]
   },
   {
+    "name": "Keyup_C",
+    "description": "Triggers when the 'C' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_C > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
     "name": "Key_D",
     "description": "Triggers when the 'D' key is pressed.",
     "accepted_values": "",
     "example": "$myObject.Key_D > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Keyup_D",
+    "description": "Triggers when the 'D' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_D > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -177,10 +225,34 @@
     ]
   },
   {
+    "name": "Keyup_E",
+    "description": "Triggers when the 'E' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_E > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
     "name": "Key_F",
     "description": "Triggers when the 'F' key is pressed.",
     "accepted_values": "",
     "example": "$myObject.Key_F > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Keyup_F",
+    "description": "Triggers when the 'F' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_F > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -201,10 +273,34 @@
     ]
   },
   {
+    "name": "Keyup_G",
+    "description": "Triggers when the 'G' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_G > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
     "name": "Key_H",
     "description": "Triggers when the 'H' key is pressed.",
     "accepted_values": "",
     "example": "$myObject.Key_H > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Keyup_H",
+    "description": "Triggers when the 'H' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_H > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -225,10 +321,34 @@
     ]
   },
   {
+    "name": "Keyup_I",
+    "description": "Triggers when the 'I' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_I > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
     "name": "Key_J",
     "description": "Triggers when the 'J' key is pressed.",
     "accepted_values": "",
     "example": "$myObject.Key_J > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Keyup_J",
+    "description": "Triggers when the 'J' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_J > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -249,10 +369,34 @@
     ]
   },
   {
+    "name": "Keyup_K",
+    "description": "Triggers when the 'K' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_K > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
     "name": "Key_L",
     "description": "Triggers when the 'L' key is pressed.",
     "accepted_values": "",
     "example": "$myObject.Key_L > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Keyup_L",
+    "description": "Triggers when the 'L' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_L > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -273,10 +417,34 @@
     ]
   },
   {
+    "name": "Keyup_M",
+    "description": "Triggers when the 'M' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_M > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
     "name": "Key_N",
     "description": "Triggers when the 'N' key is pressed.",
     "accepted_values": "",
     "example": "$myObject.Key_N > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Keyup_N",
+    "description": "Triggers when the 'N' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_N > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -297,10 +465,34 @@
     ]
   },
   {
+    "name": "Keyup_O",
+    "description": "Triggers when the 'O' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_O > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
     "name": "Key_P",
     "description": "Triggers when the 'P' key is pressed.",
     "accepted_values": "",
     "example": "$myObject.Key_P > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Keyup_P",
+    "description": "Triggers when the 'P' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_P > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -321,10 +513,34 @@
     ]
   },
   {
+    "name": "Keyup_Q",
+    "description": "Triggers when the 'Q' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_Q > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
     "name": "Key_R",
     "description": "Triggers when the 'R' key is pressed.",
     "accepted_values": "",
     "example": "$myObject.Key_R > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Keyup_R",
+    "description": "Triggers when the 'R' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_R > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -345,10 +561,34 @@
     ]
   },
   {
+    "name": "Keyup_S",
+    "description": "Triggers when the 'S' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_S > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
     "name": "Key_T",
     "description": "Triggers when the 'T' key is pressed.",
     "accepted_values": "",
     "example": "$myObject.Key_T > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Keyup_T",
+    "description": "Triggers when the 'T' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_T > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -369,10 +609,34 @@
     ]
   },
   {
+    "name": "Keyup_U",
+    "description": "Triggers when the 'U' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_U > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
     "name": "Key_V",
     "description": "Triggers when the 'V' key is pressed.",
     "accepted_values": "",
     "example": "$myObject.Key_V > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Keyup_V",
+    "description": "Triggers when the 'V' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_V > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -393,10 +657,34 @@
     ]
   },
   {
+    "name": "Keyup_W",
+    "description": "Triggers when the 'W' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_W > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
     "name": "Key_X",
     "description": "Triggers when the 'X' key is pressed.",
     "accepted_values": "",
     "example": "$myObject.Key_X > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Keyup_X",
+    "description": "Triggers when the 'X' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_X > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -417,10 +705,34 @@
     ]
   },
   {
+    "name": "Keyup_Y",
+    "description": "Triggers when the 'Y' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_Y > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
     "name": "Key_Z",
     "description": "Triggers when the 'Z' key is pressed.",
     "accepted_values": "",
     "example": "$myObject.Key_Z > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Keyup_Z",
+    "description": "Triggers when the 'Z' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_Z > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -441,10 +753,34 @@
     ]
   },
   {
+    "name": "Keyup_0",
+    "description": "Triggers when the '0' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_0 > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
     "name": "Key_1",
     "description": "Triggers when the '1' key is pressed.",
     "accepted_values": "",
     "example": "$myObject.Key_1 > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Keyup_1",
+    "description": "Triggers when the '1' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_1 > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -465,10 +801,34 @@
     ]
   },
   {
+    "name": "Keyup_2",
+    "description": "Triggers when the '2' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_2 > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
     "name": "Key_3",
     "description": "Triggers when the '3' key is pressed.",
     "accepted_values": "",
     "example": "$myObject.Key_3 > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Keyup_3",
+    "description": "Triggers when the '3' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_3 > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -489,10 +849,34 @@
     ]
   },
   {
+    "name": "Keyup_4",
+    "description": "Triggers when the '4' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_4 > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
     "name": "Key_5",
     "description": "Triggers when the '5' key is pressed.",
     "accepted_values": "",
     "example": "$myObject.Key_5 > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Keyup_5",
+    "description": "Triggers when the '5' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_5 > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -513,10 +897,34 @@
     ]
   },
   {
+    "name": "Keyup_6",
+    "description": "Triggers when the '6' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_6 > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
     "name": "Key_7",
     "description": "Triggers when the '7' key is pressed.",
     "accepted_values": "",
     "example": "$myObject.Key_7 > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Keyup_7",
+    "description": "Triggers when the '7' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_7 > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -537,10 +945,34 @@
     ]
   },
   {
+    "name": "Keyup_8",
+    "description": "Triggers when the '8' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_8 > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
     "name": "Key_9",
     "description": "Triggers when the '9' key is pressed.",
     "accepted_values": "",
     "example": "$myObject.Key_9 > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Keyup_9",
+    "description": "Triggers when the '9' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_9 > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -561,10 +993,34 @@
     ]
   },
   {
+    "name": "Keyup_Left",
+    "description": "Triggers when the 'Left Arrow' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_Left > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
     "name": "Key_Up",
     "description": "Triggers when the 'Up Arrow' key is pressed.",
     "accepted_values": "",
     "example": "$myObject.Key_Up > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Keyup_Up",
+    "description": "Triggers when the 'Up Arrow' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_Up > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -585,10 +1041,34 @@
     ]
   },
   {
+    "name": "Keyup_Right",
+    "description": "Triggers when the 'Right Arrow' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_Right > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
     "name": "Key_Down",
     "description": "Triggers when the 'Down Arrow' key is pressed.",
     "accepted_values": "",
     "example": "$myObject.Key_Down > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Keyup_Down",
+    "description": "Triggers when the 'Down Arrow' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_Down > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -609,10 +1089,34 @@
     ]
   },
   {
+    "name": "Keyup_Tilde",
+    "description": "Triggers when the 'Tilde' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_Tilde > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
     "name": "Key_Minus",
     "description": "Triggers when the 'Minus' key is pressed.",
     "accepted_values": "",
     "example": "$myObject.Key_Minus > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Keyup_Minus",
+    "description": "Triggers when the 'Minus' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_Minus > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -633,10 +1137,34 @@
     ]
   },
   {
+    "name": "Keyup_Plus",
+    "description": "Triggers when the 'Plus' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_Plus > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
     "name": "Key_Openbrackets",
     "description": "Triggers when the 'Open Brackets' key is pressed.",
     "accepted_values": "",
     "example": "$myObject.Key_Openbrackets > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Keyup_Openbrackets",
+    "description": "Triggers when the 'Open Brackets' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_Openbrackets > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -657,10 +1185,34 @@
     ]
   },
   {
+    "name": "Keyup_Closebrackets",
+    "description": "Triggers when the 'Close Brackets' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_Closebrackets > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
     "name": "Key_Pipe",
     "description": "Triggers when the 'Pipe' key is pressed.",
     "accepted_values": "",
     "example": "$myObject.Key_Pipe > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Keyup_Pipe",
+    "description": "Triggers when the 'Pipe' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_Pipe > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -681,10 +1233,34 @@
     ]
   },
   {
+    "name": "Keyup_Semicolon",
+    "description": "Triggers when the 'Semicolon' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_Semicolon > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
     "name": "Key_Quotes",
     "description": "Triggers when the 'Quotes' key is pressed.",
     "accepted_values": "",
     "example": "$myObject.Key_Quotes > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Keyup_Quotes",
+    "description": "Triggers when the 'Quotes' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_Quotes > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -705,10 +1281,34 @@
     ]
   },
   {
+    "name": "Keyup_Comma",
+    "description": "Triggers when the 'Comma' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_Comma > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
     "name": "Key_Period",
     "description": "Triggers when the 'Period' key is pressed.",
     "accepted_values": "",
     "example": "$myObject.Key_Period > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Keyup_Period",
+    "description": "Triggers when the 'Period' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_Period > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -729,10 +1329,34 @@
     ]
   },
   {
+    "name": "Keyup_Question",
+    "description": "Triggers when the 'Question Mark' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_Question > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
     "name": "Key_Space",
     "description": "Triggers when the 'Space' key is pressed.",
     "accepted_values": "",
     "example": "$myObject.Key_Space > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Keyup_Space",
+    "description": "Triggers when the 'Space' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_Space > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -753,10 +1377,34 @@
     ]
   },
   {
+    "name": "Keyup_Enter",
+    "description": "Triggers when the 'Enter' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_Enter > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
     "name": "Key_Backspace",
     "description": "Triggers when the 'Backspace' key is pressed.",
     "accepted_values": "",
     "example": "$myObject.Key_Backspace > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Keyup_Backspace",
+    "description": "Triggers when the 'Backspace' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_Backspace > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -777,10 +1425,34 @@
     ]
   },
   {
+    "name": "Keyup_Tab",
+    "description": "Triggers when the 'Tab' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_Tab > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
     "name": "Key_Capslock",
     "description": "Triggers when the 'Capslock' key is pressed.",
     "accepted_values": "",
     "example": "$myObject.Key_Capslock > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Keyup_Capslock",
+    "description": "Triggers when the 'Capslock' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_Capslock > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -801,10 +1473,34 @@
     ]
   },
   {
+    "name": "Keyup_Shift",
+    "description": "Triggers when the 'Shift' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_Shift > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
     "name": "Key_Control",
     "description": "Triggers when the 'Control' key is pressed.",
     "accepted_values": "",
     "example": "$myObject.Key_Control > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Keyup_Control",
+    "description": "Triggers when the 'Control' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_Control > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -825,10 +1521,34 @@
     ]
   },
   {
+    "name": "Keyup_Alt",
+    "description": "Triggers when the 'Alt' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_Alt > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
     "name": "Key_Home",
     "description": "Triggers when the 'Home' key is pressed.",
     "accepted_values": "",
     "example": "$myObject.Key_Home > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Keyup_Home",
+    "description": "Triggers when the 'Home' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_Home > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -849,10 +1569,34 @@
     ]
   },
   {
+    "name": "Keyup_End",
+    "description": "Triggers when the 'End' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_End > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
     "name": "Key_Pageup",
     "description": "Triggers when the 'Pageup' key is pressed.",
     "accepted_values": "",
     "example": "$myObject.Key_Pageup > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Keyup_Pageup",
+    "description": "Triggers when the 'Pageup' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_Pageup > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -873,10 +1617,34 @@
     ]
   },
   {
+    "name": "Keyup_Pagedown",
+    "description": "Triggers when the 'Pagedown' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_Pagedown > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
     "name": "Key_Insert",
     "description": "Triggers when the 'Insert' key is pressed.",
     "accepted_values": "",
     "example": "$myObject.Key_Insert > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Keyup_Insert",
+    "description": "Triggers when the 'Insert' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_Insert > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -897,10 +1665,34 @@
     ]
   },
   {
+    "name": "Keyup_Delete",
+    "description": "Triggers when the 'Delete' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_Delete > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
     "name": "Key_Pause",
     "description": "Triggers when the 'Pause' key is pressed.",
     "accepted_values": "",
     "example": "$myObject.Key_Pause > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Keyup_Pause",
+    "description": "Triggers when the 'Pause' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_Pause > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -921,10 +1713,34 @@
     ]
   },
   {
+    "name": "Keyup_Printscreen",
+    "description": "Triggers when the 'Printscreen' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_Printscreen > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
     "name": "Key_Scrolllock",
     "description": "Triggers when the 'Scrolllock' key is pressed.",
     "accepted_values": "",
     "example": "$myObject.Key_Scrolllock > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Keyup_Scrolllock",
+    "description": "Triggers when the 'Scrolllock' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_Scrolllock > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -945,10 +1761,34 @@
     ]
   },
   {
+    "name": "Keyup_Numlock",
+    "description": "Triggers when the 'Numlock' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_Numlock > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
     "name": "Key_Numpad0",
     "description": "Triggers when the 'NumPad 0' key is pressed.",
     "accepted_values": "",
     "example": "$myObject.Key_Numpad0 > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Keyup_Numpad0",
+    "description": "Triggers when the 'NumPad 0' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_Numpad0 > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -969,10 +1809,34 @@
     ]
   },
   {
+    "name": "Keyup_Numpad1",
+    "description": "Triggers when the 'NumPad 1' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_Numpad1 > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
     "name": "Key_Numpad2",
     "description": "Triggers when the 'NumPad 2' key is pressed.",
     "accepted_values": "",
     "example": "$myObject.Key_Numpad2 > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Keyup_Numpad2",
+    "description": "Triggers when the 'NumPad 2' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_Numpad2 > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -993,10 +1857,34 @@
     ]
   },
   {
+    "name": "Keyup_Numpad3",
+    "description": "Triggers when the 'NumPad 3' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_Numpad3 > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
     "name": "Key_Numpad4",
     "description": "Triggers when the 'NumPad 4' key is pressed.",
     "accepted_values": "",
     "example": "$myObject.Key_Numpad4 > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Keyup_Numpad4",
+    "description": "Triggers when the 'NumPad 4' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_Numpad4 > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1017,10 +1905,34 @@
     ]
   },
   {
+    "name": "Keyup_Numpad5",
+    "description": "Triggers when the 'NumPad 5' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_Numpad5 > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
     "name": "Key_Numpad6",
     "description": "Triggers when the 'NumPad 6' key is pressed.",
     "accepted_values": "",
     "example": "$myObject.Key_Numpad6 > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Keyup_Numpad6",
+    "description": "Triggers when the 'NumPad 6' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_Numpad6 > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1041,10 +1953,34 @@
     ]
   },
   {
+    "name": "Keyup_Numpad7",
+    "description": "Triggers when the 'NumPad 7' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_Numpad7 > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
     "name": "Key_Numpad8",
     "description": "Triggers when the 'NumPad 8' key is pressed.",
     "accepted_values": "",
     "example": "$myObject.Key_Numpad8 > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Keyup_Numpad8",
+    "description": "Triggers when the 'NumPad 8' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_Numpad8 > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1065,10 +2001,34 @@
     ]
   },
   {
+    "name": "Keyup_Numpad9",
+    "description": "Triggers when the 'NumPad 9' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_Numpad9 > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
     "name": "Key_Numpadadd",
     "description": "Triggers when the 'NumPad Add' key is pressed.",
     "accepted_values": "",
     "example": "$myObject.Key_Numpadadd > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Keyup_Numpadadd",
+    "description": "Triggers when the 'NumPad Add' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_Numpadadd > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1089,10 +2049,34 @@
     ]
   },
   {
+    "name": "Keyup_Numpadsubtract",
+    "description": "Triggers when the 'NumPad Subtract' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_Numpadsubtract > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
     "name": "Key_Numpadmultiply",
     "description": "Triggers when the 'NumPad Multiply' key is pressed.",
     "accepted_values": "",
     "example": "$myObject.Key_Numpadmultiply > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Keyup_Numpadmultiply",
+    "description": "Triggers when the 'NumPad Multiply' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_Numpadmultiply > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
@@ -1113,10 +2097,34 @@
     ]
   },
   {
+    "name": "Keyup_Numpaddivide",
+    "description": "Triggers when the 'NumPad Divide' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_Numpaddivide > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
     "name": "Key_Numpaddecimal",
     "description": "Triggers when the 'NumPad Decimal' key is pressed.",
     "accepted_values": "",
     "example": "$myObject.Key_Numpaddecimal > myCustomFunction()",
+    "supported_types": [
+      "window",
+      "text",
+      "button",
+      "input"
+    ]
+  },
+  {
+    "name": "Keyup_Numpaddecimal",
+    "description": "Triggers when the 'NumPad Decimal' key is released.",
+    "accepted_values": "",
+    "example": "$myObject.Keyup_Numpaddecimal > myCustomFunction()",
     "supported_types": [
       "window",
       "text",
