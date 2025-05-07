@@ -43,8 +43,6 @@ $some = "This number is ".$var1 // periods are not necessary to join strings.
 
 // WINDOW POSITIONS
 // The center of the Terminax Screen starts at 0,0.
-// Thus X and Y positions of windows can
-// sometimes start at negative values if they are going to be centered.
 
 // STYLE: FONTS
 // Supported fonts names are provided in json.
@@ -90,19 +88,6 @@ $myWindow.border = $someBorder1 // assign a border to the object
 $myText = text("Hello, stranger!", 100, 100, 500, 400)
 $myText.color = $someColor1 // assign a color to the object, this can change both the text color (forecolor) and back color at the same time.
 
-
-
-// NEGATIVE VALUES FOR OBJECT POSITIONS
-// x = 10 will place the object 10 px away from the left side
-// x = -10 will place the object 10 px away from the right side
-// y = 10 will place the object 10 px away from the top side
-// y = -10 will place the object 10 px away from the bottom side
-
-// NEGATIVE VALUES FOR OBJECT SIZES
-// width = 100 will set a width of 100 for the object
-// width = -20 will set a width of the object to the maximum allowed (based on its window container), minus 20 from the right side.
-// height = 80 will set a height of 80 for the object
-// width = -40 will set a width of the object to the maximum allowed (based on its window container), minus 40 from the bottom side.
 
 
 
@@ -279,7 +264,8 @@ function randomize(){ // generate a random numer
     // now we can do something with it
 }
 
-
+// Events are only activated in Play Mode.
+// Events are not activated in Edit Mode.
 // Valid events for some objects (like windows, button and text objects)
 
 // Right Mouse Button
@@ -334,6 +320,7 @@ $timer1.clearevents
 // This may be useful if you want to randomize UI updates with multiple timers.
 // and dont want everything changing in sync.
 $timer1.desync
+// Timers will ONLY activate events in Play Mode, not in Edit Mode.
 
 
 // FOR LOOPS
@@ -485,5 +472,187 @@ $var = loop1() // this will cause your script to wait for loop1 before continuui
 $var = loop1()@ // this will cause the loop1 to run in parallel, at the same time
 // Both of these are useful at different times.
 // It depends if you need to wait for some result from the custom fucntion before continuiing.
+
+
+
+// CUSTOM FUNCTIONS can be run with or without return values.
+func settext{
+    $myText.text = $1
+}
+
+// With return values
+$var = settext("blah") // valid
+
+// Without return values:
+settext("blah") // also valid
+
+
+
+
+
+// ============================================================
+// Window Position Keywords
+// ============================================================
+// When creating windows, there are keywords you can use to
+// adjust the position to the users interface.
+// Parameters are in the order: left, top, width, height
+$myWindow1 = window(20,20,700,800) 
+// The max keyword in the left position will send it to the far right side
+$myWindow1 = window(max,20,700,800) 
+// The min keyword in the left position will send it to the far left side
+$myWindow1 = window(min,20,700,800) 
+// You also also place it close to a side, but adjust it slightly.
+// 10px from the left side:
+$myWindow1 = window(min+10,20,700,800) 
+// 10px from the right side
+$myWindow1 = window(max-10,20,700,800) 
+// You can also center it
+$myWindow1 = window(center,20,700,800) 
+
+// Full Keyword List for Left Position
+// min, left --> both will push window to the left side
+// max, right -> both will push window to the right side
+// center --> will center in x coordinate
+// ==============================================
+// Similarly, for the top position (the second parameter)
+// min, top --> both will push window to the left side
+// max, bottom -> both will push window to the right side
+// center --> will center in x coordinate
+
+// ============================================================
+// Window Size Keywords
+// ============================================================
+// There are also keywords to make it easier to set your window
+// to a specific size, although these are less commonly required.
+$myWindow1 = window(20,20,max,800) 
+// max in the width or height position will fill the viewable rect area 
+// of the players screen (varies based on screen resolution)
+
+// Full Keyword List for Width/Height Positions
+// max, full --> full available size
+// half --> half of the full available size
+
+
+
+// TIPS
+// To prevent a value from being calculated as an equation,
+// try putting it in double quotes.
+$var = $_DATE // 12/12/2045 might be seen as an equation
+$var = "$_DATE" // unless its in double quotes
+
+
+// Compound Assignment Operators
+// Terminax supports the following compound assignment operators:
+// +=, -=, *=, /=, %=, ++, --
+// Example
+$var += 10 // add 10 to var.
+$var -- // take away 1 from $var
+
+// += is the addition assignment operator
+// -= is the subtraction assignment operator
+// *= is the multiplication assignment operator
+// /= is the division assignment operator
+// %= is the modulus assignment operator
+// ++ is the increment operator
+// -- is the decrement operator
+
+
+
+// EXAMPLES - Maximizing a window
+$myWindow.maximize // the window will fill the visible area of the viewers game
+$myWindow.maximize = 20 // as above, but with 20px padding from the sides
+
+// EXAMPLES - Maximizing an object within a window
+// maximizing is available for most common terminax objects.
+$myObject.maximize // set the object to entirely fill its container window
+$myObject.maximize = 20 // as above, but with 20px padding from the sides
+
+
+// To make a single screen server that can't be moved on one window:
+$myWindow = window(0,0,0,0)
+$myWindow.float // keep window in the same position regardless of map drag
+$myWindow.lock // prevent the window being dragged
+$myWindow.maximize = 20 // maximize to fill the screen, with some padding
+// The above lines will create a fullsize window that cannot be dragged away.
+
+// EXAMPLES - Lock and Unlock
+// Windows are UNLOCKED by default - they can be dragged
+// Objects on Windows are LOCKED by default - they cannot be dragged
+// These defaults can both be changed using
+$myWindow.lock // prevent dragging of a window
+$myObject.unlock // allow dragging of the object within its window in play mode (already possible in edit mode)
+
+// If you lock a window, also consider using .float 
+// so that it also retains its position if the map is dragged.length
+
+
+// DETECTING KEY PRESSES
+// There are two ways in which key presses can be detected.
+// IMPORTANT
+// It's best to use KeyPress events if you want to ensure key presses
+// are triggered only once.
+// For applications like games, it can be better to use global variables,
+// where you want to allow for the keys to be 'pressed down' over a 
+// longer period of time and trigger multiple times.
+
+// DETECTING KEY PRESSES using GLOBAL VARIABLES
+// Global variables such as $_key_left will return true
+// while the key is being pressed. There is a global variable available
+// for almost all keys:
+
+if $_key_left
+  // left is pressed
+endif
+
+// This is useful for creating games, where you want to detect a
+// 'repeated' keypress, rather than just when it is pressed down the first time.
+
+// This makes it very easy to detect keypresses with terminax.
+// See the reference files for all variable names.
+
+// DETECTING KEY PRESSES using KeyPress events
+// The other way is to assign custom fucntions to keypress events
+// Using keypress events is best when you want to make sure that
+// it will only trigger once.
+
+$myWindow.key_a > some_function() // some_function wil run if a is pressed while your window is active
+$myWindow.key_down > some_function() // some_function wil run if the down arrow key is pressed while your window is active
+
+// DETECTING WHEN KEYS ARE RAISED
+// You can also assign custom functions to run when
+// keys are raised. Very similar to the key_, just use keyup_instead
+$myWindow.keyup_a > some_function() // will trigger the custom function to run when a is released
+// See reference documentation for the full list of supported events.
+
+
+
+
+// Drawing Solid Shapes with the draw command
+// You can draw shapes on your windows.
+
+// First, set the 'active window' you want to draw on
+// by just placing it on a line on its own.length
+
+$myWindow // this sets a window as active, the future draw commands
+
+draw ellipse,40,40,100,100,red // draw a red circle at 40,40, with size 100x100
+
+// Valid for solid filled shapes: ellipse, rectangle
+// Also valid keywords: circle, square, rect
+
+// Drawing Border Shapes with the draw command
+// Border shapes require the extra thickness parameter at the end
+draw rect-border,40,40,100,200,blue,1
+draw ellipse-border,40,40,100,200,green,2
+
+// Add -border to the shapes to make them not filled,
+// and don't forget to add the thickness parameter.
+// Use ellipse-border or rect-border
+// The ellipse keyword is typically used to also draw circles but
+// the circle and circle-border keyword is also valid.
+
+// To clear draws on a window, use
+$myWindow // make sure we are clearing draws on the right window
+draw clear // clear draws
 
 
