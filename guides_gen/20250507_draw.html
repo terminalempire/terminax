@@ -1,0 +1,140 @@
+
+<pre><code class="markdown language-markdown"># Terminax `draw` Command Reference
+
+The `draw` command lets you render simple vector shapes directly onto a Terminax window at runtime. You can draw filled shapes, outline (border) shapes, and clear all drawings. This reference covers every option and variation.
+
+---
+
+## Table of Contents
+
+1. [Prerequisites: Active Window](#prerequisites-active-window)  
+2. [General Syntax](#general-syntax)  
+3. [Filled Shapes](#filled-shapes)  
+   - [Ellipse / Circle](#ellipse--circle)  
+   - [Rectangle / Square](#rectangle--square)  
+4. [Outline (Border) Shapes](#outline-border-shapes)  
+5. [Clearing Drawings](#clearing-drawings)  
+6. [Color Specification](#color-specification)  
+7. [Examples](#examples)  
+8. [Tips &amp; Best Practices](#tips--best-practices)  
+
+---
+
+## Prerequisites: Active Window
+
+All `draw` commands apply to the **active window**. To set it:
+
+```terminax
+$myWin = window(50,50,400,300)
+$otherWin = window(500,100,300,200)
+
+// Make $myWin the active drawing target:
+$myWin      // a window variable on its own line → now active
+draw ...
+</code></pre>
+<p>Any subsequent <code>draw</code> calls will render into the last window variable you placed on its own line. Make sure you haven’t changed active windows unintentionally.</p>
+<hr />
+<h2 id="generalsyntax">General Syntax</h2>
+<pre><code>draw &lt;shape&gt;[-border], x, y, width, height[, color][, thickness]
+</code></pre>
+<ul>
+<li><code>&lt;shape&gt;</code>: one of the supported shapes (see below).</li>
+<li><code>-border</code> (optional): append “-border” to draw only the outline.</li>
+<li><code>x, y</code>: coordinates <strong>within</strong> the window’s client area.</li>
+<li><code>width, height</code>: size of the shape in pixels.</li>
+<li><code>color</code>: the drawing color (required for both filled and border shapes).</li>
+<li><code>thickness</code> (only with <code>-border</code>): stroke width in pixels.</li>
+</ul>
+<p>To clear all drawings:</p>
+<pre><code class="terminax language-terminax">draw clear
+</code></pre>
+<hr />
+<h2 id="filledshapes">Filled Shapes</h2>
+<p>By default (no <code>-border</code> suffix), shapes are solid-filled with the given color.</p>
+<h3 id="ellipsecircle">Ellipse / Circle</h3>
+<ul>
+<li><strong>Keyword:</strong> <code>ellipse</code></li>
+<li><strong>Also valid:</strong> <code>circle</code></li>
+<li><strong>Syntax:</strong></li>
+</ul>
+<pre><code class="terminax language-terminax">  draw ellipse, x, y, width, height, color
+  // or
+  draw circle, x, y, diameter, diameter, color
+</code></pre>
+<h3 id="rectanglesquare">Rectangle / Square</h3>
+<ul>
+<li><strong>Keyword:</strong> <code>rectangle</code></li>
+<li><strong>Also valid:</strong> <code>rect</code>, <code>square</code></li>
+<li><strong>Syntax:</strong></li>
+</ul>
+<pre><code class="terminax language-terminax">  draw rect, x, y, width, height, color
+  // or
+  draw square, x, y, side, side, color
+</code></pre>
+<hr />
+<h2 id="outlinebordershapes">Outline (Border) Shapes</h2>
+<p>To draw only the outline, append <code>-border</code> to the shape name and supply a <strong>thickness</strong>:</p>
+<pre><code class="terminax language-terminax">draw rectangle-border, x, y, width, height, color, thickness
+draw ellipse-border, x, y, width, height, color, thickness
+</code></pre>
+<ul>
+<li><strong>Thickness</strong> is in pixels, e.g. <code>1</code> for a one-pixel stroke.</li>
+</ul>
+<p><strong>Supported outline shapes:</strong></p>
+<ul>
+<li><code>ellipse-border</code>, <code>circle-border</code></li>
+<li><code>rectangle-border</code>, <code>rect-border</code>, <code>square-border</code></li>
+</ul>
+<hr />
+<h2 id="clearingdrawings">Clearing Drawings</h2>
+<p>Remove <strong>all</strong> shapes from the active window’s drawing layer:</p>
+<pre><code class="terminax language-terminax">$myWin   // ensure correct window is active
+draw clear
+</code></pre>
+<p>This resets the drawing surface; subsequent <code>draw</code> commands start fresh.</p>
+<hr />
+<h2 id="colorspecification">Color Specification</h2>
+<p>Colors follow the same conventions as the <code>color()</code> style function:</p>
+<ol>
+<li><strong>Named colors</strong> (built-in):</li>
+</ol>
+<pre><code class="terminax language-terminax">   red, blue, green, black, white, teal, orange, …
+</code></pre>
+<ol start="2">
+<li><strong>Hex codes</strong> (with <code>#</code>):</li>
+</ol>
+<pre><code class="terminax language-terminax">   "#FF0000", "#00F", "#abcdef"
+</code></pre>
+<ol start="3">
+<li><strong>RGB triples</strong> (strings):</li>
+</ol>
+<pre><code class="terminax language-terminax">   "255,0,0", "0,0,255", "128,128,128"
+</code></pre>
+<p>You may optionally quote names, but plain identifiers work for standard names.</p>
+<hr />
+<h2 id="examples">Examples</h2>
+<pre><code class="terminax language-terminax">// --- Setup
+$win = window(100,100,600,400)
+$win    // active window
+
+// --- Filled shapes
+draw ellipse, 50, 50, 200, 100, red
+draw rect,    300, 50, 150, 150, "#00FF00"
+draw circle,  100, 200,  75,  75, "0,0,255"
+
+// --- Outline shapes
+draw rectangle-border, 300, 250, 200, 100, black, 3
+draw circle-border,    150, 300, 100, 100, white, 2
+
+// --- Clear all
+draw clear
+</code></pre>
+<hr />
+<h2 id="tipsbestpractices">Tips &amp; Best Practices</h2>
+<ul>
+<li><strong>Order matters:</strong> later draws appear on top of earlier ones.</li>
+<li><strong>Play Mode only:</strong> <code>draw</code> commands take effect at runtime, not in Edit Mode.</li>
+<li><strong>Coordinate origin:</strong> <code>(0,0)</code> is top-left of the window’s client area.</li>
+</ul>
+<hr />
+<p>With these options you can render simple but effective HUD elements, debug overlays, or dynamic indicators in your Terminax scripts. Happy drawing!</p>
