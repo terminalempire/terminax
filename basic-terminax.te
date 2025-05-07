@@ -486,6 +486,14 @@ $var = settext("blah") // valid
 // Without return values:
 settext("blah") // also valid
 
+// When calling a custom function without parameters
+// make sure you still use the () so Terminax knows to look for the function.
+reload()
+
+func reload{
+  // things
+}
+
 
 
 
@@ -654,5 +662,60 @@ draw ellipse-border,40,40,100,200,green,2
 // To clear draws on a window, use
 $myWindow // make sure we are clearing draws on the right window
 draw clear // clear draws
+
+// Drawing Lines Example
+$myWindow
+draw line,50,50,100,100,yellow,5 // draw a yellow line from 50,50 with the second point being set at 100x100 away
+
+
+// Drawing Text
+// You can drawtext with the drawtext command.
+// drawtext "text", x, y, font-name, font-size, color
+// IMPORTANT - you should always enclose your text in standard double quotes.
+
+$myWindow
+drawtext "hello, stranger!" , 50, 50, arial, 20, green
+
+// In the example below, 10 text lines are printed, all in different color:
+$myWindow
+
+for $k = 1 to 10
+    $y = $k * 40 // set the new y position
+    $col = randcolor()
+    drawtext "hello, stranger! ($k)" , 50, $y, arial-bold, 20, $col 
+ next
+
+func randcolor{
+    $colr = random(0,255)
+    $colg = random(0,255)
+    $colb = random(0,255)
+    $colresult = color("$colr, $colg, $colb")
+    return $colresult
+}
+
+
+
+// ====================================================
+// CUSTOM FUNCTIONS - Advanced Parameters
+// You can pass objects as parameters to custom functions
+
+$myText = text("sometext",20,20,650,100,"comic-sans-bold,14","red,#555") 
+
+$mybutton = button("clix0r me",20,340,300,80) 
+$mybutton.click > blah($myText)
+
+// The custom function "blah" is assigned to the click event of the button.
+// When the button is clicked, blah will be run, and $myText will be sent
+// as the parameter.
+
+// From within the function, as always, $1 is used to identify the first parameter.
+// We can immediately use it as the object '$myText' to change its value.
+
+func blah(){
+  $1.text = yippee!
+}
+
+// Result: clicking on the button sets the text of $myText to "yippee!"
+// ====================================================
 
 
